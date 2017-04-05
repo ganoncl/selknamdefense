@@ -1,14 +1,13 @@
-# selknamdefense
-Selknam Defense Source Code
+# Selknam Defense Source Code
 
 You can purchase the game on Steam: http://store.steampowered.com/app/306260/
 
-Art Licence:
+# Art Licence:
 Selknam Defense by Sebastian Gana, Rodrigo Alarcon, Walter Berendsen y Javier Gonzalez is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
 
 
-Code Licence:
+# Code Licence:
 Selknam Defense by Sebastian Gana, Rodrigo Alarcon, Walter Berendsen y Javier Gonzalez is licensed under a Apache License Version 2.0, Jan 2004.
 Apache License
 
