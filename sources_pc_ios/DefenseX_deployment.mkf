@@ -1,0 +1,90 @@
+# Beginners should use the Configurations tab
+# Advanced users may edit this file directly
+# To reflect changes to this file in the Hub click 'Update from MKB'
+
+deployments
+{
+    #platforms osx win32
+    s3e-compression = "gzip"
+    version = "1.3.2"
+    version-string = "1.3.2"
+    icon = "icon_1024.png"
+    osx-minimum-osx-version = "10.8"
+    win32-icon = "icon_1024.png"
+
+    ["FullSteam_Win"]
+    #platforms win32
+    assets = "FULLSTEAMWIN"
+    s3e-compression = "lzma"
+    icon = "icon_1024.png"
+    splashscreen-use-all = "0"
+    name = "SelknamDefense"
+    version = "1.3.2"
+    version-string = "1.3.2"
+
+    ["iphone adhoc-test"]
+    #platforms iphone
+    icon = "iOS_Icon/icon_ios7.png"
+    name = "SelknamDefense"
+    caption = "Selknam Defense"
+    provider = "Bad Games"
+    copyright = "(C) Bad Games 2014"
+    version = "1.3.2"
+    version-string = "1.3.2"
+    iphone-appid = "com.meridian4.selknamdefense"
+    iphone-minimum-ios-version = "6.0"
+    itunes-artwork = "iOS_Icon/icon_ios7_itunes.png"
+    iphone-info-plist = "."
+    iphone-icon-dir = ""
+    iphone-prerendered-icon = "0"
+    iphone-sign-for-distribution = "1"
+    iphone-provisioning-profile = "Selknam_Defense_Ad_Hoc.mobileprovision"
+
+    ["FullSteam_Mac"]
+    #platforms osx
+    osx-info-plist = ""
+
+    ["iphone dev-test"]
+    #platforms iphone
+    icon = "iOS_Icon/icon_ios7.png"
+    name = "SelknamDefense"
+    caption = "Selknam Defense"
+    provider = "Bad Games"
+    copyright = "(C) Bad Games 2014"
+    version = "1.3.2"
+    version-string = "1.3.2"
+    iphone-appid = "com.meridian4.selknamdefense"
+    iphone-minimum-ios-version = "6.0"
+    itunes-artwork = "iOS_Icon/icon_ios7_itunes.png"
+    iphone-info-plist = "."
+    iphone-icon-dir = ""
+    iphone-prerendered-icon = "0"
+    iphone-provisioning-profile = "Selknam_Defense_Dev.mobileprovision"
+
+    ["iphone production"]
+    #platforms iphone
+    icon = "iOS_Icon/icon_ios7.png"
+    name = "SelknamDefense"
+    caption = "Selknam Defense"
+    provider = "Bad Games"
+    copyright = "(C) Bad Games 2014"
+    version = "1.3.2"
+    version-string = "1.3.2"
+    iphone-appid = "com.meridian4.selknamdefense"
+    iphone-minimum-ios-version = "6.0"
+    itunes-artwork = "iOS_Icon/icon_ios7_itunes.png"
+    iphone-info-plist = "."
+    iphone-icon-dir = ""
+    iphone-prerendered-icon = "0"
+    iphone-sign-for-distribution = "1"
+    iphone-provisioning-profile = "Selknam_Defense_App_Store.mobileprovision"
+
+    ["Full"]
+    #platforms osx win32
+    embed-icf = "1"
+    name = "SelknamDefense"
+    provider = "AOne Games"
+    copyright = "(C) AOne Games"
+    osx-minimum-osx-version = "10.8"
+
+}

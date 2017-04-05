@@ -1,0 +1,7 @@
+CIwResGroup
+{
+	name "atlas_boss"
+	useTemplate "image" "template_rgba8888"
+	
+	"atlas_boss/atlas_enemy_boss_1.png"
+}

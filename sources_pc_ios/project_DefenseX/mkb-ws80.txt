@@ -1,0 +1,1 @@
+VC12_WS8TOOLSET;build_defensex_vc12_ws8toolset;

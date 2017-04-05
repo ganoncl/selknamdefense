@@ -1,0 +1,42 @@
+// Source file: ship.max
+CIwAnimSkin
+{
+	skeleton "bone_ship"
+	model "ship"
+	CIwAnimSkinSet
+	{
+		useBones { bone_ship }
+		numVerts 18
+		vertWeights {0,1}
+		vertWeights {1,1}
+		vertWeights {2,1}
+		vertWeights {3,1}
+		vertWeights {4,1}
+		vertWeights {5,1}
+		vertWeights {6,1}
+		vertWeights {7,1}
+		vertWeights {8,1}
+		vertWeights {9,1}
+		vertWeights {10,1}
+		vertWeights {11,1}
+		vertWeights {12,1}
+		vertWeights {13,1}
+		vertWeights {14,1}
+		vertWeights {15,1}
+		vertWeights {16,1}
+		vertWeights {17,1}
+	}
+	CIwAnimSkinSet
+	{
+		useBones { bone_cannon }
+		numVerts 8
+		vertWeights {18,1}
+		vertWeights {19,1}
+		vertWeights {20,1}
+		vertWeights {21,1}
+		vertWeights {22,1}
+		vertWeights {23,1}
+		vertWeights {24,1}
+		vertWeights {25,1}
+	}
+}

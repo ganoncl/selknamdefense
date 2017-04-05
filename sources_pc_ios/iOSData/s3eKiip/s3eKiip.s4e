@@ -1,0 +1,173 @@
+# Kiip extension for Marmalade
+
+include:
+
+#include <s3eTypes.h>
+#include "IwDebug.h"
+
+/** 
+	Enum that that matches UIInterfaceOrientation in Xcode
+*/
+enum s3eUIInterfaceOrientation {
+   s3eUIInterfaceOrientationUnknown            = 0,
+   s3eUIInterfaceOrientationPortrait           = 1,
+   s3eUIInterfaceOrientationPortraitUpsideDown = 2,
+   s3eUIInterfaceOrientationLandscapeLeft      = 4,
+   s3eUIInterfaceOrientationLandscapeRight     = 3
+};
+
+/**
+ @name Kiip callback definitions
+*/
+
+/**
+	Kiip callbacks
+	
+	Note: In Marmalade all callbacks are queued up and trigger after the next s3eDeviceYield()
+	
+	Your callback needs to be of the form int32 MyCallback(void *systemData,void *userData)
+	You can specify userData when you register the callback, it is simply passed back to your callback and
+	could be used to help the callback identify context.
+    	The return value you set is ignored in all cases.
+	systemData has the following meaning depending on the specific callback.
+
+	You can register for the following callback events by passing an s3eCallback format function
+	to s3eKiipRegisterCallback below.
+	
+	S3EKIIP_SESSION_START - systemData is a (const char*) to an error message or NULL
+	Corresponds to the didStartSessionWithPoptart Kiip delegate.
+	Callback to notify us Kiip attempted to start a new session. The Objective C Kiip delegate is passed a 
+	poptart hence the name, we do not expose this to the C++.
+	On Android the callback is unlikely to be seen as Kiip will initialise before Marmalade registers the callback, it will be logged.
+	
+	S3EKIIP_SESSION_END - systemData is a (const char*) to an error message or NULL
+	Corresponds to the didEndSessionWithError Kiip delegate.
+	Callback to notify us Kiip attempted to end it's session.
+	
+	S3EKIIP_SWARM_START - systemData is a (const char*) to a momentID
+	Callback to notify us that the user has opted into a Swarm.
+	momentId is the momentId that should be called at the end of the Swarm game mode.
+	
+	S3EKIIP_CONTENT_RECEIVED - systemData is a (const s3eKiipReceivedContent*)
+	Callback to notify us that the user has recieved in-game content.
+	
+	S3EKIIP_SAVE_MOMENT_COMPLETION - systemData is a (const char*) to an error message or NULL
+	Called after saving a moment when the HTTP request completes. 
+	See s3eKiipSaveMoment and s3eKiipSaveMomentWithValue
+*/
+
+/**
+	Enum defining acceptable callback types
+*/
+
+
+enum s3eKiipCallbackType
+{
+	S3EKIIP_SESSION_START,
+	S3EKIIP_SESSION_END,
+	S3EKIIP_SWARM_START,
+	S3EKIIP_CONTENT_RECEIVED,
+	S3EKIIP_SAVE_MOMENT_COMPLETION,
+    S3EKIIP_MAX_ID
+};
+
+
+/**
+	Structure passed back to the CONTENT_RECEIVED callback
+
+	@param content - The identifier of the content that should be awarded to the user.
+	@param quantity - The amount of content that should be awarded to the user.
+	@param transactionID - The unique identifer of this transaction.
+	@param signature - The signature that can be checked to validate this transaction.
+*/
+
+struct s3eKiipReceivedContent
+{
+	const char* content; 
+	int quantity; 
+	const char* transactionID; 
+	const char* signature; 
+};
+
+
+functions:
+
+/**
+ @name Initialisation of the Kiip SDK
+*/
+
+
+/**
+ Creates and Initializes the Kiip object with the specified keys obtained from Kiip.
+ @param appKey The Application's key.
+ @param appSecret The Application's secret.
+ */
+s3eResult s3eKiipInitWithKeys(const char* appKey,const char* appSecret) S3E_RESULT_ERROR run_on_os_thread
+
+/**
+ Optional function to register your callbacks that Kiip will call on certain events
+ 
+ Note: Callbacks are queued up and trigger after the next s3eDeviceYield().
+ @param callbackID A member of the s3eKiipCallbackType enum
+ @param callbackFn Your s3eCallback format function see callbacks definitions above for specifics
+ @param userData Optional opaque pointer that will be passed back to your callback function in the userData parameter
+*/
+void s3eKiipRegisterCallback(s3eKiipCallbackType callbackID, s3eCallback callbackFn, void* userData);
+
+/**
+ @name Saving Moments
+*/
+
+/**
+ Saves a moment.
+ 
+ @param momentId The identifier of the moment to be recorded.
+ */
+s3eResult s3eKiipSaveMoment(const char* momentID) S3E_RESULT_ERROR run_on_os_thread
+
+/**
+ Saves a moment
+
+ @param momentId The identifier of the moment to be recorded.
+ @param value The value of the moment.
+ */
+s3eResult s3eKiipSaveMomentWithValue(const char* momentID, double* value) S3E_RESULT_ERROR run_on_os_thread
+
+/**
+ @name Kiip property accessors
+*/
+ 
+/**
+ Setting whether or not Kiip views should sync their rotation with the application on their own
+*/
+void s3eKiipSetAutorotate(bool shouldAutoRotate) run_on_os_thread
+
+/**
+ Get the Autorotate state
+*/
+bool s3eKiipGetAutorotate() false
+
+/**
+ The global orientation for all Kiip views. Must set shouldAutoRotate to YES for this to work.
+ */
+void s3eKiipSetInterfaceOrientation(s3eUIInterfaceOrientation orientation) run_on_os_thread
+
+/**
+ Get the UI orientation
+*/
+s3eUIInterfaceOrientation s3eKiipGetInterfaceOrientation() s3eUIInterfaceOrientationUnknown
+
+/**
+ The user's email address. Setting this will auto-populate units with their email address.
+ */
+void s3eKiipSetEmailAddress(const char* email) run_on_os_thread
+
+/**
+ The user's gender. Setting this will help target rewards to your users more effectively.
+ */
+void s3eKiipSetGender(const char* gender) run_on_os_thread
+
+/**
+ The user's birthday. Setting this will help target rewards to your users more effectively. Use the format "YYYY-MM-DD"
+ */
+void s3eKiipSetBirthday(const char* dob) run_on_os_thread

@@ -1,0 +1,15 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the s3eKiip extension on iphone
+platform IPHONE
+
+options
+{
+    lib
+    output-name="lib/iphone/libs3eKiip.a"
+    output-name-debug="lib/iphone/libs3eKiip_d.a"
+	arm-arch=armv7-a
+    arm-fpu=vfpv3
+}
+define S3E_BUILD_EXT
+
+subproject s3eKiip_build

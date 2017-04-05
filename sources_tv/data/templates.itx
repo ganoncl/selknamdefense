@@ -1,0 +1,6 @@
+CIwResTemplateImage
+{
+    name "template_rgba8888"
+	mipMapping false
+	formatHW    "RGBA_8888"
+}

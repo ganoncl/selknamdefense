@@ -1,0 +1,7 @@
+include:
+#include <s3eTypes.h>
+  
+functions:
+s3eResult Social_Twitter(const char* text) S3E_RESULT_ERROR run_on_os_thread
+s3eResult Social_Facebook(const char* text) S3E_RESULT_ERROR run_on_os_thread
+s3eResult iOS_Orientation(bool bLandscape) S3E_RESULT_ERROR run_on_os_thread

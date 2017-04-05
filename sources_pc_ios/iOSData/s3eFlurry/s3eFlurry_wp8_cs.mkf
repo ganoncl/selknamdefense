@@ -1,0 +1,14 @@
+# Builder mkf file for the c# portion of the s3eFlurry extension on wp8
+
+options
+{
+    csproj=s3eFlurryManaged
+    csprojDLLRef="lib/wp8/FlurryWP8SDK.dll"
+}
+
+files
+{
+    (source/wp8)
+    AssemblyInfo.cs
+    s3eFlurry.cs
+}

@@ -1,0 +1,40 @@
+include:
+#include <s3eTypes.h>
+
+enum LeadboltCallback{
+	LEADBOLT_RESUMED = 0,
+	LEADBOLT_PAUSED,
+	LEADBOLT_CLOSED = 0,
+        LEADBOLT_PROGRESS,
+        LEADBOLT_LOADED,
+        LEADBOLT_FAILED,
+        LEADBOLT_COMPLETED,
+        LEADBOLT_AUDIOCLICKED,
+        LEADBOLT_AUDIOCLOSED,
+        LEADBOLT_AUDIOFAILED,
+        LEADBOLT_AUDIOLOADED,
+        LEADBOLT_AUDIOFINISHED,
+        LEADBOLT_AUDIOPROGRESS,
+        LEADBOLT_CALLBACK_MAX
+};
+
+functions:
+
+s3eResult loadStartAd(const char* sectionid, const char* reengagementid, const char* audioid) S3E_RESULT_ERROR run_on_os_thread
+s3eResult loadAd(const char* sectionid) S3E_RESULT_ERROR run_on_os_thread
+s3eResult destroyAd(const char* sectionid) S3E_RESULT_ERROR run_on_os_thread
+s3eResult pauseAd(const char* sectionid) S3E_RESULT_ERROR run_on_os_thread
+s3eResult resumeAd(const char* sectionid) S3E_RESULT_ERROR run_on_os_thread
+
+s3eResult loadAudioAd(const char* sectionid) S3E_RESULT_ERROR run_on_os_thread
+s3eResult shakeMotionStarted(const char* sectionid) S3E_RESULT_ERROR run_on_os_thread
+s3eResult shakeMotionEnded(const char* sectionid) S3E_RESULT_ERROR run_on_os_thread
+
+s3eResult loadReEngagement(const char* sectionid) S3E_RESULT_ERROR run_on_os_thread
+s3eResult reEngagementLoaded(const char* sectionid) S3E_RESULT_ERROR run_on_os_thread
+
+s3eResult loadBanner(const char* sectionid) S3E_RESULT_ERROR run_on_os_thread
+s3eResult loadBannerWithMargin(const char* sectionid, int margin) S3E_RESULT_ERROR run_on_os_thread
+
+s3eResult setLandscapeMode(const char* newMode) S3E_RESULT_ERROR run_on_os_thread
+s3eResult setLocationControl(const char* newLocationControl) S3E_RESULT_ERROR run_on_os_thread

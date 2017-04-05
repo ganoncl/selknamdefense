@@ -1,0 +1,2309 @@
+# Path: /Users/ganonmac/Library/Developer/Xcode/DerivedData/Gamepad_osx-cpfkpfswvuuviiacxqqmawvydjte/Build/Products/Release/Gamepad_osx.dylib
+# Arch: i386
+# Object files:
+[  0] linker synthesized
+[  1] /Users/ganonmac/Library/Developer/Xcode/DerivedData/Gamepad_osx-cpfkpfswvuuviiacxqqmawvydjte/Build/Intermediates/Gamepad_osx.build/Release/Gamepad_osx.build/Objects-normal/i386/GamePad.o
+[  2] /Users/ganonmac/Library/Developer/Xcode/DerivedData/Gamepad_osx-cpfkpfswvuuviiacxqqmawvydjte/Build/Intermediates/Gamepad_osx.build/Release/Gamepad_osx.build/Objects-normal/i386/GamePad_register.o
+[  3] /Users/ganonmac/Library/Developer/Xcode/DerivedData/Gamepad_osx-cpfkpfswvuuviiacxqqmawvydjte/Build/Intermediates/Gamepad_osx.build/Release/Gamepad_osx.build/Objects-normal/i386/GamePad_platform.o
+[  4] /Users/ganonmac/Library/Developer/Xcode/DerivedData/Gamepad_osx-cpfkpfswvuuviiacxqqmawvydjte/Build/Intermediates/Gamepad_osx.build/Release/Gamepad_osx.build/Objects-normal/i386/Xbox360Controller.o
+[  5] /Users/ganonmac/Library/Developer/Xcode/DerivedData/Gamepad_osx-cpfkpfswvuuviiacxqqmawvydjte/Build/Intermediates/Gamepad_osx.build/Release/Gamepad_osx.build/Objects-normal/i386/Xbox360ControllerManager.o
+[  6] /Applications/Marmalade.app/Contents/s3e/edk/lib/osx/libedk.a(iwcrt_api_bind.o)
+[  7] /Applications/Marmalade.app/Contents/s3e/edk/lib/osx/libedk.a(iwcrt_api_define.o)
+[  8] /Applications/Marmalade.app/Contents/s3e/edk/lib/osx/libedk.a(IwMain.o)
+[  9] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks//ForceFeedback.framework/ForceFeedback
+[ 10] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks//IOKit.framework/IOKit
+[ 11] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks//Foundation.framework/Foundation
+[ 12] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
+[ 13] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+[ 14] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks//CoreFoundation.framework/CoreFoundation
+# Sections:
+# Address	Size    	Segment	Section
+0x00001AB0	0x0000C052	__TEXT	__text
+0x0000DB02	0x00000114	__TEXT	__symbol_stub
+0x0000DC18	0x000001CE	__TEXT	__stub_helper
+0x0000DDE6	0x0000313F	__TEXT	__cstring
+0x00010F30	0x00000020	__TEXT	__const
+0x00010F50	0x000000B0	__TEXT	__unwind_info
+0x00011000	0x00000078	__DATA	__nl_symbol_ptr
+0x00011078	0x000000B8	__DATA	__la_symbol_ptr
+0x00011130	0x00000100	__DATA	__cfstring
+0x00011230	0x00002212	__DATA	__data
+0x00013444	0x00000304	__DATA	__bss
+0x00014000	0x0000001C	__OBJC	__cls_refs
+0x0001401C	0x0000017C	__OBJC	__message_refs
+0x00014198	0x00000030	__OBJC	__module_info
+0x000141C8	0x00000060	__OBJC	__class
+0x00014228	0x00000060	__OBJC	__meta_class
+0x00014288	0x0000026C	__OBJC	__instance_vars
+0x000144F4	0x00000244	__OBJC	__inst_meth
+0x00014738	0x000000E8	__OBJC	__property
+0x00014820	0x00000018	__OBJC	__class_ext
+0x00014838	0x00000020	__OBJC	__symbols
+0x00014858	0x00000020	__OBJC	__cls_meth
+0x00014878	0x00000008	__OBJC	__image_info
+# Symbols:
+# Address	Size    	File  Name
+0x00001AB0	0x00000010	[  1] __Z11GamePadInitv
+0x00001AC0	0x00000010	[  1] __Z16GamePadTerminatev
+0x00001AD0	0x00000010	[  1] _GamePad_IsConnected
+0x00001AE0	0x00000010	[  1] _GamePad_Update
+0x00001AF0	0x00000010	[  1] _GamePad_GetStick1XAxis
+0x00001B00	0x00000010	[  1] _GamePad_GetStick1YAxis
+0x00001B10	0x00000010	[  1] _GamePad_GetStick2XAxis
+0x00001B20	0x00000010	[  1] _GamePad_GetStick2YAxis
+0x00001B30	0x00000010	[  1] _GamePad_GetLeftTrigger
+0x00001B40	0x00000010	[  1] _GamePad_GetRightTrigger
+0x00001B50	0x00000010	[  1] _GamePad_GetButtonX
+0x00001B60	0x00000010	[  1] _GamePad_GetButtonY
+0x00001B70	0x00000010	[  1] _GamePad_GetButtonA
+0x00001B80	0x00000010	[  1] _GamePad_GetButtonB
+0x00001B90	0x00000010	[  1] _GamePad_GetButtonDPadLeft
+0x00001BA0	0x00000010	[  1] _GamePad_GetButtonDPadRight
+0x00001BB0	0x00000010	[  1] _GamePad_GetButtonDPadUp
+0x00001BC0	0x00000010	[  1] _GamePad_GetButtonDPadDown
+0x00001BD0	0x00000010	[  1] _GamePad_GetButtonLShoulderDown
+0x00001BE0	0x00000010	[  1] _GamePad_GetButtonRShoulderDown
+0x00001BF0	0x00000010	[  1] _GamePad_GetButtonStart
+0x00001C00	0x00000009	[  1] _GamePad_GetButtonSelect
+0x00001C10	0x00000150	[  2] __Z18GamePadRegisterExtv
+0x00001D60	0x00000147	[  2] _RegisterExt
+0x00001EB0	0x00000030	[  3] __Z20GamePadInit_platformv
+0x00001EE0	0x00000010	[  3] __Z25GamePadTerminate_platformv
+0x00001EF0	0x00000050	[  3] __Z28GamePad_IsConnected_platformv
+0x00001F40	0x00000050	[  3] __Z23GamePad_Update_platformf
+0x00001F90	0x000000A0	[  3] __Z31GamePad_GetStick1XAxis_platformv
+0x00002030	0x000000A0	[  3] __Z31GamePad_GetStick1YAxis_platformv
+0x000020D0	0x000000A0	[  3] __Z31GamePad_GetStick2XAxis_platformv
+0x00002170	0x000000A0	[  3] __Z31GamePad_GetStick2YAxis_platformv
+0x00002210	0x000000A0	[  3] __Z31GamePad_GetLeftTrigger_platformv
+0x000022B0	0x000000A0	[  3] __Z32GamePad_GetRightTrigger_platformv
+0x00002350	0x000000A0	[  3] __Z27GamePad_GetButtonX_platformv
+0x000023F0	0x000000A0	[  3] __Z27GamePad_GetButtonY_platformv
+0x00002490	0x000000F0	[  3] __Z27GamePad_GetButtonA_platformv
+0x00002580	0x000000A0	[  3] __Z27GamePad_GetButtonB_platformv
+0x00002620	0x000000A0	[  3] __Z34GamePad_GetButtonDPadLeft_platformv
+0x000026C0	0x000000A0	[  3] __Z35GamePad_GetButtonDPadRight_platformv
+0x00002760	0x000000A0	[  3] __Z32GamePad_GetButtonDPadUp_platformv
+0x00002800	0x000000A0	[  3] __Z34GamePad_GetButtonDPadDown_platformv
+0x000028A0	0x000000A0	[  3] __Z39GamePad_GetButtonLShoulderDown_platformv
+0x00002940	0x000000A0	[  3] __Z39GamePad_GetButtonRShoulderDown_platformv
+0x000029E0	0x000000A0	[  3] __Z31GamePad_GetButtonStart_platformv
+0x00002A80	0x00000099	[  3] __Z32GamePad_GetButtonSelect_platformv
+0x00002B20	0x00000340	[  4] -[Xbox360Controller initWithHidDevice:]
+0x00002E60	0x00000160	[  4] -[Xbox360Controller dealloc]
+0x00002FC0	0x00000060	[  4] -[Xbox360Controller runMotorsLarge:Small:]
+0x00003020	0x00000060	[  4] -[Xbox360Controller setMotorOverride:]
+0x00003080	0x000001D0	[  4] -[Xbox360Controller axisChanged:newValue:]
+0x00003250	0x00000070	[  4] -[Xbox360Controller buttonDelegateMethod:Released:State:]
+0x000032C0	0x000001E0	[  4] -[Xbox360Controller buttonChanged:newValue:]
+0x000034A0	0x00000100	[  4] -[Xbox360Controller eventQueueFired:withResult:]
+0x000035A0	0x00000490	[  4] -[Xbox360Controller startDevice]
+0x00003A30	0x00000040	[  4] _Xbox360ControllerCallback
+0x00003A70	0x000000F0	[  4] -[Xbox360Controller stopDevice]
+0x00003B60	0x00000040	[  4] -[Xbox360Controller leftStickX]
+0x00003BA0	0x00000040	[  4] -[Xbox360Controller leftStickY]
+0x00003BE0	0x00000040	[  4] -[Xbox360Controller rightStickX]
+0x00003C20	0x00000040	[  4] -[Xbox360Controller rightStickY]
+0x00003C60	0x00000170	[  4] -[Xbox360Controller deviceIsAccessible]
+0x00003DD0	0x00000090	[  4] -[Xbox360Controller disconnect]
+0x00003E60	0x00000010	[  4] -[Xbox360Controller myHid]
+0x00003E70	0x00000020	[  4] -[Xbox360Controller leftTrigger]
+0x00003E90	0x00000020	[  4] -[Xbox360Controller rightTrigger]
+0x00003EB0	0x00000020	[  4] -[Xbox360Controller a]
+0x00003ED0	0x00000020	[  4] -[Xbox360Controller b]
+0x00003EF0	0x00000020	[  4] -[Xbox360Controller x]
+0x00003F10	0x00000020	[  4] -[Xbox360Controller y]
+0x00003F30	0x00000020	[  4] -[Xbox360Controller leftShoulder]
+0x00003F50	0x00000020	[  4] -[Xbox360Controller rightShoulder]
+0x00003F70	0x00000020	[  4] -[Xbox360Controller leftStick]
+0x00003F90	0x00000020	[  4] -[Xbox360Controller rightStick]
+0x00003FB0	0x00000020	[  4] -[Xbox360Controller start]
+0x00003FD0	0x00000020	[  4] -[Xbox360Controller back]
+0x00003FF0	0x00000020	[  4] -[Xbox360Controller home]
+0x00004010	0x00000020	[  4] -[Xbox360Controller up]
+0x00004030	0x00000020	[  4] -[Xbox360Controller down]
+0x00004050	0x00000020	[  4] -[Xbox360Controller left]
+0x00004070	0x00000020	[  4] -[Xbox360Controller right]
+0x00004090	0x00000030	[  4] -[Xbox360Controller delegate]
+0x000040C0	0x00000040	[  4] -[Xbox360Controller setDelegate:]
+0x00004100	0x00000020	[  4] -[Xbox360Controller invertX]
+0x00004120	0x00000020	[  4] -[Xbox360Controller setInvertX:]
+0x00004140	0x00000020	[  4] -[Xbox360Controller invertY]
+0x00004160	0x00000011	[  4] -[Xbox360Controller setInvertY:]
+0x00004180	0x00000020	[  5] +[Xbox360ControllerManager sharedInstance]
+0x000041A0	0x00000060	[  5] +[Xbox360ControllerManager initialize]
+0x00004200	0x00000270	[  5] -[Xbox360ControllerManager init]
+0x00004470	0x00000060	[  5] _callbackHandleDevice
+0x000044D0	0x00000050	[  5] -[Xbox360ControllerManager dealloc]
+0x00004520	0x00000120	[  5] -[Xbox360ControllerManager controllerWithHid:]
+0x00004640	0x00000030	[  5] -[Xbox360ControllerManager controllerCount]
+0x00004670	0x00000060	[  5] -[Xbox360ControllerManager getController:]
+0x000046D0	0x000006D0	[  5] -[Xbox360ControllerManager updateControllers]
+0x00004DA0	0x0000011A	[  5] -[Xbox360ControllerManager setAllDelegates:]
+0x00004EC0	0x00000240	[  6] __IwBindAPI
+0x00005100	0x00000022	[  6] __IwAppEntry
+0x00005130	0x00000020	[  7] ___eglBindAPI
+0x00005150	0x00000020	[  7] ___eglBindTexImage
+0x00005170	0x00000020	[  7] ___eglChooseConfig
+0x00005190	0x00000020	[  7] ___eglCopyBuffers
+0x000051B0	0x00000020	[  7] ___eglCreateContext
+0x000051D0	0x00000020	[  7] ___eglCreatePbufferFromClientBuffer
+0x000051F0	0x00000020	[  7] ___eglCreatePbufferSurface
+0x00005210	0x00000020	[  7] ___eglCreatePixmapSurface
+0x00005230	0x00000020	[  7] ___eglCreateWindowSurface
+0x00005250	0x00000020	[  7] ___eglDestroyContext
+0x00005270	0x00000020	[  7] ___eglDestroySurface
+0x00005290	0x00000020	[  7] ___eglGetConfigAttrib
+0x000052B0	0x00000020	[  7] ___eglGetConfigs
+0x000052D0	0x00000020	[  7] ___eglGetCurrentContext
+0x000052F0	0x00000020	[  7] ___eglGetCurrentDisplay
+0x00005310	0x00000020	[  7] ___eglGetCurrentSurface
+0x00005330	0x00000020	[  7] ___eglGetDisplay
+0x00005350	0x00000020	[  7] ___eglGetError
+0x00005370	0x00000020	[  7] ___eglGetProcAddress
+0x00005390	0x00000020	[  7] ___eglInitialize
+0x000053B0	0x00000020	[  7] ___eglMakeCurrent
+0x000053D0	0x00000020	[  7] ___eglQueryAPI
+0x000053F0	0x00000020	[  7] ___eglQueryContext
+0x00005410	0x00000020	[  7] ___eglQueryString
+0x00005430	0x00000020	[  7] ___eglQuerySurface
+0x00005450	0x00000020	[  7] ___eglReleaseTexImage
+0x00005470	0x00000020	[  7] ___eglReleaseThread
+0x00005490	0x00000020	[  7] ___eglSurfaceAttrib
+0x000054B0	0x00000020	[  7] ___eglSwapBuffers
+0x000054D0	0x00000020	[  7] ___eglSwapInterval
+0x000054F0	0x00000020	[  7] ___eglTerminate
+0x00005510	0x00000020	[  7] ___eglWaitClient
+0x00005530	0x00000020	[  7] ___eglWaitGL
+0x00005550	0x00000020	[  7] ___eglWaitNative
+0x00005570	0x00000020	[  7] ___glActiveTexture
+0x00005590	0x00000020	[  7] ___glAlphaFunc
+0x000055B0	0x00000020	[  7] ___glAlphaFuncx
+0x000055D0	0x00000020	[  7] ___glAttachShader
+0x000055F0	0x00000020	[  7] ___glBindAttribLocation
+0x00005610	0x00000020	[  7] ___glBindBuffer
+0x00005630	0x00000020	[  7] ___glBindFramebuffer
+0x00005650	0x00000020	[  7] ___glBindRenderbuffer
+0x00005670	0x00000020	[  7] ___glBindTexture
+0x00005690	0x00000020	[  7] ___glBlendColor
+0x000056B0	0x00000020	[  7] ___glBlendEquation
+0x000056D0	0x00000020	[  7] ___glBlendEquationSeparate
+0x000056F0	0x00000020	[  7] ___glBlendFunc
+0x00005710	0x00000020	[  7] ___glBlendFuncSeparate
+0x00005730	0x00000020	[  7] ___glBufferData
+0x00005750	0x00000020	[  7] ___glBufferSubData
+0x00005770	0x00000020	[  7] ___glCheckFramebufferStatus
+0x00005790	0x00000020	[  7] ___glClear
+0x000057B0	0x00000020	[  7] ___glClearColor
+0x000057D0	0x00000020	[  7] ___glClearColorx
+0x000057F0	0x00000020	[  7] ___glClearDepthf
+0x00005810	0x00000020	[  7] ___glClearDepthx
+0x00005830	0x00000020	[  7] ___glClearStencil
+0x00005850	0x00000020	[  7] ___glClientActiveTexture
+0x00005870	0x00000020	[  7] ___glClipPlanef
+0x00005890	0x00000020	[  7] ___glClipPlanex
+0x000058B0	0x00000020	[  7] ___glColor4f
+0x000058D0	0x00000020	[  7] ___glColor4ub
+0x000058F0	0x00000020	[  7] ___glColor4x
+0x00005910	0x00000020	[  7] ___glColorMask
+0x00005930	0x00000020	[  7] ___glColorPointer
+0x00005950	0x00000020	[  7] ___glCompileShader
+0x00005970	0x00000020	[  7] ___glCompressedTexImage2D
+0x00005990	0x00000020	[  7] ___glCompressedTexSubImage2D
+0x000059B0	0x00000020	[  7] ___glCopyTexImage2D
+0x000059D0	0x00000020	[  7] ___glCopyTexSubImage2D
+0x000059F0	0x00000020	[  7] ___glCreateProgram
+0x00005A10	0x00000020	[  7] ___glCreateShader
+0x00005A30	0x00000020	[  7] ___glCullFace
+0x00005A50	0x00000020	[  7] ___glCurrentPaletteMatrixOES
+0x00005A70	0x00000020	[  7] ___glDeleteBuffers
+0x00005A90	0x00000020	[  7] ___glDeleteFramebuffers
+0x00005AB0	0x00000020	[  7] ___glDeleteProgram
+0x00005AD0	0x00000020	[  7] ___glDeleteRenderbuffers
+0x00005AF0	0x00000020	[  7] ___glDeleteShader
+0x00005B10	0x00000020	[  7] ___glDeleteTextures
+0x00005B30	0x00000020	[  7] ___glDepthFunc
+0x00005B50	0x00000020	[  7] ___glDepthMask
+0x00005B70	0x00000020	[  7] ___glDepthRangef
+0x00005B90	0x00000020	[  7] ___glDepthRangex
+0x00005BB0	0x00000020	[  7] ___glDetachShader
+0x00005BD0	0x00000020	[  7] ___glDisable
+0x00005BF0	0x00000020	[  7] ___glDisableClientState
+0x00005C10	0x00000020	[  7] ___glDisableVertexAttribArray
+0x00005C30	0x00000020	[  7] ___glDrawArrays
+0x00005C50	0x00000020	[  7] ___glDrawElements
+0x00005C70	0x00000020	[  7] ___glEnable
+0x00005C90	0x00000020	[  7] ___glEnableClientState
+0x00005CB0	0x00000020	[  7] ___glEnableVertexAttribArray
+0x00005CD0	0x00000020	[  7] ___glFinish
+0x00005CF0	0x00000020	[  7] ___glFlush
+0x00005D10	0x00000020	[  7] ___glFogf
+0x00005D30	0x00000020	[  7] ___glFogfv
+0x00005D50	0x00000020	[  7] ___glFogx
+0x00005D70	0x00000020	[  7] ___glFogxv
+0x00005D90	0x00000020	[  7] ___glFramebufferRenderbuffer
+0x00005DB0	0x00000020	[  7] ___glFramebufferTexture2D
+0x00005DD0	0x00000020	[  7] ___glFrontFace
+0x00005DF0	0x00000020	[  7] ___glFrustumf
+0x00005E10	0x00000020	[  7] ___glFrustumx
+0x00005E30	0x00000020	[  7] ___glGenBuffers
+0x00005E50	0x00000020	[  7] ___glGenFramebuffers
+0x00005E70	0x00000020	[  7] ___glGenRenderbuffers
+0x00005E90	0x00000020	[  7] ___glGenTextures
+0x00005EB0	0x00000020	[  7] ___glGenerateMipmap
+0x00005ED0	0x00000020	[  7] ___glGetActiveAttrib
+0x00005EF0	0x00000020	[  7] ___glGetActiveUniform
+0x00005F10	0x00000020	[  7] ___glGetAttachedShaders
+0x00005F30	0x00000020	[  7] ___glGetAttribLocation
+0x00005F50	0x00000020	[  7] ___glGetBooleanv
+0x00005F70	0x00000020	[  7] ___glGetBufferParameteriv
+0x00005F90	0x00000020	[  7] ___glGetClipPlanef
+0x00005FB0	0x00000020	[  7] ___glGetClipPlanex
+0x00005FD0	0x00000020	[  7] ___glGetError
+0x00005FF0	0x00000020	[  7] ___glGetFixedv
+0x00006010	0x00000020	[  7] ___glGetFloatv
+0x00006030	0x00000020	[  7] ___glGetFramebufferAttachmentParameteriv
+0x00006050	0x00000020	[  7] ___glGetIntegerv
+0x00006070	0x00000020	[  7] ___glGetLightfv
+0x00006090	0x00000020	[  7] ___glGetLightxv
+0x000060B0	0x00000020	[  7] ___glGetMaterialfv
+0x000060D0	0x00000020	[  7] ___glGetMaterialxv
+0x000060F0	0x00000020	[  7] ___glGetPointerv
+0x00006110	0x00000020	[  7] ___glGetProgramInfoLog
+0x00006130	0x00000020	[  7] ___glGetProgramiv
+0x00006150	0x00000020	[  7] ___glGetRenderbufferParameteriv
+0x00006170	0x00000020	[  7] ___glGetShaderInfoLog
+0x00006190	0x00000020	[  7] ___glGetShaderPrecisionFormat
+0x000061B0	0x00000020	[  7] ___glGetShaderSource
+0x000061D0	0x00000020	[  7] ___glGetShaderiv
+0x000061F0	0x00000020	[  7] ___glGetString
+0x00006210	0x00000020	[  7] ___glGetTexEnvfv
+0x00006230	0x00000020	[  7] ___glGetTexEnviv
+0x00006250	0x00000020	[  7] ___glGetTexEnvxv
+0x00006270	0x00000020	[  7] ___glGetTexParameterfv
+0x00006290	0x00000020	[  7] ___glGetTexParameteriv
+0x000062B0	0x00000020	[  7] ___glGetTexParameterxv
+0x000062D0	0x00000020	[  7] ___glGetUniformLocation
+0x000062F0	0x00000020	[  7] ___glGetUniformfv
+0x00006310	0x00000020	[  7] ___glGetUniformiv
+0x00006330	0x00000020	[  7] ___glGetVertexAttribPointerv
+0x00006350	0x00000020	[  7] ___glGetVertexAttribfv
+0x00006370	0x00000020	[  7] ___glGetVertexAttribiv
+0x00006390	0x00000020	[  7] ___glHint
+0x000063B0	0x00000030	[  7] ___glIsBuffer
+0x000063E0	0x00000030	[  7] ___glIsEnabled
+0x00006410	0x00000030	[  7] ___glIsFramebuffer
+0x00006440	0x00000030	[  7] ___glIsProgram
+0x00006470	0x00000030	[  7] ___glIsRenderbuffer
+0x000064A0	0x00000030	[  7] ___glIsShader
+0x000064D0	0x00000030	[  7] ___glIsTexture
+0x00006500	0x00000020	[  7] ___glLightModelf
+0x00006520	0x00000020	[  7] ___glLightModelfv
+0x00006540	0x00000020	[  7] ___glLightModelx
+0x00006560	0x00000020	[  7] ___glLightModelxv
+0x00006580	0x00000020	[  7] ___glLightf
+0x000065A0	0x00000020	[  7] ___glLightfv
+0x000065C0	0x00000020	[  7] ___glLightx
+0x000065E0	0x00000020	[  7] ___glLightxv
+0x00006600	0x00000020	[  7] ___glLineWidth
+0x00006620	0x00000020	[  7] ___glLineWidthx
+0x00006640	0x00000020	[  7] ___glLinkProgram
+0x00006660	0x00000020	[  7] ___glLoadIdentity
+0x00006680	0x00000020	[  7] ___glLoadMatrixf
+0x000066A0	0x00000020	[  7] ___glLoadMatrixx
+0x000066C0	0x00000020	[  7] ___glLogicOp
+0x000066E0	0x00000020	[  7] ___glMaterialf
+0x00006700	0x00000020	[  7] ___glMaterialfv
+0x00006720	0x00000020	[  7] ___glMaterialx
+0x00006740	0x00000020	[  7] ___glMaterialxv
+0x00006760	0x00000020	[  7] ___glMatrixIndexPointerOES
+0x00006780	0x00000020	[  7] ___glMatrixMode
+0x000067A0	0x00000020	[  7] ___glMultMatrixf
+0x000067C0	0x00000020	[  7] ___glMultMatrixx
+0x000067E0	0x00000020	[  7] ___glMultiTexCoord4f
+0x00006800	0x00000020	[  7] ___glMultiTexCoord4x
+0x00006820	0x00000020	[  7] ___glNormal3f
+0x00006840	0x00000020	[  7] ___glNormal3x
+0x00006860	0x00000020	[  7] ___glNormalPointer
+0x00006880	0x00000020	[  7] ___glOrthof
+0x000068A0	0x00000020	[  7] ___glOrthox
+0x000068C0	0x00000020	[  7] ___glPixelStorei
+0x000068E0	0x00000020	[  7] ___glPointParameterf
+0x00006900	0x00000020	[  7] ___glPointParameterfv
+0x00006920	0x00000020	[  7] ___glPointParameterx
+0x00006940	0x00000020	[  7] ___glPointParameterxv
+0x00006960	0x00000020	[  7] ___glPointSize
+0x00006980	0x00000020	[  7] ___glPointSizePointerOES
+0x000069A0	0x00000020	[  7] ___glPointSizex
+0x000069C0	0x00000020	[  7] ___glPolygonOffset
+0x000069E0	0x00000020	[  7] ___glPolygonOffsetx
+0x00006A00	0x00000020	[  7] ___glPopMatrix
+0x00006A20	0x00000020	[  7] ___glPushMatrix
+0x00006A40	0x00000020	[  7] ___glReadPixels
+0x00006A60	0x00000020	[  7] ___glReleaseShaderCompiler
+0x00006A80	0x00000020	[  7] ___glRenderbufferStorage
+0x00006AA0	0x00000020	[  7] ___glRotatef
+0x00006AC0	0x00000020	[  7] ___glRotatex
+0x00006AE0	0x00000020	[  7] ___glSampleCoverage
+0x00006B00	0x00000020	[  7] ___glSampleCoveragex
+0x00006B20	0x00000020	[  7] ___glScalef
+0x00006B40	0x00000020	[  7] ___glScalex
+0x00006B60	0x00000020	[  7] ___glScissor
+0x00006B80	0x00000020	[  7] ___glShadeModel
+0x00006BA0	0x00000020	[  7] ___glShaderBinary
+0x00006BC0	0x00000020	[  7] ___glShaderSource
+0x00006BE0	0x00000020	[  7] ___glStencilFunc
+0x00006C00	0x00000020	[  7] ___glStencilFuncSeparate
+0x00006C20	0x00000020	[  7] ___glStencilMask
+0x00006C40	0x00000020	[  7] ___glStencilMaskSeparate
+0x00006C60	0x00000020	[  7] ___glStencilOp
+0x00006C80	0x00000020	[  7] ___glStencilOpSeparate
+0x00006CA0	0x00000020	[  7] ___glTexCoordPointer
+0x00006CC0	0x00000020	[  7] ___glTexEnvf
+0x00006CE0	0x00000020	[  7] ___glTexEnvfv
+0x00006D00	0x00000020	[  7] ___glTexEnvi
+0x00006D20	0x00000020	[  7] ___glTexEnviv
+0x00006D40	0x00000020	[  7] ___glTexEnvx
+0x00006D60	0x00000020	[  7] ___glTexEnvxv
+0x00006D80	0x00000020	[  7] ___glTexImage2D
+0x00006DA0	0x00000020	[  7] ___glTexParameterf
+0x00006DC0	0x00000020	[  7] ___glTexParameterfv
+0x00006DE0	0x00000020	[  7] ___glTexParameteri
+0x00006E00	0x00000020	[  7] ___glTexParameteriv
+0x00006E20	0x00000020	[  7] ___glTexParameterx
+0x00006E40	0x00000020	[  7] ___glTexParameterxv
+0x00006E60	0x00000020	[  7] ___glTexSubImage2D
+0x00006E80	0x00000020	[  7] ___glTranslatef
+0x00006EA0	0x00000020	[  7] ___glTranslatex
+0x00006EC0	0x00000020	[  7] ___glUniform1f
+0x00006EE0	0x00000020	[  7] ___glUniform1fv
+0x00006F00	0x00000020	[  7] ___glUniform1i
+0x00006F20	0x00000020	[  7] ___glUniform1iv
+0x00006F40	0x00000020	[  7] ___glUniform2f
+0x00006F60	0x00000020	[  7] ___glUniform2fv
+0x00006F80	0x00000020	[  7] ___glUniform2i
+0x00006FA0	0x00000020	[  7] ___glUniform2iv
+0x00006FC0	0x00000020	[  7] ___glUniform3f
+0x00006FE0	0x00000020	[  7] ___glUniform3fv
+0x00007000	0x00000020	[  7] ___glUniform3i
+0x00007020	0x00000020	[  7] ___glUniform3iv
+0x00007040	0x00000020	[  7] ___glUniform4f
+0x00007060	0x00000020	[  7] ___glUniform4fv
+0x00007080	0x00000020	[  7] ___glUniform4i
+0x000070A0	0x00000020	[  7] ___glUniform4iv
+0x000070C0	0x00000020	[  7] ___glUniformMatrix2fv
+0x000070E0	0x00000020	[  7] ___glUniformMatrix3fv
+0x00007100	0x00000020	[  7] ___glUniformMatrix4fv
+0x00007120	0x00000020	[  7] ___glUseProgram
+0x00007140	0x00000020	[  7] ___glValidateProgram
+0x00007160	0x00000020	[  7] ___glVertexAttrib1f
+0x00007180	0x00000020	[  7] ___glVertexAttrib1fv
+0x000071A0	0x00000020	[  7] ___glVertexAttrib2f
+0x000071C0	0x00000020	[  7] ___glVertexAttrib2fv
+0x000071E0	0x00000020	[  7] ___glVertexAttrib3f
+0x00007200	0x00000020	[  7] ___glVertexAttrib3fv
+0x00007220	0x00000020	[  7] ___glVertexAttrib4f
+0x00007240	0x00000020	[  7] ___glVertexAttrib4fv
+0x00007260	0x00000020	[  7] ___glVertexAttribPointer
+0x00007280	0x00000020	[  7] ___glVertexPointer
+0x000072A0	0x00000020	[  7] ___glViewport
+0x000072C0	0x00000020	[  7] ___glWeightPointerOES
+0x000072E0	0x00000020	[  7] ___s3eAccelerometerGetError
+0x00007300	0x00000020	[  7] ___s3eAccelerometerGetErrorString
+0x00007320	0x00000020	[  7] ___s3eAccelerometerGetInt
+0x00007340	0x00000020	[  7] ___s3eAccelerometerGetX
+0x00007360	0x00000020	[  7] ___s3eAccelerometerGetY
+0x00007380	0x00000020	[  7] ___s3eAccelerometerGetZ
+0x000073A0	0x00000020	[  7] ___s3eAccelerometerStart
+0x000073C0	0x00000020	[  7] ___s3eAccelerometerStop
+0x000073E0	0x00000020	[  7] ___s3eAudioGetError
+0x00007400	0x00000020	[  7] ___s3eAudioGetErrorString
+0x00007420	0x00000020	[  7] ___s3eAudioGetInt
+0x00007440	0x00000030	[  7] ___s3eAudioIsCodecSupported
+0x00007470	0x00000020	[  7] ___s3eAudioIsPlaying
+0x00007490	0x00000020	[  7] ___s3eAudioPause
+0x000074B0	0x00000020	[  7] ___s3eAudioPlay
+0x000074D0	0x00000020	[  7] ___s3eAudioPlayFromBuffer
+0x000074F0	0x00000020	[  7] ___s3eAudioRegister
+0x00007510	0x00000020	[  7] ___s3eAudioResume
+0x00007530	0x00000020	[  7] ___s3eAudioSetInt
+0x00007550	0x00000020	[  7] ___s3eAudioStop
+0x00007570	0x00000020	[  7] ___s3eAudioUnRegister
+0x00007590	0x00000020	[  7] ___s3eCompressionDecomp
+0x000075B0	0x00000020	[  7] ___s3eCompressionDecompFinal
+0x000075D0	0x00000020	[  7] ___s3eCompressionDecompInit
+0x000075F0	0x00000020	[  7] ___s3eCompressionDecompRead
+0x00007610	0x00000020	[  7] ___s3eCompressionGetError
+0x00007630	0x00000020	[  7] ___s3eCompressionGetErrorString
+0x00007650	0x00000020	[  7] ___s3eConfigGetError
+0x00007670	0x00000020	[  7] ___s3eConfigGetErrorString
+0x00007690	0x00000020	[  7] ___s3eConfigGetInt
+0x000076B0	0x00000020	[  7] ___s3eConfigGetIntHash
+0x000076D0	0x00000020	[  7] ___s3eConfigGetString
+0x000076F0	0x00000020	[  7] ___s3eConfigGetStringHash
+0x00007710	0x00000020	[  7] ___s3eCryptoGetError
+0x00007730	0x00000020	[  7] ___s3eCryptoGetErrorString
+0x00007750	0x00000020	[  7] ___s3eCryptoRand
+0x00007770	0x00000020	[  7] ___s3eCryptoSha1
+0x00007790	0x00000020	[  7] ___s3eCryptoSha1Final
+0x000077B0	0x00000020	[  7] ___s3eCryptoSha1Init
+0x000077D0	0x00000020	[  7] ___s3eCryptoSha1Update
+0x000077F0	0x00000020	[  7] ___s3eCryptoVerifyRsa
+0x00007810	0x00000020	[  7] ___s3eDebugAssertShow
+0x00007830	0x00000020	[  7] ___s3eDebugErrorShow
+0x00007850	0x00000020	[  7] ___s3eDebugGetError
+0x00007870	0x00000020	[  7] ___s3eDebugGetErrorString
+0x00007890	0x00000020	[  7] ___s3eDebugGetInt
+0x000078B0	0x00000020	[  7] ___s3eDebugIsDebuggerPresent
+0x000078D0	0x00000020	[  7] ___s3eDebugOutputString
+0x000078F0	0x00000020	[  7] ___s3eDebugPrint
+0x00007910	0x00000020	[  7] ___s3eDebugRegister
+0x00007930	0x00000020	[  7] ___s3eDebugSetInt
+0x00007950	0x00000030	[  7] ___s3eDebugTraceChannelSwitch
+0x00007980	0x00000020	[  7] ___s3eDebugTraceClearFile
+0x000079A0	0x00000020	[  7] ___s3eDebugTraceFlush
+0x000079C0	0x00000020	[  7] ___s3eDebugTraceLine
+0x000079E0	0x00000020	[  7] ___s3eDebugUnRegister
+0x00007A00	0x00000020	[  7] ___s3eDeviceBacklightOn
+0x00007A20	0x00000020	[  7] ___s3eDeviceCheckPauseRequest
+0x00007A40	0x00000020	[  7] ___s3eDeviceCheckQuitRequest
+0x00007A60	0x00000020	[  7] ___s3eDeviceExecPushNext
+0x00007A80	0x00000020	[  7] ___s3eDeviceExit
+0x00007AA0	0x00000020	[  7] ___s3eDeviceGetError
+0x00007AC0	0x00000020	[  7] ___s3eDeviceGetErrorString
+0x00007AE0	0x00000020	[  7] ___s3eDeviceGetInt
+0x00007B00	0x00000020	[  7] ___s3eDeviceGetString
+0x00007B20	0x00000020	[  7] ___s3eDeviceLoaderCallDone
+0x00007B40	0x00000020	[  7] ___s3eDeviceLoaderCallStart
+0x00007B60	0x00000020	[  7] ___s3eDeviceNetworkCheckStart
+0x00007B80	0x00000020	[  7] ___s3eDeviceNetworkCheckStop
+0x00007BA0	0x00000020	[  7] ___s3eDeviceRegister
+0x00007BC0	0x00000020	[  7] ___s3eDeviceRequestQuit
+0x00007BE0	0x00000020	[  7] ___s3eDeviceSetInt
+0x00007C00	0x00000020	[  7] ___s3eDeviceUnRegister
+0x00007C20	0x00000020	[  7] ___s3eDeviceUnYield
+0x00007C40	0x00000020	[  7] ___s3eDeviceYield
+0x00007C60	0x00000020	[  7] ___s3eDeviceYieldUntilEvent
+0x00007C80	0x00000020	[  7] ___s3eExtGet
+0x00007CA0	0x00000020	[  7] ___s3eExtGetError
+0x00007CC0	0x00000020	[  7] ___s3eExtGetErrorString
+0x00007CE0	0x00000020	[  7] ___s3eExtGetHash
+0x00007D00	0x00000020	[  7] ___s3eFileAddUserFileSys
+0x00007D20	0x00000030	[  7] ___s3eFileCheckExists
+0x00007D50	0x00000020	[  7] ___s3eFileClose
+0x00007D70	0x00000020	[  7] ___s3eFileDelete
+0x00007D90	0x00000020	[  7] ___s3eFileDeleteDirectory
+0x00007DB0	0x00000030	[  7] ___s3eFileEOF
+0x00007DE0	0x00000020	[  7] ___s3eFileFlush
+0x00007E00	0x00000020	[  7] ___s3eFileGetChar
+0x00007E20	0x00000020	[  7] ___s3eFileGetError
+0x00007E40	0x00000020	[  7] ___s3eFileGetErrorString
+0x00007E60	0x00000020	[  7] ___s3eFileGetFileInt
+0x00007E80	0x00000020	[  7] ___s3eFileGetFileString
+0x00007EA0	0x00000020	[  7] ___s3eFileGetFree
+0x00007EC0	0x00000020	[  7] ___s3eFileGetInt
+0x00007EE0	0x00000020	[  7] ___s3eFileGetLastWriteTime
+0x00007F00	0x00000020	[  7] ___s3eFileGetSize
+0x00007F20	0x00000020	[  7] ___s3eFileListClose
+0x00007F40	0x00000020	[  7] ___s3eFileListDirectory
+0x00007F60	0x00000020	[  7] ___s3eFileListNext
+0x00007F80	0x00000020	[  7] ___s3eFileMakeDirectory
+0x00007FA0	0x00000020	[  7] ___s3eFileOpen
+0x00007FC0	0x00000020	[  7] ___s3eFileOpenFromMemory
+0x00007FE0	0x00000020	[  7] ___s3eFilePutChar
+0x00008000	0x00000020	[  7] ___s3eFileRead
+0x00008020	0x00000020	[  7] ___s3eFileReadString
+0x00008040	0x00000020	[  7] ___s3eFileRemoveUserFileSys
+0x00008060	0x00000020	[  7] ___s3eFileRename
+0x00008080	0x00000020	[  7] ___s3eFileSeek
+0x000080A0	0x00000020	[  7] ___s3eFileSetInt
+0x000080C0	0x00000020	[  7] ___s3eFileTell
+0x000080E0	0x00000020	[  7] ___s3eFileTruncate
+0x00008100	0x00000020	[  7] ___s3eFileWrite
+0x00008120	0x00000020	[  7] ___s3eFree
+0x00008140	0x00000020	[  7] ___s3eFreeBase
+0x00008160	0x00000020	[  7] ___s3eGLGetError
+0x00008180	0x00000020	[  7] ___s3eGLGetErrorString
+0x000081A0	0x00000020	[  7] ___s3eGLGetInt
+0x000081C0	0x00000020	[  7] ___s3eGLGetNativeWindow
+0x000081E0	0x00000020	[  7] ___s3eGLRegister
+0x00008200	0x00000020	[  7] ___s3eGLUnRegister
+0x00008220	0x00000020	[  7] ___s3eGLUnavailable
+0x00008240	0x00000020	[  7] ___s3eInetAton
+0x00008260	0x00000020	[  7] ___s3eInetHtonl
+0x00008280	0x00000030	[  7] ___s3eInetHtons
+0x000082B0	0x00000020	[  7] ___s3eInetLookup
+0x000082D0	0x00000020	[  7] ___s3eInetLookupCancel
+0x000082F0	0x00000020	[  7] ___s3eInetNtoa
+0x00008310	0x00000020	[  7] ___s3eInetNtohl
+0x00008330	0x00000030	[  7] ___s3eInetNtohs
+0x00008360	0x00000020	[  7] ___s3eInetToString
+0x00008380	0x00000020	[  7] ___s3eKeyboardAnyKey
+0x000083A0	0x00000020	[  7] ___s3eKeyboardClearState
+0x000083C0	0x00000020	[  7] ___s3eKeyboardGetChar
+0x000083E0	0x00000020	[  7] ___s3eKeyboardGetDisplayName
+0x00008400	0x00000020	[  7] ___s3eKeyboardGetError
+0x00008420	0x00000020	[  7] ___s3eKeyboardGetErrorString
+0x00008440	0x00000020	[  7] ___s3eKeyboardGetInt
+0x00008460	0x00000020	[  7] ___s3eKeyboardGetState
+0x00008480	0x00000020	[  7] ___s3eKeyboardRegister
+0x000084A0	0x00000020	[  7] ___s3eKeyboardSetInt
+0x000084C0	0x00000020	[  7] ___s3eKeyboardUnRegister
+0x000084E0	0x00000020	[  7] ___s3eKeyboardUpdate
+0x00008500	0x00000020	[  7] ___s3eLicenseBuy
+0x00008520	0x00000020	[  7] ___s3eLicenseGetError
+0x00008540	0x00000020	[  7] ___s3eLicenseGetErrorString
+0x00008560	0x00000020	[  7] ___s3eLicenseGetInt
+0x00008580	0x00000020	[  7] ___s3eMalloc
+0x000085A0	0x00000020	[  7] ___s3eMallocBase
+0x000085C0	0x00000020	[  7] ___s3eMemoryGetError
+0x000085E0	0x00000020	[  7] ___s3eMemoryGetErrorString
+0x00008600	0x00000020	[  7] ___s3eMemoryGetInt
+0x00008620	0x00000020	[  7] ___s3eMemoryGetUserMemMgr
+0x00008640	0x00000020	[  7] ___s3eMemoryHeapAddress
+0x00008660	0x00000020	[  7] ___s3eMemoryHeapCreate
+0x00008680	0x00000020	[  7] ___s3eMemoryHeapDestroy
+0x000086A0	0x00000020	[  7] ___s3eMemorySetInt
+0x000086C0	0x00000020	[  7] ___s3eMemorySetUserMemMgr
+0x000086E0	0x00000020	[  7] ___s3ePointerGetError
+0x00008700	0x00000020	[  7] ___s3ePointerGetErrorString
+0x00008720	0x00000020	[  7] ___s3ePointerGetInt
+0x00008740	0x00000020	[  7] ___s3ePointerGetState
+0x00008760	0x00000020	[  7] ___s3ePointerGetTouchState
+0x00008780	0x00000020	[  7] ___s3ePointerGetTouchX
+0x000087A0	0x00000020	[  7] ___s3ePointerGetTouchY
+0x000087C0	0x00000020	[  7] ___s3ePointerGetX
+0x000087E0	0x00000020	[  7] ___s3ePointerGetY
+0x00008800	0x00000020	[  7] ___s3ePointerRegister
+0x00008820	0x00000020	[  7] ___s3ePointerSetInt
+0x00008840	0x00000020	[  7] ___s3ePointerUnRegister
+0x00008860	0x00000020	[  7] ___s3ePointerUpdate
+0x00008880	0x00000020	[  7] ___s3eRealloc
+0x000088A0	0x00000020	[  7] ___s3eReallocBase
+0x000088C0	0x00000020	[  7] ___s3eSecureStorageGet
+0x000088E0	0x00000020	[  7] ___s3eSecureStorageGetError
+0x00008900	0x00000020	[  7] ___s3eSecureStorageGetErrorString
+0x00008920	0x00000020	[  7] ___s3eSecureStoragePut
+0x00008940	0x00000020	[  7] ___s3eSocketAccept
+0x00008960	0x00000020	[  7] ___s3eSocketBind
+0x00008980	0x00000020	[  7] ___s3eSocketClose
+0x000089A0	0x00000020	[  7] ___s3eSocketConnect
+0x000089C0	0x00000020	[  7] ___s3eSocketCreate
+0x000089E0	0x00000020	[  7] ___s3eSocketGetError
+0x00008A00	0x00000020	[  7] ___s3eSocketGetErrorString
+0x00008A20	0x00000020	[  7] ___s3eSocketGetInt
+0x00008A40	0x00000020	[  7] ___s3eSocketGetLocalName
+0x00008A60	0x00000020	[  7] ___s3eSocketGetPeerName
+0x00008A80	0x00000020	[  7] ___s3eSocketGetString
+0x00008AA0	0x00000020	[  7] ___s3eSocketListen
+0x00008AC0	0x00000020	[  7] ___s3eSocketReadable
+0x00008AE0	0x00000020	[  7] ___s3eSocketRecv
+0x00008B00	0x00000020	[  7] ___s3eSocketRecvFrom
+0x00008B20	0x00000020	[  7] ___s3eSocketSend
+0x00008B40	0x00000020	[  7] ___s3eSocketSendTo
+0x00008B60	0x00000020	[  7] ___s3eSocketWritable
+0x00008B80	0x00000020	[  7] ___s3eSoundChannelGetInt
+0x00008BA0	0x00000020	[  7] ___s3eSoundChannelPause
+0x00008BC0	0x00000020	[  7] ___s3eSoundChannelPlay
+0x00008BE0	0x00000020	[  7] ___s3eSoundChannelRegister
+0x00008C00	0x00000020	[  7] ___s3eSoundChannelResume
+0x00008C20	0x00000020	[  7] ___s3eSoundChannelSetInt
+0x00008C40	0x00000020	[  7] ___s3eSoundChannelStop
+0x00008C60	0x00000020	[  7] ___s3eSoundChannelUnRegister
+0x00008C80	0x00000020	[  7] ___s3eSoundGetError
+0x00008CA0	0x00000020	[  7] ___s3eSoundGetErrorString
+0x00008CC0	0x00000020	[  7] ___s3eSoundGetFreeChannel
+0x00008CE0	0x00000020	[  7] ___s3eSoundGetInt
+0x00008D00	0x00000020	[  7] ___s3eSoundPauseAllChannels
+0x00008D20	0x00000020	[  7] ___s3eSoundResumeAllChannels
+0x00008D40	0x00000020	[  7] ___s3eSoundSetInt
+0x00008D60	0x00000020	[  7] ___s3eSoundStopAllChannels
+0x00008D80	0x00000020	[  7] ___s3eSurfaceConvertRGB
+0x00008DA0	0x00000020	[  7] ___s3eSurfaceGetError
+0x00008DC0	0x00000020	[  7] ___s3eSurfaceGetErrorString
+0x00008DE0	0x00000020	[  7] ___s3eSurfaceGetInt
+0x00008E00	0x00000020	[  7] ___s3eSurfaceInvalidate
+0x00008E20	0x00000020	[  7] ___s3eSurfacePtr
+0x00008E40	0x00000020	[  7] ___s3eSurfaceRegister
+0x00008E60	0x00000020	[  7] ___s3eSurfaceSetDisplayID
+0x00008E80	0x00000020	[  7] ___s3eSurfaceSetInt
+0x00008EA0	0x00000020	[  7] ___s3eSurfaceSetup
+0x00008EC0	0x00000020	[  7] ___s3eSurfaceShow
+0x00008EE0	0x00000020	[  7] ___s3eSurfaceUnRegister
+0x00008F00	0x00000020	[  7] ___s3eTimerCancelTimer
+0x00008F20	0x00000020	[  7] ___s3eTimerGetError
+0x00008F40	0x00000020	[  7] ___s3eTimerGetErrorString
+0x00008F60	0x00000020	[  7] ___s3eTimerGetInt
+0x00008F80	0x00000020	[  7] ___s3eTimerGetLocaltimeOffset
+0x00008FA0	0x00000020	[  7] ___s3eTimerGetMs
+0x00008FC0	0x00000020	[  7] ___s3eTimerGetUST
+0x00008FE0	0x00000020	[  7] ___s3eTimerGetUTC
+0x00009000	0x00000020	[  7] ___s3eTimerSetTimer
+0x00009020	0x00000020	[  7] ___s3eVibraGetError
+0x00009040	0x00000020	[  7] ___s3eVibraGetErrorString
+0x00009060	0x00000020	[  7] ___s3eVibraGetInt
+0x00009080	0x00000020	[  7] ___s3eVibraSetInt
+0x000090A0	0x00000020	[  7] ___s3eVibraStop
+0x000090C0	0x00000020	[  7] ___s3eVibraVibrate
+0x000090E0	0x00000020	[  7] ___s3eVideoGetError
+0x00009100	0x00000020	[  7] ___s3eVideoGetErrorString
+0x00009120	0x00000020	[  7] ___s3eVideoGetInt
+0x00009140	0x00000030	[  7] ___s3eVideoIsCodecSupported
+0x00009170	0x00000020	[  7] ___s3eVideoIsPlaying
+0x00009190	0x00000020	[  7] ___s3eVideoPause
+0x000091B0	0x00000020	[  7] ___s3eVideoPlay
+0x000091D0	0x00000020	[  7] ___s3eVideoPlayFromBuffer
+0x000091F0	0x00000020	[  7] ___s3eVideoRegister
+0x00009210	0x00000020	[  7] ___s3eVideoResume
+0x00009230	0x00000020	[  7] ___s3eVideoSetInt
+0x00009250	0x00000020	[  7] ___s3eVideoStop
+0x00009270	0x00000020	[  7] ___s3eVideoUnRegister
+0x00009290	0x00000020	[  7] ___s3eEdkCallbacksEnqueue
+0x000092B0	0x00000020	[  7] ___s3eEdkCallbacksIsRegistered
+0x000092D0	0x00000020	[  7] ___s3eEdkCallbacksRegister
+0x000092F0	0x00000020	[  7] ___s3eEdkCallbacksRegisterInternal
+0x00009310	0x00000020	[  7] ___s3eEdkCallbacksRegisterSpecific
+0x00009330	0x00000020	[  7] ___s3eEdkCallbacksUnRegister
+0x00009350	0x00000020	[  7] ___s3eEdkCallbacksUnRegisterDevice
+0x00009370	0x00000020	[  7] ___s3eEdkErrorGet
+0x00009390	0x00000020	[  7] ___s3eEdkErrorGetString
+0x000093B0	0x00000020	[  7] ___s3eEdkErrorSet
+0x000093D0	0x00000020	[  7] ___s3eEdkErrorSetStringV
+0x000093F0	0x00000020	[  7] ___s3eEdkFreeOS
+0x00009410	0x00000020	[  7] ___s3eEdkGetAppVersionMajor
+0x00009430	0x00000020	[  7] ___s3eEdkGetAppVersionMinor
+0x00009450	0x00000020	[  7] ___s3eEdkGlobalsGet
+0x00009470	0x00000020	[  7] ___s3eEdkIsInitialised
+0x00009490	0x00000020	[  7] ___s3eEdkLibraryClose
+0x000094B0	0x00000020	[  7] ___s3eEdkLibraryError
+0x000094D0	0x00000020	[  7] ___s3eEdkLibraryGetSymbol
+0x000094F0	0x00000020	[  7] ___s3eEdkLibraryOpen
+0x00009510	0x00000020	[  7] ___s3eEdkMallocOS
+0x00009530	0x00000020	[  7] ___s3eEdkReallocOS
+0x00009550	0x00000020	[  7] ___s3eEdkRegister
+0x00009570	0x00000020	[  7] ___s3eEdkThreadRunOnOSAsyncV
+0x00009590	0x00000020	[  7] ___s3eEdkThreadRunOnOSV
+0x000095B0	0x00000020	[  7] ___s3eEdkThreadSetResumed
+0x000095D0	0x00000020	[  7] ___s3eEdkThreadSetSuspended
+0x000095F0	0x00000018	[  7] ___s3eEdkThreadSleep
+0x00009610	0x00000020	[  7] _eglBindAPI
+0x00009630	0x00000020	[  7] _eglBindTexImage
+0x00009650	0x00000020	[  7] _eglChooseConfig
+0x00009670	0x00000020	[  7] _eglCopyBuffers
+0x00009690	0x00000020	[  7] _eglCreateContext
+0x000096B0	0x00000020	[  7] _eglCreatePbufferFromClientBuffer
+0x000096D0	0x00000020	[  7] _eglCreatePbufferSurface
+0x000096F0	0x00000020	[  7] _eglCreatePixmapSurface
+0x00009710	0x00000020	[  7] _eglCreateWindowSurface
+0x00009730	0x00000020	[  7] _eglDestroyContext
+0x00009750	0x00000020	[  7] _eglDestroySurface
+0x00009770	0x00000020	[  7] _eglGetConfigAttrib
+0x00009790	0x00000020	[  7] _eglGetConfigs
+0x000097B0	0x00000020	[  7] _eglGetCurrentContext
+0x000097D0	0x00000020	[  7] _eglGetCurrentDisplay
+0x000097F0	0x00000020	[  7] _eglGetCurrentSurface
+0x00009810	0x00000020	[  7] _eglGetDisplay
+0x00009830	0x00000020	[  7] _eglGetError
+0x00009850	0x00000020	[  7] _eglGetProcAddress
+0x00009870	0x00000020	[  7] _eglInitialize
+0x00009890	0x00000020	[  7] _eglMakeCurrent
+0x000098B0	0x00000020	[  7] _eglQueryAPI
+0x000098D0	0x00000020	[  7] _eglQueryContext
+0x000098F0	0x00000020	[  7] _eglQueryString
+0x00009910	0x00000020	[  7] _eglQuerySurface
+0x00009930	0x00000020	[  7] _eglReleaseTexImage
+0x00009950	0x00000020	[  7] _eglReleaseThread
+0x00009970	0x00000020	[  7] _eglSurfaceAttrib
+0x00009990	0x00000020	[  7] _eglSwapBuffers
+0x000099B0	0x00000020	[  7] _eglSwapInterval
+0x000099D0	0x00000020	[  7] _eglTerminate
+0x000099F0	0x00000020	[  7] _eglWaitClient
+0x00009A10	0x00000020	[  7] _eglWaitGL
+0x00009A30	0x00000020	[  7] _eglWaitNative
+0x00009A50	0x00000020	[  7] _glActiveTexture
+0x00009A70	0x00000020	[  7] _glAlphaFunc
+0x00009A90	0x00000020	[  7] _glAlphaFuncx
+0x00009AB0	0x00000020	[  7] _glAttachShader
+0x00009AD0	0x00000020	[  7] _glBindAttribLocation
+0x00009AF0	0x00000020	[  7] _glBindBuffer
+0x00009B10	0x00000020	[  7] _glBindFramebuffer
+0x00009B30	0x00000020	[  7] _glBindRenderbuffer
+0x00009B50	0x00000020	[  7] _glBindTexture
+0x00009B70	0x00000020	[  7] _glBlendColor
+0x00009B90	0x00000020	[  7] _glBlendEquation
+0x00009BB0	0x00000020	[  7] _glBlendEquationSeparate
+0x00009BD0	0x00000020	[  7] _glBlendFunc
+0x00009BF0	0x00000020	[  7] _glBlendFuncSeparate
+0x00009C10	0x00000020	[  7] _glBufferData
+0x00009C30	0x00000020	[  7] _glBufferSubData
+0x00009C50	0x00000020	[  7] _glCheckFramebufferStatus
+0x00009C70	0x00000020	[  7] _glClear
+0x00009C90	0x00000020	[  7] _glClearColor
+0x00009CB0	0x00000020	[  7] _glClearColorx
+0x00009CD0	0x00000020	[  7] _glClearDepthf
+0x00009CF0	0x00000020	[  7] _glClearDepthx
+0x00009D10	0x00000020	[  7] _glClearStencil
+0x00009D30	0x00000020	[  7] _glClientActiveTexture
+0x00009D50	0x00000020	[  7] _glClipPlanef
+0x00009D70	0x00000020	[  7] _glClipPlanex
+0x00009D90	0x00000020	[  7] _glColor4f
+0x00009DB0	0x00000020	[  7] _glColor4ub
+0x00009DD0	0x00000020	[  7] _glColor4x
+0x00009DF0	0x00000020	[  7] _glColorMask
+0x00009E10	0x00000020	[  7] _glColorPointer
+0x00009E30	0x00000020	[  7] _glCompileShader
+0x00009E50	0x00000020	[  7] _glCompressedTexImage2D
+0x00009E70	0x00000020	[  7] _glCompressedTexSubImage2D
+0x00009E90	0x00000020	[  7] _glCopyTexImage2D
+0x00009EB0	0x00000020	[  7] _glCopyTexSubImage2D
+0x00009ED0	0x00000020	[  7] _glCreateProgram
+0x00009EF0	0x00000020	[  7] _glCreateShader
+0x00009F10	0x00000020	[  7] _glCullFace
+0x00009F30	0x00000020	[  7] _glCurrentPaletteMatrixOES
+0x00009F50	0x00000020	[  7] _glDeleteBuffers
+0x00009F70	0x00000020	[  7] _glDeleteFramebuffers
+0x00009F90	0x00000020	[  7] _glDeleteProgram
+0x00009FB0	0x00000020	[  7] _glDeleteRenderbuffers
+0x00009FD0	0x00000020	[  7] _glDeleteShader
+0x00009FF0	0x00000020	[  7] _glDeleteTextures
+0x0000A010	0x00000020	[  7] _glDepthFunc
+0x0000A030	0x00000020	[  7] _glDepthMask
+0x0000A050	0x00000020	[  7] _glDepthRangef
+0x0000A070	0x00000020	[  7] _glDepthRangex
+0x0000A090	0x00000020	[  7] _glDetachShader
+0x0000A0B0	0x00000020	[  7] _glDisable
+0x0000A0D0	0x00000020	[  7] _glDisableClientState
+0x0000A0F0	0x00000020	[  7] _glDisableVertexAttribArray
+0x0000A110	0x00000020	[  7] _glDrawArrays
+0x0000A130	0x00000020	[  7] _glDrawElements
+0x0000A150	0x00000020	[  7] _glEnable
+0x0000A170	0x00000020	[  7] _glEnableClientState
+0x0000A190	0x00000020	[  7] _glEnableVertexAttribArray
+0x0000A1B0	0x00000020	[  7] _glFinish
+0x0000A1D0	0x00000020	[  7] _glFlush
+0x0000A1F0	0x00000020	[  7] _glFogf
+0x0000A210	0x00000020	[  7] _glFogfv
+0x0000A230	0x00000020	[  7] _glFogx
+0x0000A250	0x00000020	[  7] _glFogxv
+0x0000A270	0x00000020	[  7] _glFramebufferRenderbuffer
+0x0000A290	0x00000020	[  7] _glFramebufferTexture2D
+0x0000A2B0	0x00000020	[  7] _glFrontFace
+0x0000A2D0	0x00000020	[  7] _glFrustumf
+0x0000A2F0	0x00000020	[  7] _glFrustumx
+0x0000A310	0x00000020	[  7] _glGenBuffers
+0x0000A330	0x00000020	[  7] _glGenFramebuffers
+0x0000A350	0x00000020	[  7] _glGenRenderbuffers
+0x0000A370	0x00000020	[  7] _glGenTextures
+0x0000A390	0x00000020	[  7] _glGenerateMipmap
+0x0000A3B0	0x00000020	[  7] _glGetActiveAttrib
+0x0000A3D0	0x00000020	[  7] _glGetActiveUniform
+0x0000A3F0	0x00000020	[  7] _glGetAttachedShaders
+0x0000A410	0x00000020	[  7] _glGetAttribLocation
+0x0000A430	0x00000020	[  7] _glGetBooleanv
+0x0000A450	0x00000020	[  7] _glGetBufferParameteriv
+0x0000A470	0x00000020	[  7] _glGetClipPlanef
+0x0000A490	0x00000020	[  7] _glGetClipPlanex
+0x0000A4B0	0x00000020	[  7] _glGetError
+0x0000A4D0	0x00000020	[  7] _glGetFixedv
+0x0000A4F0	0x00000020	[  7] _glGetFloatv
+0x0000A510	0x00000020	[  7] _glGetFramebufferAttachmentParameteriv
+0x0000A530	0x00000020	[  7] _glGetIntegerv
+0x0000A550	0x00000020	[  7] _glGetLightfv
+0x0000A570	0x00000020	[  7] _glGetLightxv
+0x0000A590	0x00000020	[  7] _glGetMaterialfv
+0x0000A5B0	0x00000020	[  7] _glGetMaterialxv
+0x0000A5D0	0x00000020	[  7] _glGetPointerv
+0x0000A5F0	0x00000020	[  7] _glGetProgramInfoLog
+0x0000A610	0x00000020	[  7] _glGetProgramiv
+0x0000A630	0x00000020	[  7] _glGetRenderbufferParameteriv
+0x0000A650	0x00000020	[  7] _glGetShaderInfoLog
+0x0000A670	0x00000020	[  7] _glGetShaderPrecisionFormat
+0x0000A690	0x00000020	[  7] _glGetShaderSource
+0x0000A6B0	0x00000020	[  7] _glGetShaderiv
+0x0000A6D0	0x00000020	[  7] _glGetString
+0x0000A6F0	0x00000020	[  7] _glGetTexEnvfv
+0x0000A710	0x00000020	[  7] _glGetTexEnviv
+0x0000A730	0x00000020	[  7] _glGetTexEnvxv
+0x0000A750	0x00000020	[  7] _glGetTexParameterfv
+0x0000A770	0x00000020	[  7] _glGetTexParameteriv
+0x0000A790	0x00000020	[  7] _glGetTexParameterxv
+0x0000A7B0	0x00000020	[  7] _glGetUniformLocation
+0x0000A7D0	0x00000020	[  7] _glGetUniformfv
+0x0000A7F0	0x00000020	[  7] _glGetUniformiv
+0x0000A810	0x00000020	[  7] _glGetVertexAttribPointerv
+0x0000A830	0x00000020	[  7] _glGetVertexAttribfv
+0x0000A850	0x00000020	[  7] _glGetVertexAttribiv
+0x0000A870	0x00000020	[  7] _glHint
+0x0000A890	0x00000030	[  7] _glIsBuffer
+0x0000A8C0	0x00000030	[  7] _glIsEnabled
+0x0000A8F0	0x00000030	[  7] _glIsFramebuffer
+0x0000A920	0x00000030	[  7] _glIsProgram
+0x0000A950	0x00000030	[  7] _glIsRenderbuffer
+0x0000A980	0x00000030	[  7] _glIsShader
+0x0000A9B0	0x00000030	[  7] _glIsTexture
+0x0000A9E0	0x00000020	[  7] _glLightModelf
+0x0000AA00	0x00000020	[  7] _glLightModelfv
+0x0000AA20	0x00000020	[  7] _glLightModelx
+0x0000AA40	0x00000020	[  7] _glLightModelxv
+0x0000AA60	0x00000020	[  7] _glLightf
+0x0000AA80	0x00000020	[  7] _glLightfv
+0x0000AAA0	0x00000020	[  7] _glLightx
+0x0000AAC0	0x00000020	[  7] _glLightxv
+0x0000AAE0	0x00000020	[  7] _glLineWidth
+0x0000AB00	0x00000020	[  7] _glLineWidthx
+0x0000AB20	0x00000020	[  7] _glLinkProgram
+0x0000AB40	0x00000020	[  7] _glLoadIdentity
+0x0000AB60	0x00000020	[  7] _glLoadMatrixf
+0x0000AB80	0x00000020	[  7] _glLoadMatrixx
+0x0000ABA0	0x00000020	[  7] _glLogicOp
+0x0000ABC0	0x00000020	[  7] _glMaterialf
+0x0000ABE0	0x00000020	[  7] _glMaterialfv
+0x0000AC00	0x00000020	[  7] _glMaterialx
+0x0000AC20	0x00000020	[  7] _glMaterialxv
+0x0000AC40	0x00000020	[  7] _glMatrixIndexPointerOES
+0x0000AC60	0x00000020	[  7] _glMatrixMode
+0x0000AC80	0x00000020	[  7] _glMultMatrixf
+0x0000ACA0	0x00000020	[  7] _glMultMatrixx
+0x0000ACC0	0x00000020	[  7] _glMultiTexCoord4f
+0x0000ACE0	0x00000020	[  7] _glMultiTexCoord4x
+0x0000AD00	0x00000020	[  7] _glNormal3f
+0x0000AD20	0x00000020	[  7] _glNormal3x
+0x0000AD40	0x00000020	[  7] _glNormalPointer
+0x0000AD60	0x00000020	[  7] _glOrthof
+0x0000AD80	0x00000020	[  7] _glOrthox
+0x0000ADA0	0x00000020	[  7] _glPixelStorei
+0x0000ADC0	0x00000020	[  7] _glPointParameterf
+0x0000ADE0	0x00000020	[  7] _glPointParameterfv
+0x0000AE00	0x00000020	[  7] _glPointParameterx
+0x0000AE20	0x00000020	[  7] _glPointParameterxv
+0x0000AE40	0x00000020	[  7] _glPointSize
+0x0000AE60	0x00000020	[  7] _glPointSizePointerOES
+0x0000AE80	0x00000020	[  7] _glPointSizex
+0x0000AEA0	0x00000020	[  7] _glPolygonOffset
+0x0000AEC0	0x00000020	[  7] _glPolygonOffsetx
+0x0000AEE0	0x00000020	[  7] _glPopMatrix
+0x0000AF00	0x00000020	[  7] _glPushMatrix
+0x0000AF20	0x00000020	[  7] _glReadPixels
+0x0000AF40	0x00000020	[  7] _glReleaseShaderCompiler
+0x0000AF60	0x00000020	[  7] _glRenderbufferStorage
+0x0000AF80	0x00000020	[  7] _glRotatef
+0x0000AFA0	0x00000020	[  7] _glRotatex
+0x0000AFC0	0x00000020	[  7] _glSampleCoverage
+0x0000AFE0	0x00000020	[  7] _glSampleCoveragex
+0x0000B000	0x00000020	[  7] _glScalef
+0x0000B020	0x00000020	[  7] _glScalex
+0x0000B040	0x00000020	[  7] _glScissor
+0x0000B060	0x00000020	[  7] _glShadeModel
+0x0000B080	0x00000020	[  7] _glShaderBinary
+0x0000B0A0	0x00000020	[  7] _glShaderSource
+0x0000B0C0	0x00000020	[  7] _glStencilFunc
+0x0000B0E0	0x00000020	[  7] _glStencilFuncSeparate
+0x0000B100	0x00000020	[  7] _glStencilMask
+0x0000B120	0x00000020	[  7] _glStencilMaskSeparate
+0x0000B140	0x00000020	[  7] _glStencilOp
+0x0000B160	0x00000020	[  7] _glStencilOpSeparate
+0x0000B180	0x00000020	[  7] _glTexCoordPointer
+0x0000B1A0	0x00000020	[  7] _glTexEnvf
+0x0000B1C0	0x00000020	[  7] _glTexEnvfv
+0x0000B1E0	0x00000020	[  7] _glTexEnvi
+0x0000B200	0x00000020	[  7] _glTexEnviv
+0x0000B220	0x00000020	[  7] _glTexEnvx
+0x0000B240	0x00000020	[  7] _glTexEnvxv
+0x0000B260	0x00000020	[  7] _glTexImage2D
+0x0000B280	0x00000020	[  7] _glTexParameterf
+0x0000B2A0	0x00000020	[  7] _glTexParameterfv
+0x0000B2C0	0x00000020	[  7] _glTexParameteri
+0x0000B2E0	0x00000020	[  7] _glTexParameteriv
+0x0000B300	0x00000020	[  7] _glTexParameterx
+0x0000B320	0x00000020	[  7] _glTexParameterxv
+0x0000B340	0x00000020	[  7] _glTexSubImage2D
+0x0000B360	0x00000020	[  7] _glTranslatef
+0x0000B380	0x00000020	[  7] _glTranslatex
+0x0000B3A0	0x00000020	[  7] _glUniform1f
+0x0000B3C0	0x00000020	[  7] _glUniform1fv
+0x0000B3E0	0x00000020	[  7] _glUniform1i
+0x0000B400	0x00000020	[  7] _glUniform1iv
+0x0000B420	0x00000020	[  7] _glUniform2f
+0x0000B440	0x00000020	[  7] _glUniform2fv
+0x0000B460	0x00000020	[  7] _glUniform2i
+0x0000B480	0x00000020	[  7] _glUniform2iv
+0x0000B4A0	0x00000020	[  7] _glUniform3f
+0x0000B4C0	0x00000020	[  7] _glUniform3fv
+0x0000B4E0	0x00000020	[  7] _glUniform3i
+0x0000B500	0x00000020	[  7] _glUniform3iv
+0x0000B520	0x00000020	[  7] _glUniform4f
+0x0000B540	0x00000020	[  7] _glUniform4fv
+0x0000B560	0x00000020	[  7] _glUniform4i
+0x0000B580	0x00000020	[  7] _glUniform4iv
+0x0000B5A0	0x00000020	[  7] _glUniformMatrix2fv
+0x0000B5C0	0x00000020	[  7] _glUniformMatrix3fv
+0x0000B5E0	0x00000020	[  7] _glUniformMatrix4fv
+0x0000B600	0x00000020	[  7] _glUseProgram
+0x0000B620	0x00000020	[  7] _glValidateProgram
+0x0000B640	0x00000020	[  7] _glVertexAttrib1f
+0x0000B660	0x00000020	[  7] _glVertexAttrib1fv
+0x0000B680	0x00000020	[  7] _glVertexAttrib2f
+0x0000B6A0	0x00000020	[  7] _glVertexAttrib2fv
+0x0000B6C0	0x00000020	[  7] _glVertexAttrib3f
+0x0000B6E0	0x00000020	[  7] _glVertexAttrib3fv
+0x0000B700	0x00000020	[  7] _glVertexAttrib4f
+0x0000B720	0x00000020	[  7] _glVertexAttrib4fv
+0x0000B740	0x00000020	[  7] _glVertexAttribPointer
+0x0000B760	0x00000020	[  7] _glVertexPointer
+0x0000B780	0x00000020	[  7] _glViewport
+0x0000B7A0	0x00000020	[  7] _glWeightPointerOES
+0x0000B7C0	0x00000020	[  7] _s3eAccelerometerGetError
+0x0000B7E0	0x00000020	[  7] _s3eAccelerometerGetErrorString
+0x0000B800	0x00000020	[  7] _s3eAccelerometerGetInt
+0x0000B820	0x00000020	[  7] _s3eAccelerometerGetX
+0x0000B840	0x00000020	[  7] _s3eAccelerometerGetY
+0x0000B860	0x00000020	[  7] _s3eAccelerometerGetZ
+0x0000B880	0x00000020	[  7] _s3eAccelerometerStart
+0x0000B8A0	0x00000020	[  7] _s3eAccelerometerStop
+0x0000B8C0	0x00000020	[  7] _s3eAudioGetError
+0x0000B8E0	0x00000020	[  7] _s3eAudioGetErrorString
+0x0000B900	0x00000020	[  7] _s3eAudioGetInt
+0x0000B920	0x00000030	[  7] _s3eAudioIsCodecSupported
+0x0000B950	0x00000020	[  7] _s3eAudioIsPlaying
+0x0000B970	0x00000020	[  7] _s3eAudioPause
+0x0000B990	0x00000020	[  7] _s3eAudioPlay
+0x0000B9B0	0x00000020	[  7] _s3eAudioPlayFromBuffer
+0x0000B9D0	0x00000020	[  7] _s3eAudioRegister
+0x0000B9F0	0x00000020	[  7] _s3eAudioResume
+0x0000BA10	0x00000020	[  7] _s3eAudioSetInt
+0x0000BA30	0x00000020	[  7] _s3eAudioStop
+0x0000BA50	0x00000020	[  7] _s3eAudioUnRegister
+0x0000BA70	0x00000020	[  7] _s3eCompressionDecomp
+0x0000BA90	0x00000020	[  7] _s3eCompressionDecompFinal
+0x0000BAB0	0x00000020	[  7] _s3eCompressionDecompInit
+0x0000BAD0	0x00000020	[  7] _s3eCompressionDecompRead
+0x0000BAF0	0x00000020	[  7] _s3eCompressionGetError
+0x0000BB10	0x00000020	[  7] _s3eCompressionGetErrorString
+0x0000BB30	0x00000020	[  7] _s3eConfigGetError
+0x0000BB50	0x00000020	[  7] _s3eConfigGetErrorString
+0x0000BB70	0x00000020	[  7] _s3eConfigGetInt
+0x0000BB90	0x00000020	[  7] _s3eConfigGetIntHash
+0x0000BBB0	0x00000020	[  7] _s3eConfigGetString
+0x0000BBD0	0x00000020	[  7] _s3eConfigGetStringHash
+0x0000BBF0	0x00000020	[  7] _s3eCryptoGetError
+0x0000BC10	0x00000020	[  7] _s3eCryptoGetErrorString
+0x0000BC30	0x00000020	[  7] _s3eCryptoRand
+0x0000BC50	0x00000020	[  7] _s3eCryptoSha1
+0x0000BC70	0x00000020	[  7] _s3eCryptoSha1Final
+0x0000BC90	0x00000020	[  7] _s3eCryptoSha1Init
+0x0000BCB0	0x00000020	[  7] _s3eCryptoSha1Update
+0x0000BCD0	0x00000020	[  7] _s3eCryptoVerifyRsa
+0x0000BCF0	0x00000020	[  7] _s3eDebugAssertShow
+0x0000BD10	0x00000020	[  7] _s3eDebugErrorShow
+0x0000BD30	0x00000020	[  7] _s3eDebugGetError
+0x0000BD50	0x00000020	[  7] _s3eDebugGetErrorString
+0x0000BD70	0x00000020	[  7] _s3eDebugGetInt
+0x0000BD90	0x00000020	[  7] _s3eDebugIsDebuggerPresent
+0x0000BDB0	0x00000020	[  7] _s3eDebugOutputString
+0x0000BDD0	0x00000020	[  7] _s3eDebugPrint
+0x0000BDF0	0x00000020	[  7] _s3eDebugRegister
+0x0000BE10	0x00000020	[  7] _s3eDebugSetInt
+0x0000BE30	0x00000030	[  7] _s3eDebugTraceChannelSwitch
+0x0000BE60	0x00000020	[  7] _s3eDebugTraceClearFile
+0x0000BE80	0x00000020	[  7] _s3eDebugTraceFlush
+0x0000BEA0	0x00000020	[  7] _s3eDebugTraceLine
+0x0000BEC0	0x00000020	[  7] _s3eDebugUnRegister
+0x0000BEE0	0x00000020	[  7] _s3eDeviceBacklightOn
+0x0000BF00	0x00000020	[  7] _s3eDeviceCheckPauseRequest
+0x0000BF20	0x00000020	[  7] _s3eDeviceCheckQuitRequest
+0x0000BF40	0x00000020	[  7] _s3eDeviceExecPushNext
+0x0000BF60	0x00000020	[  7] _s3eDeviceExit
+0x0000BF80	0x00000020	[  7] _s3eDeviceGetError
+0x0000BFA0	0x00000020	[  7] _s3eDeviceGetErrorString
+0x0000BFC0	0x00000020	[  7] _s3eDeviceGetInt
+0x0000BFE0	0x00000020	[  7] _s3eDeviceGetString
+0x0000C000	0x00000020	[  7] _s3eDeviceLoaderCallDone
+0x0000C020	0x00000020	[  7] _s3eDeviceLoaderCallStart
+0x0000C040	0x00000020	[  7] _s3eDeviceNetworkCheckStart
+0x0000C060	0x00000020	[  7] _s3eDeviceNetworkCheckStop
+0x0000C080	0x00000020	[  7] _s3eDeviceRegister
+0x0000C0A0	0x00000020	[  7] _s3eDeviceRequestQuit
+0x0000C0C0	0x00000020	[  7] _s3eDeviceSetInt
+0x0000C0E0	0x00000020	[  7] _s3eDeviceUnRegister
+0x0000C100	0x00000020	[  7] _s3eDeviceUnYield
+0x0000C120	0x00000020	[  7] _s3eDeviceYield
+0x0000C140	0x00000020	[  7] _s3eDeviceYieldUntilEvent
+0x0000C160	0x00000020	[  7] _s3eExtGet
+0x0000C180	0x00000020	[  7] _s3eExtGetError
+0x0000C1A0	0x00000020	[  7] _s3eExtGetErrorString
+0x0000C1C0	0x00000020	[  7] _s3eExtGetHash
+0x0000C1E0	0x00000020	[  7] _s3eFileAddUserFileSys
+0x0000C200	0x00000030	[  7] _s3eFileCheckExists
+0x0000C230	0x00000020	[  7] _s3eFileClose
+0x0000C250	0x00000020	[  7] _s3eFileDelete
+0x0000C270	0x00000020	[  7] _s3eFileDeleteDirectory
+0x0000C290	0x00000030	[  7] _s3eFileEOF
+0x0000C2C0	0x00000020	[  7] _s3eFileFlush
+0x0000C2E0	0x00000020	[  7] _s3eFileGetChar
+0x0000C300	0x00000020	[  7] _s3eFileGetError
+0x0000C320	0x00000020	[  7] _s3eFileGetErrorString
+0x0000C340	0x00000020	[  7] _s3eFileGetFileInt
+0x0000C360	0x00000020	[  7] _s3eFileGetFileString
+0x0000C380	0x00000020	[  7] _s3eFileGetFree
+0x0000C3A0	0x00000020	[  7] _s3eFileGetInt
+0x0000C3C0	0x00000020	[  7] _s3eFileGetLastWriteTime
+0x0000C3E0	0x00000020	[  7] _s3eFileGetSize
+0x0000C400	0x00000020	[  7] _s3eFileListClose
+0x0000C420	0x00000020	[  7] _s3eFileListDirectory
+0x0000C440	0x00000020	[  7] _s3eFileListNext
+0x0000C460	0x00000020	[  7] _s3eFileMakeDirectory
+0x0000C480	0x00000020	[  7] _s3eFileOpen
+0x0000C4A0	0x00000020	[  7] _s3eFileOpenFromMemory
+0x0000C4C0	0x00000020	[  7] _s3eFilePutChar
+0x0000C4E0	0x00000020	[  7] _s3eFileRead
+0x0000C500	0x00000020	[  7] _s3eFileReadString
+0x0000C520	0x00000020	[  7] _s3eFileRemoveUserFileSys
+0x0000C540	0x00000020	[  7] _s3eFileRename
+0x0000C560	0x00000020	[  7] _s3eFileSeek
+0x0000C580	0x00000020	[  7] _s3eFileSetInt
+0x0000C5A0	0x00000020	[  7] _s3eFileTell
+0x0000C5C0	0x00000020	[  7] _s3eFileTruncate
+0x0000C5E0	0x00000020	[  7] _s3eFileWrite
+0x0000C600	0x00000020	[  7] _s3eFree
+0x0000C620	0x00000020	[  7] _s3eFreeBase
+0x0000C640	0x00000020	[  7] _s3eGLGetError
+0x0000C660	0x00000020	[  7] _s3eGLGetErrorString
+0x0000C680	0x00000020	[  7] _s3eGLGetInt
+0x0000C6A0	0x00000020	[  7] _s3eGLGetNativeWindow
+0x0000C6C0	0x00000020	[  7] _s3eGLRegister
+0x0000C6E0	0x00000020	[  7] _s3eGLUnRegister
+0x0000C700	0x00000020	[  7] _s3eGLUnavailable
+0x0000C720	0x00000020	[  7] _s3eInetAton
+0x0000C740	0x00000020	[  7] _s3eInetHtonl
+0x0000C760	0x00000030	[  7] _s3eInetHtons
+0x0000C790	0x00000020	[  7] _s3eInetLookup
+0x0000C7B0	0x00000020	[  7] _s3eInetLookupCancel
+0x0000C7D0	0x00000020	[  7] _s3eInetNtoa
+0x0000C7F0	0x00000020	[  7] _s3eInetNtohl
+0x0000C810	0x00000030	[  7] _s3eInetNtohs
+0x0000C840	0x00000020	[  7] _s3eInetToString
+0x0000C860	0x00000020	[  7] _s3eKeyboardAnyKey
+0x0000C880	0x00000020	[  7] _s3eKeyboardClearState
+0x0000C8A0	0x00000020	[  7] _s3eKeyboardGetChar
+0x0000C8C0	0x00000020	[  7] _s3eKeyboardGetDisplayName
+0x0000C8E0	0x00000020	[  7] _s3eKeyboardGetError
+0x0000C900	0x00000020	[  7] _s3eKeyboardGetErrorString
+0x0000C920	0x00000020	[  7] _s3eKeyboardGetInt
+0x0000C940	0x00000020	[  7] _s3eKeyboardGetState
+0x0000C960	0x00000020	[  7] _s3eKeyboardRegister
+0x0000C980	0x00000020	[  7] _s3eKeyboardSetInt
+0x0000C9A0	0x00000020	[  7] _s3eKeyboardUnRegister
+0x0000C9C0	0x00000020	[  7] _s3eKeyboardUpdate
+0x0000C9E0	0x00000020	[  7] _s3eLicenseBuy
+0x0000CA00	0x00000020	[  7] _s3eLicenseGetError
+0x0000CA20	0x00000020	[  7] _s3eLicenseGetErrorString
+0x0000CA40	0x00000020	[  7] _s3eLicenseGetInt
+0x0000CA60	0x00000020	[  7] _s3eMalloc
+0x0000CA80	0x00000020	[  7] _s3eMallocBase
+0x0000CAA0	0x00000020	[  7] _s3eMemoryGetError
+0x0000CAC0	0x00000020	[  7] _s3eMemoryGetErrorString
+0x0000CAE0	0x00000020	[  7] _s3eMemoryGetInt
+0x0000CB00	0x00000020	[  7] _s3eMemoryGetUserMemMgr
+0x0000CB20	0x00000020	[  7] _s3eMemoryHeapAddress
+0x0000CB40	0x00000020	[  7] _s3eMemoryHeapCreate
+0x0000CB60	0x00000020	[  7] _s3eMemoryHeapDestroy
+0x0000CB80	0x00000020	[  7] _s3eMemorySetInt
+0x0000CBA0	0x00000020	[  7] _s3eMemorySetUserMemMgr
+0x0000CBC0	0x00000020	[  7] _s3ePointerGetError
+0x0000CBE0	0x00000020	[  7] _s3ePointerGetErrorString
+0x0000CC00	0x00000020	[  7] _s3ePointerGetInt
+0x0000CC20	0x00000020	[  7] _s3ePointerGetState
+0x0000CC40	0x00000020	[  7] _s3ePointerGetTouchState
+0x0000CC60	0x00000020	[  7] _s3ePointerGetTouchX
+0x0000CC80	0x00000020	[  7] _s3ePointerGetTouchY
+0x0000CCA0	0x00000020	[  7] _s3ePointerGetX
+0x0000CCC0	0x00000020	[  7] _s3ePointerGetY
+0x0000CCE0	0x00000020	[  7] _s3ePointerRegister
+0x0000CD00	0x00000020	[  7] _s3ePointerSetInt
+0x0000CD20	0x00000020	[  7] _s3ePointerUnRegister
+0x0000CD40	0x00000020	[  7] _s3ePointerUpdate
+0x0000CD60	0x00000020	[  7] _s3eRealloc
+0x0000CD80	0x00000020	[  7] _s3eReallocBase
+0x0000CDA0	0x00000020	[  7] _s3eSecureStorageGet
+0x0000CDC0	0x00000020	[  7] _s3eSecureStorageGetError
+0x0000CDE0	0x00000020	[  7] _s3eSecureStorageGetErrorString
+0x0000CE00	0x00000020	[  7] _s3eSecureStoragePut
+0x0000CE20	0x00000020	[  7] _s3eSocketAccept
+0x0000CE40	0x00000020	[  7] _s3eSocketBind
+0x0000CE60	0x00000020	[  7] _s3eSocketClose
+0x0000CE80	0x00000020	[  7] _s3eSocketConnect
+0x0000CEA0	0x00000020	[  7] _s3eSocketCreate
+0x0000CEC0	0x00000020	[  7] _s3eSocketGetError
+0x0000CEE0	0x00000020	[  7] _s3eSocketGetErrorString
+0x0000CF00	0x00000020	[  7] _s3eSocketGetInt
+0x0000CF20	0x00000020	[  7] _s3eSocketGetLocalName
+0x0000CF40	0x00000020	[  7] _s3eSocketGetPeerName
+0x0000CF60	0x00000020	[  7] _s3eSocketGetString
+0x0000CF80	0x00000020	[  7] _s3eSocketListen
+0x0000CFA0	0x00000020	[  7] _s3eSocketReadable
+0x0000CFC0	0x00000020	[  7] _s3eSocketRecv
+0x0000CFE0	0x00000020	[  7] _s3eSocketRecvFrom
+0x0000D000	0x00000020	[  7] _s3eSocketSend
+0x0000D020	0x00000020	[  7] _s3eSocketSendTo
+0x0000D040	0x00000020	[  7] _s3eSocketWritable
+0x0000D060	0x00000020	[  7] _s3eSoundChannelGetInt
+0x0000D080	0x00000020	[  7] _s3eSoundChannelPause
+0x0000D0A0	0x00000020	[  7] _s3eSoundChannelPlay
+0x0000D0C0	0x00000020	[  7] _s3eSoundChannelRegister
+0x0000D0E0	0x00000020	[  7] _s3eSoundChannelResume
+0x0000D100	0x00000020	[  7] _s3eSoundChannelSetInt
+0x0000D120	0x00000020	[  7] _s3eSoundChannelStop
+0x0000D140	0x00000020	[  7] _s3eSoundChannelUnRegister
+0x0000D160	0x00000020	[  7] _s3eSoundGetError
+0x0000D180	0x00000020	[  7] _s3eSoundGetErrorString
+0x0000D1A0	0x00000020	[  7] _s3eSoundGetFreeChannel
+0x0000D1C0	0x00000020	[  7] _s3eSoundGetInt
+0x0000D1E0	0x00000020	[  7] _s3eSoundPauseAllChannels
+0x0000D200	0x00000020	[  7] _s3eSoundResumeAllChannels
+0x0000D220	0x00000020	[  7] _s3eSoundSetInt
+0x0000D240	0x00000020	[  7] _s3eSoundStopAllChannels
+0x0000D260	0x00000020	[  7] _s3eSurfaceConvertRGB
+0x0000D280	0x00000020	[  7] _s3eSurfaceGetError
+0x0000D2A0	0x00000020	[  7] _s3eSurfaceGetErrorString
+0x0000D2C0	0x00000020	[  7] _s3eSurfaceGetInt
+0x0000D2E0	0x00000020	[  7] _s3eSurfaceInvalidate
+0x0000D300	0x00000020	[  7] _s3eSurfacePtr
+0x0000D320	0x00000020	[  7] _s3eSurfaceRegister
+0x0000D340	0x00000020	[  7] _s3eSurfaceSetDisplayID
+0x0000D360	0x00000020	[  7] _s3eSurfaceSetInt
+0x0000D380	0x00000020	[  7] _s3eSurfaceSetup
+0x0000D3A0	0x00000020	[  7] _s3eSurfaceShow
+0x0000D3C0	0x00000020	[  7] _s3eSurfaceUnRegister
+0x0000D3E0	0x00000020	[  7] _s3eTimerCancelTimer
+0x0000D400	0x00000020	[  7] _s3eTimerGetError
+0x0000D420	0x00000020	[  7] _s3eTimerGetErrorString
+0x0000D440	0x00000020	[  7] _s3eTimerGetInt
+0x0000D460	0x00000020	[  7] _s3eTimerGetLocaltimeOffset
+0x0000D480	0x00000020	[  7] _s3eTimerGetMs
+0x0000D4A0	0x00000020	[  7] _s3eTimerGetUST
+0x0000D4C0	0x00000020	[  7] _s3eTimerGetUTC
+0x0000D4E0	0x00000020	[  7] _s3eTimerSetTimer
+0x0000D500	0x00000020	[  7] _s3eVibraGetError
+0x0000D520	0x00000020	[  7] _s3eVibraGetErrorString
+0x0000D540	0x00000020	[  7] _s3eVibraGetInt
+0x0000D560	0x00000020	[  7] _s3eVibraSetInt
+0x0000D580	0x00000020	[  7] _s3eVibraStop
+0x0000D5A0	0x00000020	[  7] _s3eVibraVibrate
+0x0000D5C0	0x00000020	[  7] _s3eVideoGetError
+0x0000D5E0	0x00000020	[  7] _s3eVideoGetErrorString
+0x0000D600	0x00000020	[  7] _s3eVideoGetInt
+0x0000D620	0x00000030	[  7] _s3eVideoIsCodecSupported
+0x0000D650	0x00000020	[  7] _s3eVideoIsPlaying
+0x0000D670	0x00000020	[  7] _s3eVideoPause
+0x0000D690	0x00000020	[  7] _s3eVideoPlay
+0x0000D6B0	0x00000020	[  7] _s3eVideoPlayFromBuffer
+0x0000D6D0	0x00000020	[  7] _s3eVideoRegister
+0x0000D6F0	0x00000020	[  7] _s3eVideoResume
+0x0000D710	0x00000020	[  7] _s3eVideoSetInt
+0x0000D730	0x00000020	[  7] _s3eVideoStop
+0x0000D750	0x00000020	[  7] _s3eVideoUnRegister
+0x0000D770	0x00000020	[  7] _s3eEdkCallbacksEnqueue
+0x0000D790	0x00000020	[  7] _s3eEdkCallbacksIsRegistered
+0x0000D7B0	0x00000020	[  7] _s3eEdkCallbacksRegister
+0x0000D7D0	0x00000020	[  7] _s3eEdkCallbacksRegisterInternal
+0x0000D7F0	0x00000020	[  7] _s3eEdkCallbacksRegisterSpecific
+0x0000D810	0x00000020	[  7] _s3eEdkCallbacksUnRegister
+0x0000D830	0x00000020	[  7] _s3eEdkCallbacksUnRegisterDevice
+0x0000D850	0x00000020	[  7] _s3eEdkErrorGet
+0x0000D870	0x00000020	[  7] _s3eEdkErrorGetString
+0x0000D890	0x00000020	[  7] _s3eEdkErrorSet
+0x0000D8B0	0x00000020	[  7] _s3eEdkErrorSetStringV
+0x0000D8D0	0x00000020	[  7] _s3eEdkFreeOS
+0x0000D8F0	0x00000020	[  7] _s3eEdkGetAppVersionMajor
+0x0000D910	0x00000020	[  7] _s3eEdkGetAppVersionMinor
+0x0000D930	0x00000020	[  7] _s3eEdkGlobalsGet
+0x0000D950	0x00000020	[  7] _s3eEdkIsInitialised
+0x0000D970	0x00000020	[  7] _s3eEdkLibraryClose
+0x0000D990	0x00000020	[  7] _s3eEdkLibraryError
+0x0000D9B0	0x00000020	[  7] _s3eEdkLibraryGetSymbol
+0x0000D9D0	0x00000020	[  7] _s3eEdkLibraryOpen
+0x0000D9F0	0x00000020	[  7] _s3eEdkMallocOS
+0x0000DA10	0x00000020	[  7] _s3eEdkReallocOS
+0x0000DA30	0x00000020	[  7] _s3eEdkRegister
+0x0000DA50	0x00000020	[  7] _s3eEdkThreadRunOnOSAsyncV
+0x0000DA70	0x00000020	[  7] _s3eEdkThreadRunOnOSV
+0x0000DA90	0x00000020	[  7] _s3eEdkThreadSetResumed
+0x0000DAB0	0x00000020	[  7] _s3eEdkThreadSetSuspended
+0x0000DAD0	0x00000018	[  7] _s3eEdkThreadSleep
+0x0000DAF0	0x00000012	[  8] __IwMain
+0x0000DB02	0x00000006	[  7] _s3eEdkRegister
+0x0000DB08	0x00000006	[  9] _FFCreateDevice
+0x0000DB0E	0x00000006	[  9] _FFDeviceEscape
+0x0000DB14	0x00000006	[  9] _FFReleaseDevice
+0x0000DB1A	0x00000006	[ 10] _IOCreatePlugInInterfaceForService
+0x0000DB20	0x00000006	[ 10] _IOIteratorNext
+0x0000DB26	0x00000006	[ 10] _IOMasterPort
+0x0000DB2C	0x00000006	[ 10] _IONotificationPortCreate
+0x0000DB32	0x00000006	[ 10] _IONotificationPortDestroy
+0x0000DB38	0x00000006	[ 10] _IONotificationPortGetRunLoopSource
+0x0000DB3E	0x00000006	[ 10] _IOObjectConformsTo
+0x0000DB44	0x00000006	[ 10] _IOObjectGetClass
+0x0000DB4A	0x00000006	[ 10] _IOObjectRelease
+0x0000DB50	0x00000006	[ 10] _IORegistryEntryCreateCFProperty
+0x0000DB56	0x00000006	[ 10] _IORegistryEntrySearchCFProperty
+0x0000DB5C	0x00000006	[ 10] _IOServiceAddMatchingNotification
+0x0000DB62	0x00000006	[ 10] _IOServiceGetMatchingServices
+0x0000DB68	0x00000006	[ 10] _IOServiceMatching
+0x0000DB6E	0x00000006	[ 11] _NSLog
+0x0000DB74	0x00000006	[ 12] _objc_enumerationMutation
+0x0000DB7A	0x00000006	[ 12] _objc_getProperty
+0x0000DB80	0x00000006	[ 12] _objc_msgSend
+0x0000DB86	0x00000006	[ 12] _objc_msgSendSuper
+0x0000DB8C	0x00000006	[ 12] _objc_msgSend_fpret
+0x0000DB92	0x00000006	[ 12] _objc_setProperty
+0x0000DB98	0x00000006	[ 13] ___stack_chk_fail
+0x0000DB9E	0x00000006	[ 13] _bzero
+0x0000DBA4	0x00000006	[ 13] _mach_port_deallocate
+0x0000DBAA	0x00000006	[ 13] _strcpy
+0x0000DBB0	0x00000006	[ 13] _strlen
+0x0000DBB6	0x00000006	[ 13] _strncat
+0x0000DBBC	0x00000006	[ 14] _CFArrayGetCount
+0x0000DBC2	0x00000006	[ 14] _CFArrayGetValueAtIndex
+0x0000DBC8	0x00000006	[ 14] _CFDictionaryGetValue
+0x0000DBCE	0x00000006	[ 14] _CFGetTypeID
+0x0000DBD4	0x00000006	[ 14] _CFNumberGetTypeID
+0x0000DBDA	0x00000006	[ 14] _CFNumberGetValue
+0x0000DBE0	0x00000006	[ 14] _CFRelease
+0x0000DBE6	0x00000006	[ 14] _CFRunLoopAddSource
+0x0000DBEC	0x00000006	[ 14] _CFRunLoopContainsSource
+0x0000DBF2	0x00000006	[ 14] _CFRunLoopGetCurrent
+0x0000DBF8	0x00000006	[ 14] _CFRunLoopRemoveSource
+0x0000DBFE	0x00000006	[ 14] _CFRunLoopRunInMode
+0x0000DC04	0x00000006	[ 14] _CFRunLoopSourceInvalidate
+0x0000DC0A	0x00000006	[ 14] _CFUUIDGetConstantUUIDWithBytes
+0x0000DC10	0x00000006	[ 14] _CFUUIDGetUUIDBytes
+0x0000DC18	0x0000000C	[  0] helper helper
+0x0000DC24	0x0000000A	[  9] _FFCreateDevice
+0x0000DC2E	0x0000000A	[  9] _FFDeviceEscape
+0x0000DC38	0x0000000A	[  9] _FFReleaseDevice
+0x0000DC42	0x0000000A	[ 10] _IOCreatePlugInInterfaceForService
+0x0000DC4C	0x0000000A	[ 10] _IOIteratorNext
+0x0000DC56	0x0000000A	[ 10] _IOMasterPort
+0x0000DC60	0x0000000A	[ 10] _IONotificationPortCreate
+0x0000DC6A	0x0000000A	[ 10] _IONotificationPortDestroy
+0x0000DC74	0x0000000A	[ 10] _IONotificationPortGetRunLoopSource
+0x0000DC7E	0x0000000A	[ 10] _IOObjectConformsTo
+0x0000DC88	0x0000000A	[ 10] _IOObjectGetClass
+0x0000DC92	0x0000000A	[ 10] _IOObjectRelease
+0x0000DC9C	0x0000000A	[ 10] _IORegistryEntryCreateCFProperty
+0x0000DCA6	0x0000000A	[ 10] _IORegistryEntrySearchCFProperty
+0x0000DCB0	0x0000000A	[ 10] _IOServiceAddMatchingNotification
+0x0000DCBA	0x0000000A	[ 10] _IOServiceGetMatchingServices
+0x0000DCC4	0x0000000A	[ 10] _IOServiceMatching
+0x0000DCCE	0x0000000A	[ 11] _NSLog
+0x0000DCD8	0x0000000A	[ 12] _objc_enumerationMutation
+0x0000DCE2	0x0000000A	[ 12] _objc_getProperty
+0x0000DCEC	0x0000000A	[ 12] _objc_msgSend
+0x0000DCF6	0x0000000A	[ 12] _objc_msgSendSuper
+0x0000DD00	0x0000000A	[ 12] _objc_msgSend_fpret
+0x0000DD0A	0x0000000A	[ 12] _objc_setProperty
+0x0000DD14	0x0000000A	[ 13] ___stack_chk_fail
+0x0000DD1E	0x0000000A	[ 13] _bzero
+0x0000DD28	0x0000000A	[ 13] _mach_port_deallocate
+0x0000DD32	0x0000000A	[ 13] _strcpy
+0x0000DD3C	0x0000000A	[ 13] _strlen
+0x0000DD46	0x0000000A	[ 13] _strncat
+0x0000DD50	0x0000000A	[ 14] _CFArrayGetCount
+0x0000DD5A	0x0000000A	[ 14] _CFArrayGetValueAtIndex
+0x0000DD64	0x0000000A	[ 14] _CFDictionaryGetValue
+0x0000DD6E	0x0000000A	[ 14] _CFGetTypeID
+0x0000DD78	0x0000000A	[ 14] _CFNumberGetTypeID
+0x0000DD82	0x0000000A	[ 14] _CFNumberGetValue
+0x0000DD8C	0x0000000A	[ 14] _CFRelease
+0x0000DD96	0x0000000A	[ 14] _CFRunLoopAddSource
+0x0000DDA0	0x0000000A	[ 14] _CFRunLoopContainsSource
+0x0000DDAA	0x0000000A	[ 14] _CFRunLoopGetCurrent
+0x0000DDB4	0x0000000A	[ 14] _CFRunLoopRemoveSource
+0x0000DDBE	0x0000000A	[ 14] _CFRunLoopRunInMode
+0x0000DDC8	0x0000000A	[ 14] _CFRunLoopSourceInvalidate
+0x0000DDD2	0x0000000A	[ 14] _CFUUIDGetConstantUUIDWithBytes
+0x0000DDDC	0x0000000A	[ 14] _CFUUIDGetUUIDBytes
+0x0000DDE6	0x00000008	[  2] literal string: GamePad
+0x0000DDEE	0x00000019	[  3] literal string: Xbox360ControllerManager
+0x0000DE07	0x0000000B	[  3] literal string: initialize
+0x0000DE12	0x0000000F	[  3] literal string: sharedInstance
+0x0000DE21	0x00000010	[  3] literal string: controllerCount
+0x0000DE31	0x0000000F	[  3] literal string: getController:
+0x0000DE40	0x0000000B	[  3] literal string: leftStickX
+0x0000DE4B	0x0000000B	[  3] literal string: leftStickY
+0x0000DE56	0x0000000C	[  3] literal string: rightStickX
+0x0000DE62	0x0000000C	[  3] literal string: rightStickY
+0x0000DE6E	0x0000000C	[  3] literal string: leftTrigger
+0x0000DE7A	0x0000000D	[  3] literal string: rightTrigger
+0x0000DE87	0x00000002	[  3] literal string: x
+0x0000DE89	0x00000002	[  3] literal string: y
+0x0000DE8B	0x00000002	[  3] literal string: a
+0x0000DE8D	0x00000002	[  3] literal string: b
+0x0000DE8F	0x00000005	[  3] literal string: left
+0x0000DE94	0x00000006	[  3] literal string: right
+0x0000DE9A	0x00000003	[  3] literal string: up
+0x0000DE9D	0x00000005	[  3] literal string: down
+0x0000DEA2	0x0000000D	[  3] literal string: leftShoulder
+0x0000DEAF	0x0000000E	[  3] literal string: rightShoulder
+0x0000DEBD	0x00000006	[  3] literal string: start
+0x0000DEC3	0x00000005	[  3] literal string: back
+0x0000DEC8	0x00000001	[  3] literal string: 
+0x0000DEC9	0x00000005	[  4] literal string: init
+0x0000DECE	0x00000008	[  4] literal string: release
+0x0000DED6	0x0000000C	[  4] literal string: startDevice
+0x0000DEE2	0x0000000B	[  4] literal string: stopDevice
+0x0000DEED	0x00000008	[  4] literal string: dealloc
+0x0000DEF5	0x00000013	[  4] literal string: triggerLeftPressed
+0x0000DF08	0x00000014	[  4] literal string: triggerLeftReleased
+0x0000DF1C	0x00000025	[  4] literal string: buttonDelegateMethod:Released:State:
+0x0000DF41	0x00000014	[  4] literal string: triggerRightPressed
+0x0000DF55	0x00000015	[  4] literal string: triggerRightReleased
+0x0000DF6A	0x00000014	[  4] literal string: respondsToSelector:
+0x0000DF7E	0x00000011	[  4] literal string: performSelector:
+0x0000DF8F	0x0000000F	[  4] literal string: buttonAPressed
+0x0000DF9E	0x00000010	[  4] literal string: buttonAReleased
+0x0000DFAE	0x0000000F	[  4] literal string: buttonBPressed
+0x0000DFBD	0x00000010	[  4] literal string: buttonBReleased
+0x0000DFCD	0x0000000F	[  4] literal string: buttonXPressed
+0x0000DFDC	0x00000010	[  4] literal string: buttonXReleased
+0x0000DFEC	0x0000000F	[  4] literal string: buttonYPressed
+0x0000DFFB	0x00000010	[  4] literal string: buttonYReleased
+0x0000E00B	0x0000001A	[  4] literal string: buttonLeftShoulderPressed
+0x0000E025	0x0000001B	[  4] literal string: buttonLeftShoulderReleased
+0x0000E040	0x0000001B	[  4] literal string: buttonRightShoulderPressed
+0x0000E05B	0x0000001C	[  4] literal string: buttonRightShoulderReleased
+0x0000E077	0x00000017	[  4] literal string: buttonLeftStickPressed
+0x0000E08E	0x00000018	[  4] literal string: buttonLeftStickReleased
+0x0000E0A6	0x00000018	[  4] literal string: buttonRightStickPressed
+0x0000E0BE	0x00000019	[  4] literal string: buttonRightStickReleased
+0x0000E0D7	0x00000013	[  4] literal string: buttonStartPressed
+0x0000E0EA	0x00000014	[  4] literal string: buttonStartReleased
+0x0000E0FE	0x00000012	[  4] literal string: buttonBackPressed
+0x0000E110	0x00000013	[  4] literal string: buttonBackReleased
+0x0000E123	0x00000012	[  4] literal string: buttonHomePressed
+0x0000E135	0x00000013	[  4] literal string: buttonHomeReleased
+0x0000E148	0x00000010	[  4] literal string: buttonUpPressed
+0x0000E158	0x00000011	[  4] literal string: buttonUpReleased
+0x0000E169	0x00000012	[  4] literal string: buttonDownPressed
+0x0000E17B	0x00000013	[  4] literal string: buttonDownReleased
+0x0000E18E	0x00000012	[  4] literal string: buttonLeftPressed
+0x0000E1A0	0x00000013	[  4] literal string: buttonLeftReleased
+0x0000E1B3	0x00000013	[  4] literal string: buttonRightPressed
+0x0000E1C6	0x00000014	[  4] literal string: buttonRightReleased
+0x0000E1DA	0x00000016	[  4] literal string: axisChanged:newValue:
+0x0000E1F0	0x00000018	[  4] literal string: buttonChanged:newValue:
+0x0000E208	0x0000000E	[  4] literal string: ElementCookie
+0x0000E216	0x00000006	[  4] literal string: Usage
+0x0000E21C	0x0000000A	[  4] literal string: UsagePage
+0x0000E226	0x00000012	[  4] literal string: Can't open device
+0x0000E238	0x00000019	[  4] literal string: Unable to allocate queue
+0x0000E251	0x0000001B	[  4] literal string: Unable to create the queue
+0x0000E26C	0x00000024	[  4] literal string: Unable to create async event source
+0x0000E290	0x0000001D	[  4] literal string: Unable to set event callback
+0x0000E2AD	0x0000001F	[  4] literal string: Unable to start queue - 0x%.8x
+0x0000E2CC	0x00000012	[  4] literal string: setMotorOverride:
+0x0000E2DE	0x00000016	[  4] literal string: runMotorsLarge:Small:
+0x0000E2F4	0x00000012	[  4] literal string: WirelessHIDDevice
+0x0000E306	0x0000000D	[  4] literal string: BatteryLevel
+0x0000E313	0x00000017	[  4] literal string: controllerDisconnected
+0x0000E32A	0x00000013	[  4] literal string: initWithHidDevice:
+0x0000E33D	0x0000000A	[  4] literal string: @12@0:4I8
+0x0000E347	0x00000007	[  4] literal string: v8@0:4
+0x0000E34E	0x0000000D	[  4] literal string: v16@0:4C8C12
+0x0000E35B	0x0000000A	[  4] literal string: v12@0:4c8
+0x0000E365	0x0000000D	[  4] literal string: v16@0:4i8i12
+0x0000E372	0x00000010	[  4] literal string: v20@0:4:8:12c16
+0x0000E382	0x0000001C	[  4] literal string: eventQueueFired:withResult:
+0x0000E39E	0x0000000E	[  4] literal string: v16@0:4^v8i12
+0x0000E3AC	0x00000007	[  4] literal string: f8@0:4
+0x0000E3B3	0x00000013	[  4] literal string: deviceIsAccessible
+0x0000E3C6	0x00000007	[  4] literal string: c8@0:4
+0x0000E3CD	0x0000000B	[  4] literal string: disconnect
+0x0000E3D8	0x00000006	[  4] literal string: myHid
+0x0000E3DE	0x00000007	[  4] literal string: I8@0:4
+0x0000E3E5	0x0000000A	[  4] literal string: leftStick
+0x0000E3EF	0x0000000B	[  4] literal string: rightStick
+0x0000E3FA	0x00000005	[  4] literal string: home
+0x0000E3FF	0x00000009	[  4] literal string: delegate
+0x0000E408	0x00000007	[  4] literal string: @8@0:4
+0x0000E40F	0x0000000D	[  4] literal string: setDelegate:
+0x0000E41C	0x0000000A	[  4] literal string: v12@0:4@8
+0x0000E426	0x00000008	[  4] literal string: invertX
+0x0000E42E	0x0000000C	[  4] literal string: setInvertX:
+0x0000E43A	0x00000008	[  4] literal string: invertY
+0x0000E442	0x0000000C	[  4] literal string: setInvertY:
+0x0000E44E	0x00000009	[  4] literal string: NSObject
+0x0000E457	0x00000012	[  4] literal string: Xbox360Controller
+0x0000E469	0x00000005	[  4] literal string: axis
+0x0000E46E	0x00000006	[  4] literal string: [6^v]
+0x0000E474	0x00000008	[  4] literal string: buttons
+0x0000E47C	0x00000007	[  4] literal string: [15^v]
+0x0000E483	0x00000007	[  4] literal string: device
+0x0000E48A	0x0000001C	[  4] literal string: ^^{IOHIDDeviceInterface122}
+0x0000E4A6	0x00000009	[  4] literal string: hidQueue
+0x0000E4AF	0x00000018	[  4] literal string: ^^{IOHIDQueueInterface}
+0x0000E4C7	0x00000009	[  4] literal string: ffDevice
+0x0000E4D0	0x00000006	[  4] literal string: ^{?=}
+0x0000E4D6	0x0000000E	[  4] literal string: registryEntry
+0x0000E4E4	0x00000002	[  4] literal string: I
+0x0000E4E6	0x0000000B	[  4] literal string: notifyPort
+0x0000E4F1	0x00000017	[  4] literal string: ^{IONotificationPort=}
+0x0000E508	0x00000010	[  4] literal string: onIteratorWired
+0x0000E518	0x00000011	[  4] literal string: offIteratorWired
+0x0000E529	0x00000013	[  4] literal string: onIteratorWireless
+0x0000E53C	0x00000014	[  4] literal string: offIteratorWireless
+0x0000E550	0x0000000B	[  4] literal string: masterPort
+0x0000E55B	0x0000000B	[  4] literal string: largeMotor
+0x0000E566	0x00000002	[  4] literal string: i
+0x0000E568	0x0000000B	[  4] literal string: smallMotor
+0x0000E573	0x0000000D	[  4] literal string: notifySource
+0x0000E580	0x00000016	[  4] literal string: ^{__CFRunLoopSource=}
+0x0000E596	0x00000002	[  4] literal string: f
+0x0000E598	0x00000002	[  4] literal string: c
+0x0000E59A	0x00000013	[  4] literal string: leftTriggerPressed
+0x0000E5AD	0x00000014	[  4] literal string: rightTriggerPressed
+0x0000E5C1	0x0000001F	[  4] literal string: @"<Xbox360ControllerDelegate>"
+0x0000E5E0	0x00000011	[  4] literal string: Tf,R,VleftStickX
+0x0000E5F1	0x00000011	[  4] literal string: Tf,R,VleftStickY
+0x0000E602	0x00000012	[  4] literal string: Tf,R,VrightStickX
+0x0000E614	0x00000012	[  4] literal string: Tf,R,VrightStickY
+0x0000E626	0x00000012	[  4] literal string: Tf,R,VleftTrigger
+0x0000E638	0x00000013	[  4] literal string: Tf,R,VrightTrigger
+0x0000E64B	0x00000008	[  4] literal string: Tc,R,Va
+0x0000E653	0x00000008	[  4] literal string: Tc,R,Vb
+0x0000E65B	0x00000008	[  4] literal string: Tc,R,Vx
+0x0000E663	0x00000008	[  4] literal string: Tc,R,Vy
+0x0000E66B	0x00000013	[  4] literal string: Tc,R,VleftShoulder
+0x0000E67E	0x00000014	[  4] literal string: Tc,R,VrightShoulder
+0x0000E692	0x00000010	[  4] literal string: Tc,R,VleftStick
+0x0000E6A2	0x00000011	[  4] literal string: Tc,R,VrightStick
+0x0000E6B3	0x0000000C	[  4] literal string: Tc,R,Vstart
+0x0000E6BF	0x0000000B	[  4] literal string: Tc,R,Vback
+0x0000E6CA	0x0000000B	[  4] literal string: Tc,R,Vhome
+0x0000E6D5	0x00000009	[  4] literal string: Tc,R,Vup
+0x0000E6DE	0x0000000B	[  4] literal string: Tc,R,Vdown
+0x0000E6E9	0x0000000B	[  4] literal string: Tc,R,Vleft
+0x0000E6F4	0x0000000C	[  4] literal string: Tc,R,Vright
+0x0000E700	0x0000002C	[  4] literal string: T@"<Xbox360ControllerDelegate>",&,Vdelegate
+0x0000E72C	0x0000000C	[  4] literal string: Tc,VinvertX
+0x0000E738	0x0000000C	[  4] literal string: Tc,VinvertY
+0x0000E744	0x00000005	[  4] literal string: Tc,R
+0x0000E749	0x0000000C	[  4] literal string: TI,R,VmyHid
+0x0000E755	0x00000006	[  5] literal string: class
+0x0000E75B	0x00000004	[  5] literal string: new
+0x0000E75F	0x0000000F	[  5] literal string: NSMutableArray
+0x0000E76E	0x00000006	[  5] literal string: alloc
+0x0000E774	0x00000014	[  5] literal string: IOServiceFirstMatch
+0x0000E788	0x0000000C	[  5] literal string: IOUSBDevice
+0x0000E794	0x00000013	[  5] literal string: IOServiceTerminate
+0x0000E7A7	0x0000002B	[  5] literal string: countByEnumeratingWithState:objects:count:
+0x0000E7D2	0x00000006	[  5] literal string: count
+0x0000E7D8	0x0000000F	[  5] literal string: objectAtIndex:
+0x0000E7E7	0x0000000C	[  5] literal string: IOHIDDevice
+0x0000E7F3	0x00000010	[  5] literal string: ControllerClass
+0x0000E803	0x00000017	[  5] literal string: Xbox360ControllerClass
+0x0000E81A	0x00000009	[  5] literal string: idVendor
+0x0000E823	0x00000009	[  5] literal string: intValue
+0x0000E82C	0x0000000A	[  5] literal string: idProduct
+0x0000E836	0x00000009	[  5] literal string: NSNumber
+0x0000E83F	0x00000017	[  5] literal string: numberWithUnsignedInt:
+0x0000E856	0x00000011	[  5] literal string: USB Product Name
+0x0000E867	0x00000009	[  5] literal string: NSString
+0x0000E870	0x00000012	[  5] literal string: Unknown_%.4x_%.4x
+0x0000E882	0x00000012	[  5] literal string: stringWithFormat:
+0x0000E894	0x00000013	[  5] literal string: controllerWithHid:
+0x0000E8A7	0x0000000B	[  5] literal string: addObject:
+0x0000E8B2	0x0000000F	[  5] literal string: indexOfObject:
+0x0000E8C1	0x00000015	[  5] literal string: NSNotificationCenter
+0x0000E8D6	0x0000000E	[  5] literal string: defaultCenter
+0x0000E8E4	0x0000002C	[  5] literal string: Xbox360ControllerManager_ControllersUpdated
+0x0000E910	0x0000001D	[  5] literal string: postNotificationName:object:
+0x0000E92D	0x00000007	[  5] literal string: i8@0:4
+0x0000E934	0x0000000A	[  5] literal string: @12@0:4i8
+0x0000E93E	0x00000012	[  5] literal string: updateControllers
+0x0000E950	0x00000011	[  5] literal string: setAllDelegates:
+0x0000E961	0x0000000C	[  5] literal string: controllers
+0x0000E96D	0x00000012	[  5] literal string: @"NSMutableArray"
+0x0000E97F	0x00000008	[  5] literal string: myTimer
+0x0000E987	0x0000000B	[  5] literal string: @"NSTimer"
+0x0000E992	0x00000005	[  5] literal string: Ti,R
+0x0000E997	0x00000010	[  5] literal string: NSMutableString
+0x0000E9A7	0x00000014	[  5] literal string: stringWithCapacity:
+0x0000E9BB	0x00000007	[  5] literal string: length
+0x0000E9C2	0x00000012	[  5] literal string: characterAtIndex:
+0x0000E9D4	0x00000003	[  5] literal string: %C
+0x0000E9D7	0x0000000E	[  5] literal string: appendFormat:
+0x0000E9E5	0x0000000A	[  5] literal string: IOService
+0x0000E9EF	0x0000000C	[  5] literal string: autorelease
+0x0000E9FB	0x0000000B	[  6] literal string: eglBindAPI
+0x0000EA06	0x00000010	[  6] literal string: eglBindTexImage
+0x0000EA16	0x00000010	[  6] literal string: eglChooseConfig
+0x0000EA26	0x0000000F	[  6] literal string: eglCopyBuffers
+0x0000EA35	0x00000011	[  6] literal string: eglCreateContext
+0x0000EA46	0x00000021	[  6] literal string: eglCreatePbufferFromClientBuffer
+0x0000EA67	0x00000018	[  6] literal string: eglCreatePbufferSurface
+0x0000EA7F	0x00000017	[  6] literal string: eglCreatePixmapSurface
+0x0000EA96	0x00000017	[  6] literal string: eglCreateWindowSurface
+0x0000EAAD	0x00000012	[  6] literal string: eglDestroyContext
+0x0000EABF	0x00000012	[  6] literal string: eglDestroySurface
+0x0000EAD1	0x00000013	[  6] literal string: eglGetConfigAttrib
+0x0000EAE4	0x0000000E	[  6] literal string: eglGetConfigs
+0x0000EAF2	0x00000015	[  6] literal string: eglGetCurrentContext
+0x0000EB07	0x00000015	[  6] literal string: eglGetCurrentDisplay
+0x0000EB1C	0x00000015	[  6] literal string: eglGetCurrentSurface
+0x0000EB31	0x0000000E	[  6] literal string: eglGetDisplay
+0x0000EB3F	0x0000000C	[  6] literal string: eglGetError
+0x0000EB4B	0x00000012	[  6] literal string: eglGetProcAddress
+0x0000EB5D	0x0000000E	[  6] literal string: eglInitialize
+0x0000EB6B	0x0000000F	[  6] literal string: eglMakeCurrent
+0x0000EB7A	0x0000000C	[  6] literal string: eglQueryAPI
+0x0000EB86	0x00000010	[  6] literal string: eglQueryContext
+0x0000EB96	0x0000000F	[  6] literal string: eglQueryString
+0x0000EBA5	0x00000010	[  6] literal string: eglQuerySurface
+0x0000EBB5	0x00000013	[  6] literal string: eglReleaseTexImage
+0x0000EBC8	0x00000011	[  6] literal string: eglReleaseThread
+0x0000EBD9	0x00000011	[  6] literal string: eglSurfaceAttrib
+0x0000EBEA	0x0000000F	[  6] literal string: eglSwapBuffers
+0x0000EBF9	0x00000010	[  6] literal string: eglSwapInterval
+0x0000EC09	0x0000000D	[  6] literal string: eglTerminate
+0x0000EC16	0x0000000E	[  6] literal string: eglWaitClient
+0x0000EC24	0x0000000A	[  6] literal string: eglWaitGL
+0x0000EC2E	0x0000000E	[  6] literal string: eglWaitNative
+0x0000EC3C	0x00000010	[  6] literal string: glActiveTexture
+0x0000EC4C	0x0000000C	[  6] literal string: glAlphaFunc
+0x0000EC58	0x0000000D	[  6] literal string: glAlphaFuncx
+0x0000EC65	0x0000000F	[  6] literal string: glAttachShader
+0x0000EC74	0x00000015	[  6] literal string: glBindAttribLocation
+0x0000EC89	0x0000000D	[  6] literal string: glBindBuffer
+0x0000EC96	0x00000012	[  6] literal string: glBindFramebuffer
+0x0000ECA8	0x00000013	[  6] literal string: glBindRenderbuffer
+0x0000ECBB	0x0000000E	[  6] literal string: glBindTexture
+0x0000ECC9	0x0000000D	[  6] literal string: glBlendColor
+0x0000ECD6	0x00000010	[  6] literal string: glBlendEquation
+0x0000ECE6	0x00000018	[  6] literal string: glBlendEquationSeparate
+0x0000ECFE	0x0000000C	[  6] literal string: glBlendFunc
+0x0000ED0A	0x00000014	[  6] literal string: glBlendFuncSeparate
+0x0000ED1E	0x0000000D	[  6] literal string: glBufferData
+0x0000ED2B	0x00000010	[  6] literal string: glBufferSubData
+0x0000ED3B	0x00000019	[  6] literal string: glCheckFramebufferStatus
+0x0000ED54	0x00000008	[  6] literal string: glClear
+0x0000ED5C	0x0000000D	[  6] literal string: glClearColor
+0x0000ED69	0x0000000E	[  6] literal string: glClearColorx
+0x0000ED77	0x0000000E	[  6] literal string: glClearDepthf
+0x0000ED85	0x0000000E	[  6] literal string: glClearDepthx
+0x0000ED93	0x0000000F	[  6] literal string: glClearStencil
+0x0000EDA2	0x00000016	[  6] literal string: glClientActiveTexture
+0x0000EDB8	0x0000000D	[  6] literal string: glClipPlanef
+0x0000EDC5	0x0000000D	[  6] literal string: glClipPlanex
+0x0000EDD2	0x0000000A	[  6] literal string: glColor4f
+0x0000EDDC	0x0000000B	[  6] literal string: glColor4ub
+0x0000EDE7	0x0000000A	[  6] literal string: glColor4x
+0x0000EDF1	0x0000000C	[  6] literal string: glColorMask
+0x0000EDFD	0x0000000F	[  6] literal string: glColorPointer
+0x0000EE0C	0x00000010	[  6] literal string: glCompileShader
+0x0000EE1C	0x00000017	[  6] literal string: glCompressedTexImage2D
+0x0000EE33	0x0000001A	[  6] literal string: glCompressedTexSubImage2D
+0x0000EE4D	0x00000011	[  6] literal string: glCopyTexImage2D
+0x0000EE5E	0x00000014	[  6] literal string: glCopyTexSubImage2D
+0x0000EE72	0x00000010	[  6] literal string: glCreateProgram
+0x0000EE82	0x0000000F	[  6] literal string: glCreateShader
+0x0000EE91	0x0000000B	[  6] literal string: glCullFace
+0x0000EE9C	0x0000001A	[  6] literal string: glCurrentPaletteMatrixOES
+0x0000EEB6	0x00000010	[  6] literal string: glDeleteBuffers
+0x0000EEC6	0x00000015	[  6] literal string: glDeleteFramebuffers
+0x0000EEDB	0x00000010	[  6] literal string: glDeleteProgram
+0x0000EEEB	0x00000016	[  6] literal string: glDeleteRenderbuffers
+0x0000EF01	0x0000000F	[  6] literal string: glDeleteShader
+0x0000EF10	0x00000011	[  6] literal string: glDeleteTextures
+0x0000EF21	0x0000000C	[  6] literal string: glDepthFunc
+0x0000EF2D	0x0000000C	[  6] literal string: glDepthMask
+0x0000EF39	0x0000000E	[  6] literal string: glDepthRangef
+0x0000EF47	0x0000000E	[  6] literal string: glDepthRangex
+0x0000EF55	0x0000000F	[  6] literal string: glDetachShader
+0x0000EF64	0x0000000A	[  6] literal string: glDisable
+0x0000EF6E	0x00000015	[  6] literal string: glDisableClientState
+0x0000EF83	0x0000001B	[  6] literal string: glDisableVertexAttribArray
+0x0000EF9E	0x0000000D	[  6] literal string: glDrawArrays
+0x0000EFAB	0x0000000F	[  6] literal string: glDrawElements
+0x0000EFBA	0x00000009	[  6] literal string: glEnable
+0x0000EFC3	0x00000014	[  6] literal string: glEnableClientState
+0x0000EFD7	0x0000001A	[  6] literal string: glEnableVertexAttribArray
+0x0000EFF1	0x00000009	[  6] literal string: glFinish
+0x0000EFFA	0x00000008	[  6] literal string: glFlush
+0x0000F002	0x00000007	[  6] literal string: glFogf
+0x0000F009	0x00000008	[  6] literal string: glFogfv
+0x0000F011	0x00000007	[  6] literal string: glFogx
+0x0000F018	0x00000008	[  6] literal string: glFogxv
+0x0000F020	0x0000001A	[  6] literal string: glFramebufferRenderbuffer
+0x0000F03A	0x00000017	[  6] literal string: glFramebufferTexture2D
+0x0000F051	0x0000000C	[  6] literal string: glFrontFace
+0x0000F05D	0x0000000B	[  6] literal string: glFrustumf
+0x0000F068	0x0000000B	[  6] literal string: glFrustumx
+0x0000F073	0x0000000D	[  6] literal string: glGenBuffers
+0x0000F080	0x00000012	[  6] literal string: glGenFramebuffers
+0x0000F092	0x00000013	[  6] literal string: glGenRenderbuffers
+0x0000F0A5	0x0000000E	[  6] literal string: glGenTextures
+0x0000F0B3	0x00000011	[  6] literal string: glGenerateMipmap
+0x0000F0C4	0x00000012	[  6] literal string: glGetActiveAttrib
+0x0000F0D6	0x00000013	[  6] literal string: glGetActiveUniform
+0x0000F0E9	0x00000015	[  6] literal string: glGetAttachedShaders
+0x0000F0FE	0x00000014	[  6] literal string: glGetAttribLocation
+0x0000F112	0x0000000E	[  6] literal string: glGetBooleanv
+0x0000F120	0x00000017	[  6] literal string: glGetBufferParameteriv
+0x0000F137	0x00000010	[  6] literal string: glGetClipPlanef
+0x0000F147	0x00000010	[  6] literal string: glGetClipPlanex
+0x0000F157	0x0000000B	[  6] literal string: glGetError
+0x0000F162	0x0000000C	[  6] literal string: glGetFixedv
+0x0000F16E	0x0000000C	[  6] literal string: glGetFloatv
+0x0000F17A	0x00000026	[  6] literal string: glGetFramebufferAttachmentParameteriv
+0x0000F1A0	0x0000000E	[  6] literal string: glGetIntegerv
+0x0000F1AE	0x0000000D	[  6] literal string: glGetLightfv
+0x0000F1BB	0x0000000D	[  6] literal string: glGetLightxv
+0x0000F1C8	0x00000010	[  6] literal string: glGetMaterialfv
+0x0000F1D8	0x00000010	[  6] literal string: glGetMaterialxv
+0x0000F1E8	0x0000000E	[  6] literal string: glGetPointerv
+0x0000F1F6	0x00000014	[  6] literal string: glGetProgramInfoLog
+0x0000F20A	0x0000000F	[  6] literal string: glGetProgramiv
+0x0000F219	0x0000001D	[  6] literal string: glGetRenderbufferParameteriv
+0x0000F236	0x00000013	[  6] literal string: glGetShaderInfoLog
+0x0000F249	0x0000001B	[  6] literal string: glGetShaderPrecisionFormat
+0x0000F264	0x00000012	[  6] literal string: glGetShaderSource
+0x0000F276	0x0000000E	[  6] literal string: glGetShaderiv
+0x0000F284	0x0000000C	[  6] literal string: glGetString
+0x0000F290	0x0000000E	[  6] literal string: glGetTexEnvfv
+0x0000F29E	0x0000000E	[  6] literal string: glGetTexEnviv
+0x0000F2AC	0x0000000E	[  6] literal string: glGetTexEnvxv
+0x0000F2BA	0x00000014	[  6] literal string: glGetTexParameterfv
+0x0000F2CE	0x00000014	[  6] literal string: glGetTexParameteriv
+0x0000F2E2	0x00000014	[  6] literal string: glGetTexParameterxv
+0x0000F2F6	0x00000015	[  6] literal string: glGetUniformLocation
+0x0000F30B	0x0000000F	[  6] literal string: glGetUniformfv
+0x0000F31A	0x0000000F	[  6] literal string: glGetUniformiv
+0x0000F329	0x0000001A	[  6] literal string: glGetVertexAttribPointerv
+0x0000F343	0x00000014	[  6] literal string: glGetVertexAttribfv
+0x0000F357	0x00000014	[  6] literal string: glGetVertexAttribiv
+0x0000F36B	0x00000007	[  6] literal string: glHint
+0x0000F372	0x0000000B	[  6] literal string: glIsBuffer
+0x0000F37D	0x0000000C	[  6] literal string: glIsEnabled
+0x0000F389	0x00000010	[  6] literal string: glIsFramebuffer
+0x0000F399	0x0000000C	[  6] literal string: glIsProgram
+0x0000F3A5	0x00000011	[  6] literal string: glIsRenderbuffer
+0x0000F3B6	0x0000000B	[  6] literal string: glIsShader
+0x0000F3C1	0x0000000C	[  6] literal string: glIsTexture
+0x0000F3CD	0x0000000E	[  6] literal string: glLightModelf
+0x0000F3DB	0x0000000F	[  6] literal string: glLightModelfv
+0x0000F3EA	0x0000000E	[  6] literal string: glLightModelx
+0x0000F3F8	0x0000000F	[  6] literal string: glLightModelxv
+0x0000F407	0x00000009	[  6] literal string: glLightf
+0x0000F410	0x0000000A	[  6] literal string: glLightfv
+0x0000F41A	0x00000009	[  6] literal string: glLightx
+0x0000F423	0x0000000A	[  6] literal string: glLightxv
+0x0000F42D	0x0000000C	[  6] literal string: glLineWidth
+0x0000F439	0x0000000D	[  6] literal string: glLineWidthx
+0x0000F446	0x0000000E	[  6] literal string: glLinkProgram
+0x0000F454	0x0000000F	[  6] literal string: glLoadIdentity
+0x0000F463	0x0000000E	[  6] literal string: glLoadMatrixf
+0x0000F471	0x0000000E	[  6] literal string: glLoadMatrixx
+0x0000F47F	0x0000000A	[  6] literal string: glLogicOp
+0x0000F489	0x0000000C	[  6] literal string: glMaterialf
+0x0000F495	0x0000000D	[  6] literal string: glMaterialfv
+0x0000F4A2	0x0000000C	[  6] literal string: glMaterialx
+0x0000F4AE	0x0000000D	[  6] literal string: glMaterialxv
+0x0000F4BB	0x00000018	[  6] literal string: glMatrixIndexPointerOES
+0x0000F4D3	0x0000000D	[  6] literal string: glMatrixMode
+0x0000F4E0	0x0000000E	[  6] literal string: glMultMatrixf
+0x0000F4EE	0x0000000E	[  6] literal string: glMultMatrixx
+0x0000F4FC	0x00000012	[  6] literal string: glMultiTexCoord4f
+0x0000F50E	0x00000012	[  6] literal string: glMultiTexCoord4x
+0x0000F520	0x0000000B	[  6] literal string: glNormal3f
+0x0000F52B	0x0000000B	[  6] literal string: glNormal3x
+0x0000F536	0x00000010	[  6] literal string: glNormalPointer
+0x0000F546	0x00000009	[  6] literal string: glOrthof
+0x0000F54F	0x00000009	[  6] literal string: glOrthox
+0x0000F558	0x0000000E	[  6] literal string: glPixelStorei
+0x0000F566	0x00000012	[  6] literal string: glPointParameterf
+0x0000F578	0x00000013	[  6] literal string: glPointParameterfv
+0x0000F58B	0x00000012	[  6] literal string: glPointParameterx
+0x0000F59D	0x00000013	[  6] literal string: glPointParameterxv
+0x0000F5B0	0x0000000C	[  6] literal string: glPointSize
+0x0000F5BC	0x00000016	[  6] literal string: glPointSizePointerOES
+0x0000F5D2	0x0000000D	[  6] literal string: glPointSizex
+0x0000F5DF	0x00000010	[  6] literal string: glPolygonOffset
+0x0000F5EF	0x00000011	[  6] literal string: glPolygonOffsetx
+0x0000F600	0x0000000C	[  6] literal string: glPopMatrix
+0x0000F60C	0x0000000D	[  6] literal string: glPushMatrix
+0x0000F619	0x0000000D	[  6] literal string: glReadPixels
+0x0000F626	0x00000018	[  6] literal string: glReleaseShaderCompiler
+0x0000F63E	0x00000016	[  6] literal string: glRenderbufferStorage
+0x0000F654	0x0000000A	[  6] literal string: glRotatef
+0x0000F65E	0x0000000A	[  6] literal string: glRotatex
+0x0000F668	0x00000011	[  6] literal string: glSampleCoverage
+0x0000F679	0x00000012	[  6] literal string: glSampleCoveragex
+0x0000F68B	0x00000009	[  6] literal string: glScalef
+0x0000F694	0x00000009	[  6] literal string: glScalex
+0x0000F69D	0x0000000A	[  6] literal string: glScissor
+0x0000F6A7	0x0000000D	[  6] literal string: glShadeModel
+0x0000F6B4	0x0000000F	[  6] literal string: glShaderBinary
+0x0000F6C3	0x0000000F	[  6] literal string: glShaderSource
+0x0000F6D2	0x0000000E	[  6] literal string: glStencilFunc
+0x0000F6E0	0x00000016	[  6] literal string: glStencilFuncSeparate
+0x0000F6F6	0x0000000E	[  6] literal string: glStencilMask
+0x0000F704	0x00000016	[  6] literal string: glStencilMaskSeparate
+0x0000F71A	0x0000000C	[  6] literal string: glStencilOp
+0x0000F726	0x00000014	[  6] literal string: glStencilOpSeparate
+0x0000F73A	0x00000012	[  6] literal string: glTexCoordPointer
+0x0000F74C	0x0000000A	[  6] literal string: glTexEnvf
+0x0000F756	0x0000000B	[  6] literal string: glTexEnvfv
+0x0000F761	0x0000000A	[  6] literal string: glTexEnvi
+0x0000F76B	0x0000000B	[  6] literal string: glTexEnviv
+0x0000F776	0x0000000A	[  6] literal string: glTexEnvx
+0x0000F780	0x0000000B	[  6] literal string: glTexEnvxv
+0x0000F78B	0x0000000D	[  6] literal string: glTexImage2D
+0x0000F798	0x00000010	[  6] literal string: glTexParameterf
+0x0000F7A8	0x00000011	[  6] literal string: glTexParameterfv
+0x0000F7B9	0x00000010	[  6] literal string: glTexParameteri
+0x0000F7C9	0x00000011	[  6] literal string: glTexParameteriv
+0x0000F7DA	0x00000010	[  6] literal string: glTexParameterx
+0x0000F7EA	0x00000011	[  6] literal string: glTexParameterxv
+0x0000F7FB	0x00000010	[  6] literal string: glTexSubImage2D
+0x0000F80B	0x0000000D	[  6] literal string: glTranslatef
+0x0000F818	0x0000000D	[  6] literal string: glTranslatex
+0x0000F825	0x0000000C	[  6] literal string: glUniform1f
+0x0000F831	0x0000000D	[  6] literal string: glUniform1fv
+0x0000F83E	0x0000000C	[  6] literal string: glUniform1i
+0x0000F84A	0x0000000D	[  6] literal string: glUniform1iv
+0x0000F857	0x0000000C	[  6] literal string: glUniform2f
+0x0000F863	0x0000000D	[  6] literal string: glUniform2fv
+0x0000F870	0x0000000C	[  6] literal string: glUniform2i
+0x0000F87C	0x0000000D	[  6] literal string: glUniform2iv
+0x0000F889	0x0000000C	[  6] literal string: glUniform3f
+0x0000F895	0x0000000D	[  6] literal string: glUniform3fv
+0x0000F8A2	0x0000000C	[  6] literal string: glUniform3i
+0x0000F8AE	0x0000000D	[  6] literal string: glUniform3iv
+0x0000F8BB	0x0000000C	[  6] literal string: glUniform4f
+0x0000F8C7	0x0000000D	[  6] literal string: glUniform4fv
+0x0000F8D4	0x0000000C	[  6] literal string: glUniform4i
+0x0000F8E0	0x0000000D	[  6] literal string: glUniform4iv
+0x0000F8ED	0x00000013	[  6] literal string: glUniformMatrix2fv
+0x0000F900	0x00000013	[  6] literal string: glUniformMatrix3fv
+0x0000F913	0x00000013	[  6] literal string: glUniformMatrix4fv
+0x0000F926	0x0000000D	[  6] literal string: glUseProgram
+0x0000F933	0x00000012	[  6] literal string: glValidateProgram
+0x0000F945	0x00000011	[  6] literal string: glVertexAttrib1f
+0x0000F956	0x00000012	[  6] literal string: glVertexAttrib1fv
+0x0000F968	0x00000011	[  6] literal string: glVertexAttrib2f
+0x0000F979	0x00000012	[  6] literal string: glVertexAttrib2fv
+0x0000F98B	0x00000011	[  6] literal string: glVertexAttrib3f
+0x0000F99C	0x00000012	[  6] literal string: glVertexAttrib3fv
+0x0000F9AE	0x00000011	[  6] literal string: glVertexAttrib4f
+0x0000F9BF	0x00000012	[  6] literal string: glVertexAttrib4fv
+0x0000F9D1	0x00000016	[  6] literal string: glVertexAttribPointer
+0x0000F9E7	0x00000010	[  6] literal string: glVertexPointer
+0x0000F9F7	0x0000000B	[  6] literal string: glViewport
+0x0000FA02	0x00000013	[  6] literal string: glWeightPointerOES
+0x0000FA15	0x00000019	[  6] literal string: s3eAccelerometerGetError
+0x0000FA2E	0x0000001F	[  6] literal string: s3eAccelerometerGetErrorString
+0x0000FA4D	0x00000017	[  6] literal string: s3eAccelerometerGetInt
+0x0000FA64	0x00000015	[  6] literal string: s3eAccelerometerGetX
+0x0000FA79	0x00000015	[  6] literal string: s3eAccelerometerGetY
+0x0000FA8E	0x00000015	[  6] literal string: s3eAccelerometerGetZ
+0x0000FAA3	0x00000016	[  6] literal string: s3eAccelerometerStart
+0x0000FAB9	0x00000015	[  6] literal string: s3eAccelerometerStop
+0x0000FACE	0x00000011	[  6] literal string: s3eAudioGetError
+0x0000FADF	0x00000017	[  6] literal string: s3eAudioGetErrorString
+0x0000FAF6	0x0000000F	[  6] literal string: s3eAudioGetInt
+0x0000FB05	0x00000019	[  6] literal string: s3eAudioIsCodecSupported
+0x0000FB1E	0x00000012	[  6] literal string: s3eAudioIsPlaying
+0x0000FB30	0x0000000E	[  6] literal string: s3eAudioPause
+0x0000FB3E	0x0000000D	[  6] literal string: s3eAudioPlay
+0x0000FB4B	0x00000017	[  6] literal string: s3eAudioPlayFromBuffer
+0x0000FB62	0x00000011	[  6] literal string: s3eAudioRegister
+0x0000FB73	0x0000000F	[  6] literal string: s3eAudioResume
+0x0000FB82	0x0000000F	[  6] literal string: s3eAudioSetInt
+0x0000FB91	0x0000000D	[  6] literal string: s3eAudioStop
+0x0000FB9E	0x00000013	[  6] literal string: s3eAudioUnRegister
+0x0000FBB1	0x00000015	[  6] literal string: s3eCompressionDecomp
+0x0000FBC6	0x0000001A	[  6] literal string: s3eCompressionDecompFinal
+0x0000FBE0	0x00000019	[  6] literal string: s3eCompressionDecompInit
+0x0000FBF9	0x00000019	[  6] literal string: s3eCompressionDecompRead
+0x0000FC12	0x00000017	[  6] literal string: s3eCompressionGetError
+0x0000FC29	0x0000001D	[  6] literal string: s3eCompressionGetErrorString
+0x0000FC46	0x00000012	[  6] literal string: s3eConfigGetError
+0x0000FC58	0x00000018	[  6] literal string: s3eConfigGetErrorString
+0x0000FC70	0x00000010	[  6] literal string: s3eConfigGetInt
+0x0000FC80	0x00000014	[  6] literal string: s3eConfigGetIntHash
+0x0000FC94	0x00000013	[  6] literal string: s3eConfigGetString
+0x0000FCA7	0x00000017	[  6] literal string: s3eConfigGetStringHash
+0x0000FCBE	0x00000012	[  6] literal string: s3eCryptoGetError
+0x0000FCD0	0x00000018	[  6] literal string: s3eCryptoGetErrorString
+0x0000FCE8	0x0000000E	[  6] literal string: s3eCryptoRand
+0x0000FCF6	0x0000000E	[  6] literal string: s3eCryptoSha1
+0x0000FD04	0x00000013	[  6] literal string: s3eCryptoSha1Final
+0x0000FD17	0x00000012	[  6] literal string: s3eCryptoSha1Init
+0x0000FD29	0x00000014	[  6] literal string: s3eCryptoSha1Update
+0x0000FD3D	0x00000013	[  6] literal string: s3eCryptoVerifyRsa
+0x0000FD50	0x00000013	[  6] literal string: s3eDebugAssertShow
+0x0000FD63	0x00000012	[  6] literal string: s3eDebugErrorShow
+0x0000FD75	0x00000011	[  6] literal string: s3eDebugGetError
+0x0000FD86	0x00000017	[  6] literal string: s3eDebugGetErrorString
+0x0000FD9D	0x0000000F	[  6] literal string: s3eDebugGetInt
+0x0000FDAC	0x0000001A	[  6] literal string: s3eDebugIsDebuggerPresent
+0x0000FDC6	0x00000015	[  6] literal string: s3eDebugOutputString
+0x0000FDDB	0x0000000E	[  6] literal string: s3eDebugPrint
+0x0000FDE9	0x00000011	[  6] literal string: s3eDebugRegister
+0x0000FDFA	0x0000000F	[  6] literal string: s3eDebugSetInt
+0x0000FE09	0x0000001B	[  6] literal string: s3eDebugTraceChannelSwitch
+0x0000FE24	0x00000017	[  6] literal string: s3eDebugTraceClearFile
+0x0000FE3B	0x00000013	[  6] literal string: s3eDebugTraceFlush
+0x0000FE4E	0x00000012	[  6] literal string: s3eDebugTraceLine
+0x0000FE60	0x00000013	[  6] literal string: s3eDebugUnRegister
+0x0000FE73	0x00000015	[  6] literal string: s3eDeviceBacklightOn
+0x0000FE88	0x0000001B	[  6] literal string: s3eDeviceCheckPauseRequest
+0x0000FEA3	0x0000001A	[  6] literal string: s3eDeviceCheckQuitRequest
+0x0000FEBD	0x00000016	[  6] literal string: s3eDeviceExecPushNext
+0x0000FED3	0x0000000E	[  6] literal string: s3eDeviceExit
+0x0000FEE1	0x00000012	[  6] literal string: s3eDeviceGetError
+0x0000FEF3	0x00000018	[  6] literal string: s3eDeviceGetErrorString
+0x0000FF0B	0x00000010	[  6] literal string: s3eDeviceGetInt
+0x0000FF1B	0x00000013	[  6] literal string: s3eDeviceGetString
+0x0000FF2E	0x00000018	[  6] literal string: s3eDeviceLoaderCallDone
+0x0000FF46	0x00000019	[  6] literal string: s3eDeviceLoaderCallStart
+0x0000FF5F	0x0000001B	[  6] literal string: s3eDeviceNetworkCheckStart
+0x0000FF7A	0x0000001A	[  6] literal string: s3eDeviceNetworkCheckStop
+0x0000FF94	0x00000012	[  6] literal string: s3eDeviceRegister
+0x0000FFA6	0x00000015	[  6] literal string: s3eDeviceRequestQuit
+0x0000FFBB	0x00000010	[  6] literal string: s3eDeviceSetInt
+0x0000FFCB	0x00000014	[  6] literal string: s3eDeviceUnRegister
+0x0000FFDF	0x00000011	[  6] literal string: s3eDeviceUnYield
+0x0000FFF0	0x0000000F	[  6] literal string: s3eDeviceYield
+0x0000FFFF	0x00000019	[  6] literal string: s3eDeviceYieldUntilEvent
+0x00010018	0x0000000A	[  6] literal string: s3eExtGet
+0x00010022	0x0000000F	[  6] literal string: s3eExtGetError
+0x00010031	0x00000015	[  6] literal string: s3eExtGetErrorString
+0x00010046	0x0000000E	[  6] literal string: s3eExtGetHash
+0x00010054	0x00000016	[  6] literal string: s3eFileAddUserFileSys
+0x0001006A	0x00000013	[  6] literal string: s3eFileCheckExists
+0x0001007D	0x0000000D	[  6] literal string: s3eFileClose
+0x0001008A	0x0000000E	[  6] literal string: s3eFileDelete
+0x00010098	0x00000017	[  6] literal string: s3eFileDeleteDirectory
+0x000100AF	0x0000000B	[  6] literal string: s3eFileEOF
+0x000100BA	0x0000000D	[  6] literal string: s3eFileFlush
+0x000100C7	0x0000000F	[  6] literal string: s3eFileGetChar
+0x000100D6	0x00000010	[  6] literal string: s3eFileGetError
+0x000100E6	0x00000016	[  6] literal string: s3eFileGetErrorString
+0x000100FC	0x00000012	[  6] literal string: s3eFileGetFileInt
+0x0001010E	0x00000015	[  6] literal string: s3eFileGetFileString
+0x00010123	0x0000000F	[  6] literal string: s3eFileGetFree
+0x00010132	0x0000000E	[  6] literal string: s3eFileGetInt
+0x00010140	0x00000018	[  6] literal string: s3eFileGetLastWriteTime
+0x00010158	0x0000000F	[  6] literal string: s3eFileGetSize
+0x00010167	0x00000011	[  6] literal string: s3eFileListClose
+0x00010178	0x00000015	[  6] literal string: s3eFileListDirectory
+0x0001018D	0x00000010	[  6] literal string: s3eFileListNext
+0x0001019D	0x00000015	[  6] literal string: s3eFileMakeDirectory
+0x000101B2	0x0000000C	[  6] literal string: s3eFileOpen
+0x000101BE	0x00000016	[  6] literal string: s3eFileOpenFromMemory
+0x000101D4	0x0000000F	[  6] literal string: s3eFilePutChar
+0x000101E3	0x0000000C	[  6] literal string: s3eFileRead
+0x000101EF	0x00000012	[  6] literal string: s3eFileReadString
+0x00010201	0x00000019	[  6] literal string: s3eFileRemoveUserFileSys
+0x0001021A	0x0000000E	[  6] literal string: s3eFileRename
+0x00010228	0x0000000C	[  6] literal string: s3eFileSeek
+0x00010234	0x0000000E	[  6] literal string: s3eFileSetInt
+0x00010242	0x0000000C	[  6] literal string: s3eFileTell
+0x0001024E	0x00000010	[  6] literal string: s3eFileTruncate
+0x0001025E	0x0000000D	[  6] literal string: s3eFileWrite
+0x0001026B	0x00000008	[  6] literal string: s3eFree
+0x00010273	0x0000000C	[  6] literal string: s3eFreeBase
+0x0001027F	0x0000000E	[  6] literal string: s3eGLGetError
+0x0001028D	0x00000014	[  6] literal string: s3eGLGetErrorString
+0x000102A1	0x0000000C	[  6] literal string: s3eGLGetInt
+0x000102AD	0x00000015	[  6] literal string: s3eGLGetNativeWindow
+0x000102C2	0x0000000E	[  6] literal string: s3eGLRegister
+0x000102D0	0x00000010	[  6] literal string: s3eGLUnRegister
+0x000102E0	0x00000011	[  6] literal string: s3eGLUnavailable
+0x000102F1	0x0000000C	[  6] literal string: s3eInetAton
+0x000102FD	0x0000000D	[  6] literal string: s3eInetHtonl
+0x0001030A	0x0000000D	[  6] literal string: s3eInetHtons
+0x00010317	0x0000000E	[  6] literal string: s3eInetLookup
+0x00010325	0x00000014	[  6] literal string: s3eInetLookupCancel
+0x00010339	0x0000000C	[  6] literal string: s3eInetNtoa
+0x00010345	0x0000000D	[  6] literal string: s3eInetNtohl
+0x00010352	0x0000000D	[  6] literal string: s3eInetNtohs
+0x0001035F	0x00000010	[  6] literal string: s3eInetToString
+0x0001036F	0x00000012	[  6] literal string: s3eKeyboardAnyKey
+0x00010381	0x00000016	[  6] literal string: s3eKeyboardClearState
+0x00010397	0x00000013	[  6] literal string: s3eKeyboardGetChar
+0x000103AA	0x0000001A	[  6] literal string: s3eKeyboardGetDisplayName
+0x000103C4	0x00000014	[  6] literal string: s3eKeyboardGetError
+0x000103D8	0x0000001A	[  6] literal string: s3eKeyboardGetErrorString
+0x000103F2	0x00000012	[  6] literal string: s3eKeyboardGetInt
+0x00010404	0x00000014	[  6] literal string: s3eKeyboardGetState
+0x00010418	0x00000014	[  6] literal string: s3eKeyboardRegister
+0x0001042C	0x00000012	[  6] literal string: s3eKeyboardSetInt
+0x0001043E	0x00000016	[  6] literal string: s3eKeyboardUnRegister
+0x00010454	0x00000012	[  6] literal string: s3eKeyboardUpdate
+0x00010466	0x0000000E	[  6] literal string: s3eLicenseBuy
+0x00010474	0x00000013	[  6] literal string: s3eLicenseGetError
+0x00010487	0x00000019	[  6] literal string: s3eLicenseGetErrorString
+0x000104A0	0x00000011	[  6] literal string: s3eLicenseGetInt
+0x000104B1	0x0000000A	[  6] literal string: s3eMalloc
+0x000104BB	0x0000000E	[  6] literal string: s3eMallocBase
+0x000104C9	0x00000012	[  6] literal string: s3eMemoryGetError
+0x000104DB	0x00000018	[  6] literal string: s3eMemoryGetErrorString
+0x000104F3	0x00000010	[  6] literal string: s3eMemoryGetInt
+0x00010503	0x00000017	[  6] literal string: s3eMemoryGetUserMemMgr
+0x0001051A	0x00000015	[  6] literal string: s3eMemoryHeapAddress
+0x0001052F	0x00000014	[  6] literal string: s3eMemoryHeapCreate
+0x00010543	0x00000015	[  6] literal string: s3eMemoryHeapDestroy
+0x00010558	0x00000010	[  6] literal string: s3eMemorySetInt
+0x00010568	0x00000017	[  6] literal string: s3eMemorySetUserMemMgr
+0x0001057F	0x00000013	[  6] literal string: s3ePointerGetError
+0x00010592	0x00000019	[  6] literal string: s3ePointerGetErrorString
+0x000105AB	0x00000011	[  6] literal string: s3ePointerGetInt
+0x000105BC	0x00000013	[  6] literal string: s3ePointerGetState
+0x000105CF	0x00000018	[  6] literal string: s3ePointerGetTouchState
+0x000105E7	0x00000014	[  6] literal string: s3ePointerGetTouchX
+0x000105FB	0x00000014	[  6] literal string: s3ePointerGetTouchY
+0x0001060F	0x0000000F	[  6] literal string: s3ePointerGetX
+0x0001061E	0x0000000F	[  6] literal string: s3ePointerGetY
+0x0001062D	0x00000013	[  6] literal string: s3ePointerRegister
+0x00010640	0x00000011	[  6] literal string: s3ePointerSetInt
+0x00010651	0x00000015	[  6] literal string: s3ePointerUnRegister
+0x00010666	0x00000011	[  6] literal string: s3ePointerUpdate
+0x00010677	0x0000000B	[  6] literal string: s3eRealloc
+0x00010682	0x0000000F	[  6] literal string: s3eReallocBase
+0x00010691	0x00000014	[  6] literal string: s3eSecureStorageGet
+0x000106A5	0x00000019	[  6] literal string: s3eSecureStorageGetError
+0x000106BE	0x0000001F	[  6] literal string: s3eSecureStorageGetErrorString
+0x000106DD	0x00000014	[  6] literal string: s3eSecureStoragePut
+0x000106F1	0x00000010	[  6] literal string: s3eSocketAccept
+0x00010701	0x0000000E	[  6] literal string: s3eSocketBind
+0x0001070F	0x0000000F	[  6] literal string: s3eSocketClose
+0x0001071E	0x00000011	[  6] literal string: s3eSocketConnect
+0x0001072F	0x00000010	[  6] literal string: s3eSocketCreate
+0x0001073F	0x00000012	[  6] literal string: s3eSocketGetError
+0x00010751	0x00000018	[  6] literal string: s3eSocketGetErrorString
+0x00010769	0x00000010	[  6] literal string: s3eSocketGetInt
+0x00010779	0x00000016	[  6] literal string: s3eSocketGetLocalName
+0x0001078F	0x00000015	[  6] literal string: s3eSocketGetPeerName
+0x000107A4	0x00000013	[  6] literal string: s3eSocketGetString
+0x000107B7	0x00000010	[  6] literal string: s3eSocketListen
+0x000107C7	0x00000012	[  6] literal string: s3eSocketReadable
+0x000107D9	0x0000000E	[  6] literal string: s3eSocketRecv
+0x000107E7	0x00000012	[  6] literal string: s3eSocketRecvFrom
+0x000107F9	0x0000000E	[  6] literal string: s3eSocketSend
+0x00010807	0x00000010	[  6] literal string: s3eSocketSendTo
+0x00010817	0x00000012	[  6] literal string: s3eSocketWritable
+0x00010829	0x00000016	[  6] literal string: s3eSoundChannelGetInt
+0x0001083F	0x00000015	[  6] literal string: s3eSoundChannelPause
+0x00010854	0x00000014	[  6] literal string: s3eSoundChannelPlay
+0x00010868	0x00000018	[  6] literal string: s3eSoundChannelRegister
+0x00010880	0x00000016	[  6] literal string: s3eSoundChannelResume
+0x00010896	0x00000016	[  6] literal string: s3eSoundChannelSetInt
+0x000108AC	0x00000014	[  6] literal string: s3eSoundChannelStop
+0x000108C0	0x0000001A	[  6] literal string: s3eSoundChannelUnRegister
+0x000108DA	0x00000011	[  6] literal string: s3eSoundGetError
+0x000108EB	0x00000017	[  6] literal string: s3eSoundGetErrorString
+0x00010902	0x00000017	[  6] literal string: s3eSoundGetFreeChannel
+0x00010919	0x0000000F	[  6] literal string: s3eSoundGetInt
+0x00010928	0x00000019	[  6] literal string: s3eSoundPauseAllChannels
+0x00010941	0x0000001A	[  6] literal string: s3eSoundResumeAllChannels
+0x0001095B	0x0000000F	[  6] literal string: s3eSoundSetInt
+0x0001096A	0x00000018	[  6] literal string: s3eSoundStopAllChannels
+0x00010982	0x00000015	[  6] literal string: s3eSurfaceConvertRGB
+0x00010997	0x00000013	[  6] literal string: s3eSurfaceGetError
+0x000109AA	0x00000019	[  6] literal string: s3eSurfaceGetErrorString
+0x000109C3	0x00000011	[  6] literal string: s3eSurfaceGetInt
+0x000109D4	0x00000015	[  6] literal string: s3eSurfaceInvalidate
+0x000109E9	0x0000000E	[  6] literal string: s3eSurfacePtr
+0x000109F7	0x00000013	[  6] literal string: s3eSurfaceRegister
+0x00010A0A	0x00000017	[  6] literal string: s3eSurfaceSetDisplayID
+0x00010A21	0x00000011	[  6] literal string: s3eSurfaceSetInt
+0x00010A32	0x00000010	[  6] literal string: s3eSurfaceSetup
+0x00010A42	0x0000000F	[  6] literal string: s3eSurfaceShow
+0x00010A51	0x00000015	[  6] literal string: s3eSurfaceUnRegister
+0x00010A66	0x00000014	[  6] literal string: s3eTimerCancelTimer
+0x00010A7A	0x00000011	[  6] literal string: s3eTimerGetError
+0x00010A8B	0x00000017	[  6] literal string: s3eTimerGetErrorString
+0x00010AA2	0x0000000F	[  6] literal string: s3eTimerGetInt
+0x00010AB1	0x0000001B	[  6] literal string: s3eTimerGetLocaltimeOffset
+0x00010ACC	0x0000000E	[  6] literal string: s3eTimerGetMs
+0x00010ADA	0x0000000F	[  6] literal string: s3eTimerGetUST
+0x00010AE9	0x0000000F	[  6] literal string: s3eTimerGetUTC
+0x00010AF8	0x00000011	[  6] literal string: s3eTimerSetTimer
+0x00010B09	0x00000011	[  6] literal string: s3eVibraGetError
+0x00010B1A	0x00000017	[  6] literal string: s3eVibraGetErrorString
+0x00010B31	0x0000000F	[  6] literal string: s3eVibraGetInt
+0x00010B40	0x0000000F	[  6] literal string: s3eVibraSetInt
+0x00010B4F	0x0000000D	[  6] literal string: s3eVibraStop
+0x00010B5C	0x00000010	[  6] literal string: s3eVibraVibrate
+0x00010B6C	0x00000011	[  6] literal string: s3eVideoGetError
+0x00010B7D	0x00000017	[  6] literal string: s3eVideoGetErrorString
+0x00010B94	0x0000000F	[  6] literal string: s3eVideoGetInt
+0x00010BA3	0x00000019	[  6] literal string: s3eVideoIsCodecSupported
+0x00010BBC	0x00000012	[  6] literal string: s3eVideoIsPlaying
+0x00010BCE	0x0000000E	[  6] literal string: s3eVideoPause
+0x00010BDC	0x0000000D	[  6] literal string: s3eVideoPlay
+0x00010BE9	0x00000017	[  6] literal string: s3eVideoPlayFromBuffer
+0x00010C00	0x00000011	[  6] literal string: s3eVideoRegister
+0x00010C11	0x0000000F	[  6] literal string: s3eVideoResume
+0x00010C20	0x0000000F	[  6] literal string: s3eVideoSetInt
+0x00010C2F	0x0000000D	[  6] literal string: s3eVideoStop
+0x00010C3C	0x00000013	[  6] literal string: s3eVideoUnRegister
+0x00010C4F	0x00000017	[  6] literal string: s3eEdkCallbacksEnqueue
+0x00010C66	0x0000001C	[  6] literal string: s3eEdkCallbacksIsRegistered
+0x00010C82	0x00000018	[  6] literal string: s3eEdkCallbacksRegister
+0x00010C9A	0x00000020	[  6] literal string: s3eEdkCallbacksRegisterInternal
+0x00010CBA	0x00000020	[  6] literal string: s3eEdkCallbacksRegisterSpecific
+0x00010CDA	0x0000001A	[  6] literal string: s3eEdkCallbacksUnRegister
+0x00010CF4	0x00000020	[  6] literal string: s3eEdkCallbacksUnRegisterDevice
+0x00010D14	0x0000000F	[  6] literal string: s3eEdkErrorGet
+0x00010D23	0x00000015	[  6] literal string: s3eEdkErrorGetString
+0x00010D38	0x0000000F	[  6] literal string: s3eEdkErrorSet
+0x00010D47	0x00000016	[  6] literal string: s3eEdkErrorSetStringV
+0x00010D5D	0x0000000D	[  6] literal string: s3eEdkFreeOS
+0x00010D6A	0x00000019	[  6] literal string: s3eEdkGetAppVersionMajor
+0x00010D83	0x00000019	[  6] literal string: s3eEdkGetAppVersionMinor
+0x00010D9C	0x00000011	[  6] literal string: s3eEdkGlobalsGet
+0x00010DAD	0x00000014	[  6] literal string: s3eEdkIsInitialised
+0x00010DC1	0x00000013	[  6] literal string: s3eEdkLibraryClose
+0x00010DD4	0x00000013	[  6] literal string: s3eEdkLibraryError
+0x00010DE7	0x00000017	[  6] literal string: s3eEdkLibraryGetSymbol
+0x00010DFE	0x00000012	[  6] literal string: s3eEdkLibraryOpen
+0x00010E10	0x0000000F	[  6] literal string: s3eEdkMallocOS
+0x00010E1F	0x00000010	[  6] literal string: s3eEdkReallocOS
+0x00010E2F	0x0000000F	[  6] literal string: s3eEdkRegister
+0x00010E3E	0x0000001A	[  6] literal string: s3eEdkThreadRunOnOSAsyncV
+0x00010E58	0x00000015	[  6] literal string: s3eEdkThreadRunOnOSV
+0x00010E6D	0x00000017	[  6] literal string: s3eEdkThreadSetResumed
+0x00010E84	0x00000019	[  6] literal string: s3eEdkThreadSetSuspended
+0x00010E9D	0x00000012	[  6] literal string: s3eEdkThreadSleep
+0x00010EAF	0x00000014	[  6] literal string: s3eEdkSDLSetWebView
+0x00010EC3	0x00000002	[  6] literal string: 
+
+0x00010EC5	0x00000060	[  6] literal string: Warning: Couldn't bind the following functions (not exported by the loader). Crash is likely.:
+
+0x00010F30	0x00000004	[  4] 4-byte-literal
+0x00010F34	0x00000004	[  4] 4-byte-literal
+0x00010F38	0x00000004	[  4] 4-byte-literal
+0x00010F40	0x00000010	[  4] 16-byte-literal
+0x00010F50	0x000000B0	[  0] compact unwind info
+0x00011000	0x00000004	[  0] non-lazy-pointer-to-local: dyld_stub_binder
+0x00011004	0x00000004	[  0] non-lazy-pointer
+0x00011008	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetButtonA
+0x0001100C	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetButtonB
+0x00011010	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetButtonDPadDown
+0x00011014	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetButtonDPadLeft
+0x00011018	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetButtonDPadRight
+0x0001101C	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetButtonDPadUp
+0x00011020	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetButtonLShoulderDown
+0x00011024	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetButtonRShoulderDown
+0x00011028	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetButtonSelect
+0x0001102C	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetButtonStart
+0x00011030	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetButtonX
+0x00011034	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetButtonY
+0x00011038	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetLeftTrigger
+0x0001103C	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetRightTrigger
+0x00011040	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetStick1XAxis
+0x00011044	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetStick1YAxis
+0x00011048	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetStick2XAxis
+0x0001104C	0x00000004	[  2] non-lazy-pointer-to: _GamePad_GetStick2YAxis
+0x00011050	0x00000004	[  2] non-lazy-pointer-to: _GamePad_IsConnected
+0x00011054	0x00000004	[  2] non-lazy-pointer-to: _GamePad_Update
+0x00011058	0x00000004	[  2] non-lazy-pointer-to: __Z11GamePadInitv
+0x0001105C	0x00000004	[  2] non-lazy-pointer-to: __Z16GamePadTerminatev
+0x00011060	0x00000004	[  2] non-lazy-pointer-to: ___stack_chk_guard
+0x00011064	0x00000004	[  3] non-lazy-pointer-to: _kCFRunLoopDefaultMode
+0x00011068	0x00000004	[  4] non-lazy-pointer-to: _kCFRunLoopCommonModes
+0x0001106C	0x00000004	[  4] non-lazy-pointer-to: _mach_task_self_
+0x00011070	0x00000004	[  5] non-lazy-pointer-to: _kCFAllocatorDefault
+0x00011074	0x00000004	[  7] non-lazy-pointer-to: _g_S3E_API
+0x00011078	0x00000004	[  7] _s3eEdkRegister
+0x0001107C	0x00000004	[  9] _FFCreateDevice
+0x00011080	0x00000004	[  9] _FFDeviceEscape
+0x00011084	0x00000004	[  9] _FFReleaseDevice
+0x00011088	0x00000004	[ 10] _IOCreatePlugInInterfaceForService
+0x0001108C	0x00000004	[ 10] _IOIteratorNext
+0x00011090	0x00000004	[ 10] _IOMasterPort
+0x00011094	0x00000004	[ 10] _IONotificationPortCreate
+0x00011098	0x00000004	[ 10] _IONotificationPortDestroy
+0x0001109C	0x00000004	[ 10] _IONotificationPortGetRunLoopSource
+0x000110A0	0x00000004	[ 10] _IOObjectConformsTo
+0x000110A4	0x00000004	[ 10] _IOObjectGetClass
+0x000110A8	0x00000004	[ 10] _IOObjectRelease
+0x000110AC	0x00000004	[ 10] _IORegistryEntryCreateCFProperty
+0x000110B0	0x00000004	[ 10] _IORegistryEntrySearchCFProperty
+0x000110B4	0x00000004	[ 10] _IOServiceAddMatchingNotification
+0x000110B8	0x00000004	[ 10] _IOServiceGetMatchingServices
+0x000110BC	0x00000004	[ 10] _IOServiceMatching
+0x000110C0	0x00000004	[ 11] _NSLog
+0x000110C4	0x00000004	[ 12] _objc_enumerationMutation
+0x000110C8	0x00000004	[ 12] _objc_getProperty
+0x000110CC	0x00000004	[ 12] _objc_msgSend
+0x000110D0	0x00000004	[ 12] _objc_msgSendSuper
+0x000110D4	0x00000004	[ 12] _objc_msgSend_fpret
+0x000110D8	0x00000004	[ 12] _objc_setProperty
+0x000110DC	0x00000004	[ 13] ___stack_chk_fail
+0x000110E0	0x00000004	[ 13] _bzero
+0x000110E4	0x00000004	[ 13] _mach_port_deallocate
+0x000110E8	0x00000004	[ 13] _strcpy
+0x000110EC	0x00000004	[ 13] _strlen
+0x000110F0	0x00000004	[ 13] _strncat
+0x000110F4	0x00000004	[ 14] _CFArrayGetCount
+0x000110F8	0x00000004	[ 14] _CFArrayGetValueAtIndex
+0x000110FC	0x00000004	[ 14] _CFDictionaryGetValue
+0x00011100	0x00000004	[ 14] _CFGetTypeID
+0x00011104	0x00000004	[ 14] _CFNumberGetTypeID
+0x00011108	0x00000004	[ 14] _CFNumberGetValue
+0x0001110C	0x00000004	[ 14] _CFRelease
+0x00011110	0x00000004	[ 14] _CFRunLoopAddSource
+0x00011114	0x00000004	[ 14] _CFRunLoopContainsSource
+0x00011118	0x00000004	[ 14] _CFRunLoopGetCurrent
+0x0001111C	0x00000004	[ 14] _CFRunLoopRemoveSource
+0x00011120	0x00000004	[ 14] _CFRunLoopRunInMode
+0x00011124	0x00000004	[ 14] _CFRunLoopSourceInvalidate
+0x00011128	0x00000004	[ 14] _CFUUIDGetConstantUUIDWithBytes
+0x0001112C	0x00000004	[ 14] _CFUUIDGetUUIDBytes
+0x00011130	0x00000010	[  4] CFString
+0x00011140	0x00000010	[  4] CFString
+0x00011150	0x00000010	[  4] CFString
+0x00011160	0x00000010	[  4] CFString
+0x00011170	0x00000010	[  4] CFString
+0x00011180	0x00000010	[  4] CFString
+0x00011190	0x00000010	[  4] CFString
+0x000111A0	0x00000010	[  4] CFString
+0x000111B0	0x00000010	[  4] CFString
+0x000111C0	0x00000010	[  4] CFString
+0x000111D0	0x00000010	[  5] CFString
+0x000111E0	0x00000010	[  5] CFString
+0x000111F0	0x00000010	[  5] CFString
+0x00011200	0x00000010	[  5] CFString
+0x00011210	0x00000010	[  5] CFString
+0x00011220	0x00000010	[  5] CFString
+0x00011230	0x00002210	[  6] _g_S3E_API
+0x00013440	0x00000001	[  6] __IwAppVersionMajor
+0x00013441	0x00000001	[  6] __IwAppVersionMinor
+0x00013444	0x00000004	[  5] _sharedXbox360ControllerManager
+0x00013448	0x00000300	[  6] __Z9g_Message
+0x00014000	0x00000004	[  3] pointer-to-literal-objc-class-name
+0x00014004	0x00000004	[  5] pointer-to-literal-objc-class-name
+0x00014008	0x00000004	[  5] pointer-to-literal-objc-class-name
+0x0001400C	0x00000004	[  5] pointer-to-literal-objc-class-name
+0x00014010	0x00000004	[  5] pointer-to-literal-objc-class-name
+0x00014014	0x00000004	[  5] pointer-to-literal-objc-class-name
+0x00014018	0x00000004	[  5] pointer-to-literal-objc-class-name
+0x0001401C	0x00000004	[  3] pointer-to-literal-cstring
+0x00014020	0x00000004	[  3] pointer-to-literal-cstring
+0x00014024	0x00000004	[  3] pointer-to-literal-cstring
+0x00014028	0x00000004	[  3] pointer-to-literal-cstring
+0x0001402C	0x00000004	[  3] pointer-to-literal-cstring
+0x00014030	0x00000004	[  3] pointer-to-literal-cstring
+0x00014034	0x00000004	[  3] pointer-to-literal-cstring
+0x00014038	0x00000004	[  3] pointer-to-literal-cstring
+0x0001403C	0x00000004	[  3] pointer-to-literal-cstring
+0x00014040	0x00000004	[  3] pointer-to-literal-cstring
+0x00014044	0x00000004	[  3] pointer-to-literal-cstring
+0x00014048	0x00000004	[  3] pointer-to-literal-cstring
+0x0001404C	0x00000004	[  3] pointer-to-literal-cstring
+0x00014050	0x00000004	[  3] pointer-to-literal-cstring
+0x00014054	0x00000004	[  3] pointer-to-literal-cstring
+0x00014058	0x00000004	[  3] pointer-to-literal-cstring
+0x0001405C	0x00000004	[  3] pointer-to-literal-cstring
+0x00014060	0x00000004	[  3] pointer-to-literal-cstring
+0x00014064	0x00000004	[  3] pointer-to-literal-cstring
+0x00014068	0x00000004	[  3] pointer-to-literal-cstring
+0x0001406C	0x00000004	[  3] pointer-to-literal-cstring
+0x00014070	0x00000004	[  3] pointer-to-literal-cstring
+0x00014074	0x00000004	[  4] pointer-to-literal-cstring
+0x00014078	0x00000004	[  4] pointer-to-literal-cstring
+0x0001407C	0x00000004	[  4] pointer-to-literal-cstring
+0x00014080	0x00000004	[  4] pointer-to-literal-cstring
+0x00014084	0x00000004	[  4] pointer-to-literal-cstring
+0x00014088	0x00000004	[  4] pointer-to-literal-cstring
+0x0001408C	0x00000004	[  4] pointer-to-literal-cstring
+0x00014090	0x00000004	[  4] pointer-to-literal-cstring
+0x00014094	0x00000004	[  4] pointer-to-literal-cstring
+0x00014098	0x00000004	[  4] pointer-to-literal-cstring
+0x0001409C	0x00000004	[  4] pointer-to-literal-cstring
+0x000140A0	0x00000004	[  4] pointer-to-literal-cstring
+0x000140A4	0x00000004	[  4] pointer-to-literal-cstring
+0x000140A8	0x00000004	[  4] pointer-to-literal-cstring
+0x000140AC	0x00000004	[  4] pointer-to-literal-cstring
+0x000140B0	0x00000004	[  4] pointer-to-literal-cstring
+0x000140B4	0x00000004	[  4] pointer-to-literal-cstring
+0x000140B8	0x00000004	[  4] pointer-to-literal-cstring
+0x000140BC	0x00000004	[  4] pointer-to-literal-cstring
+0x000140C0	0x00000004	[  4] pointer-to-literal-cstring
+0x000140C4	0x00000004	[  4] pointer-to-literal-cstring
+0x000140C8	0x00000004	[  4] pointer-to-literal-cstring
+0x000140CC	0x00000004	[  4] pointer-to-literal-cstring
+0x000140D0	0x00000004	[  4] pointer-to-literal-cstring
+0x000140D4	0x00000004	[  4] pointer-to-literal-cstring
+0x000140D8	0x00000004	[  4] pointer-to-literal-cstring
+0x000140DC	0x00000004	[  4] pointer-to-literal-cstring
+0x000140E0	0x00000004	[  4] pointer-to-literal-cstring
+0x000140E4	0x00000004	[  4] pointer-to-literal-cstring
+0x000140E8	0x00000004	[  4] pointer-to-literal-cstring
+0x000140EC	0x00000004	[  4] pointer-to-literal-cstring
+0x000140F0	0x00000004	[  4] pointer-to-literal-cstring
+0x000140F4	0x00000004	[  4] pointer-to-literal-cstring
+0x000140F8	0x00000004	[  4] pointer-to-literal-cstring
+0x000140FC	0x00000004	[  4] pointer-to-literal-cstring
+0x00014100	0x00000004	[  4] pointer-to-literal-cstring
+0x00014104	0x00000004	[  4] pointer-to-literal-cstring
+0x00014108	0x00000004	[  4] pointer-to-literal-cstring
+0x0001410C	0x00000004	[  4] pointer-to-literal-cstring
+0x00014110	0x00000004	[  4] pointer-to-literal-cstring
+0x00014114	0x00000004	[  4] pointer-to-literal-cstring
+0x00014118	0x00000004	[  4] pointer-to-literal-cstring
+0x0001411C	0x00000004	[  4] pointer-to-literal-cstring
+0x00014120	0x00000004	[  4] pointer-to-literal-cstring
+0x00014124	0x00000004	[  4] pointer-to-literal-cstring
+0x00014128	0x00000004	[  4] pointer-to-literal-cstring
+0x0001412C	0x00000004	[  4] pointer-to-literal-cstring
+0x00014130	0x00000004	[  4] pointer-to-literal-cstring
+0x00014134	0x00000004	[  5] pointer-to-literal-cstring
+0x00014138	0x00000004	[  5] pointer-to-literal-cstring
+0x0001413C	0x00000004	[  5] pointer-to-literal-cstring
+0x00014140	0x00000004	[  5] pointer-to-literal-cstring
+0x00014144	0x00000004	[  5] pointer-to-literal-cstring
+0x00014148	0x00000004	[  5] pointer-to-literal-cstring
+0x0001414C	0x00000004	[  5] pointer-to-literal-cstring
+0x00014150	0x00000004	[  5] pointer-to-literal-cstring
+0x00014154	0x00000004	[  5] pointer-to-literal-cstring
+0x00014158	0x00000004	[  5] pointer-to-literal-cstring
+0x0001415C	0x00000004	[  5] pointer-to-literal-cstring
+0x00014160	0x00000004	[  5] pointer-to-literal-cstring
+0x00014164	0x00000004	[  5] pointer-to-literal-cstring
+0x00014168	0x00000004	[  5] pointer-to-literal-cstring
+0x0001416C	0x00000004	[  5] pointer-to-literal-cstring
+0x00014170	0x00000004	[  5] pointer-to-literal-cstring
+0x00014174	0x00000004	[  5] pointer-to-literal-cstring
+0x00014178	0x00000004	[  5] pointer-to-literal-cstring
+0x0001417C	0x00000004	[  5] pointer-to-literal-cstring
+0x00014180	0x00000004	[  5] pointer-to-literal-cstring
+0x00014184	0x00000004	[  5] pointer-to-literal-cstring
+0x00014188	0x00000004	[  5] pointer-to-literal-cstring
+0x0001418C	0x00000004	[  5] pointer-to-literal-cstring
+0x00014190	0x00000004	[  5] pointer-to-literal-cstring
+0x00014194	0x00000004	[  5] pointer-to-literal-cstring
+0x00014198	0x00000010	[  3] anon
+0x000141A8	0x00000010	[  4] anon
+0x000141B8	0x00000010	[  5] anon
+0x000141C8	0x00000030	[  4] .objc_class_name_Xbox360Controller
+0x000141F8	0x00000030	[  5] .objc_class_name_Xbox360ControllerManager
+0x00014228	0x00000030	[  4] anon
+0x00014258	0x00000030	[  5] anon
+0x00014288	0x000001FC	[  4] anon
+0x00014484	0x00000070	[  5] anon
+0x000144F4	0x000001E8	[  4] anon
+0x000146DC	0x0000005C	[  5] anon
+0x00014738	0x000000D8	[  4] l_OBJC_$_PROP_LIST_Xbox360Controller
+0x00014810	0x00000010	[  5] l_OBJC_$_PROP_LIST_Xbox360ControllerManager
+0x00014820	0x0000000C	[  4] anon
+0x0001482C	0x0000000C	[  5] anon
+0x00014838	0x00000010	[  4] anon
+0x00014848	0x00000010	[  5] anon
+0x00014858	0x00000020	[  5] anon
+0x00014878	0x00000008	[  0] objc image info

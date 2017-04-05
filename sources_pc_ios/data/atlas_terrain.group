@@ -1,0 +1,9 @@
+CIwResGroup
+{
+	name "atlas_terrain"
+	useTemplate "image" "template_rgba8888"
+
+	# textures
+	"game_terrain/terrain_combined_01_02.png"
+	"game_terrain/terrain_combined_03_04.png"
+}

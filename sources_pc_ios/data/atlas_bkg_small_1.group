@@ -1,0 +1,7 @@
+CIwResGroup
+{
+	name "atlas_bkg_small_1"
+
+	useTemplate "image" "template_rgba8888"
+	"atlas_fullscreen_small/bkg_small_1.png" 
+}

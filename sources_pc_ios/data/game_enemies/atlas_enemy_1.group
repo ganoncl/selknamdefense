@@ -1,0 +1,10 @@
+CIwResGroup
+{
+	name "atlas_enemy_1"
+	useTemplate "image" "template_rgba8888"
+
+	#units
+	"./atlas_enemy_03_1.png"
+	"./atlas_enemy_04_1.png"
+	"./atlas_enemy_04_2.png"
+}

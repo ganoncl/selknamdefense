@@ -1,0 +1,681 @@
+#!/usr/bin/env mkb
+
+defines
+{
+	#CHEATSENABLED
+	DESKTOPPLATFORM
+	#STEAM_WIN
+	#STEAM_MAC
+	#GAMECENTER
+}
+#undefine CHEATSENABLED
+#undefine DESKTOPPLATFORM
+
+if {{ defined STEAM_WIN }}
+    define STEAMREQUIRED
+elif {{ defined STEAM_MAC }}
+	define STEAMREQUIRED
+else
+	undefine STEAMREQUIRED
+	
+if {{ not defined DESKTOPPLATFORM }}
+	undefine STEAMREQUIRED
+	
+
+
+subprojects
+{
+	iwgx
+	iwgxfont
+	iwresmanager
+	SoundEngine
+	iwutil
+	iwgeom
+	iwgraphics
+	iwanim
+}
+
+includepaths
+{
+    h
+}
+
+if {{ defined DESKTOPPLATFORM }}
+{
+	subprojects
+	{
+		s3eDialog
+		GamePadExtension\GamePad
+	}
+	includepaths
+	{
+		GamePadExtension
+	}
+	files
+    {
+		(h)
+		["headers/input"]
+		xbox360controller.h
+		(src)
+		["source/input"]
+		xbox360controller.cpp
+	}
+}
+else
+{
+	subprojects
+	{
+		IwBilling
+		iOSNativeEDK
+		s3eFlurry
+		iwtwitter
+		s3efacebook
+		s3eChartBoost
+		s3eKiip
+		s3eIOSIAd
+	}
+}
+
+if {{ defined GAMECENTER }}
+{
+	subprojects
+	{
+		s3eIOSGameCenter
+	}
+}
+
+if {{ defined STEAM_WIN }}
+{
+	library
+	{
+		steam_api.lib
+	}
+}
+elif {{ defined STEAM_MAC }}
+{
+	library
+	{
+		steam_api
+	}
+}
+if {{ defined STEAMREQUIRED }}
+{
+	librarypath
+	{
+		steamworks/lib
+	}
+
+	includepaths
+	{
+		steamworks
+	}
+
+    files
+    {
+        (steamworks/steam)
+		["steamworks"]
+		steam_api.h
+		(steamworks/helpers)
+		["steamhelpers"]
+		steam_achievements.cpp
+		steam_achievements.h
+		steam_leaderboards.cpp
+		steam_leaderboards.h
+    }
+}
+
+
+# files specifies all files to build
+files
+{
+	# SOURCES
+    ["source"]
+    (src)
+	game_window.cpp
+	dynamiccredits.cpp
+	captainboss.cpp
+	model3d.cpp
+	survivalmodeconfig.cpp
+	dialogcontroller.cpp
+	tutorial.cpp
+    main.cpp
+    game.cpp
+	splashscreen.cpp
+	common.cpp
+	fadescreen.cpp
+	localization.cpp
+	["source/focus"]
+	focuseableobject.cpp
+	focusmanager.cpp
+	["source/options_menu"]
+	mm_options.cpp
+	mm_settings.cpp
+	mm_credits.cpp
+	["source/leaderboards"]
+	mm_leaderboards.cpp
+	lboardentry.cpp
+	lboardlist.cpp
+	["source/simpleini"]
+	ConvertUTF.c
+	["source/global"]
+	cursor.cpp
+	utils.cpp
+	["source/helpers"]
+	achievementshelper.cpp
+	animhelper.cpp
+	astarhelper.cpp
+	animation.cpp
+	timer.cpp
+	texturehelper.cpp
+	parserhelper.cpp
+	leaderboardshelper.cpp
+	savedatahelper.cpp
+	["source/objects_2d"]
+	checkbox.cpp
+	slider.cpp
+	button.cpp
+	background.cpp
+	sprite2d.cpp
+	dynamiccounter.cpp
+	["source/menu"]
+	mm_final.cpp
+	mm_trialversion.cpp
+	mm_menu.cpp
+	mm_popup.cpp
+	mm_playmenu.cpp
+	extramap.cpp
+	mainmenubase.cpp
+	cloud.cpp
+	["source/almanac"]
+	mm_almanac.cpp
+	almanac_base.cpp
+	almanac_enemy.cpp
+	almanac_menu.cpp
+	["source/ingame_windows"]
+	endingloose.cpp
+	mmig_menu.cpp
+	endingwin.cpp
+	mainmenuigbase.cpp
+	["source/map_selection"]
+	mapselectbase.cpp
+	ms_mapselect.cpp
+	ms_store.cpp
+	["source/ingame"]
+	mappointer.cpp
+	["source/unitmenu"]
+	unitmenu.cpp
+	["source/new"]
+	astarhelper.cpp
+	unitmanager.cpp
+	["source/new"]
+	astarhelper.cpp
+	["source/iso"]
+	isoobject.cpp
+	isoterrain.cpp
+	isopawn.cpp
+	isoselknam.cpp
+	isoenemy.cpp
+	isoprop.cpp
+	isoprojectile.cpp
+	# HEADERS
+	["headers"]
+    (h)
+	dynamiccredits.h
+	captainboss.h
+	model3d.h
+	survivalmodeconfig.h
+	dialogcontroller.h
+	tutorial.h
+	main.h
+    game.h
+	splashscreen.h
+	drawutils.h
+	common.h
+	fadescreen.h
+	localization.h
+	game_window.h
+	["headers/focus"]
+	focuseableobject.h
+	focusmanager.h
+	["headers/leaderboards"]
+	lboardentry.h
+	lboardlist.h
+	mm_leaderboards.h
+	lboardentry.h
+	lboardlist.h
+
+	["headers/simpleini"]
+	ConvertUTF.h
+	SimpleIni.h
+	["headers/options_menu"]
+	mm_options.h
+	mm_settings.h
+	mm_credits.h
+	["headers/global"]
+	cursor.h
+	utils.h
+	["headers/helpers"]
+	achievementshelper.h
+	animhelper.h
+	astarhelper.h
+	animation.h
+	timer.h
+	texturehelper.h
+	parserhelper.h
+	leaderboardshelper.h
+	savedatahelper.h
+	["headers/objects_2d"]
+	checkbox.h
+	slider.h
+	button.h
+	background.h
+	sprite2d.h
+	dynamiccounter.h
+	["headers/menu"]
+	mm_final.h
+	mm_trialversion.h
+	mm_menu.h
+	mm_popup.h
+	mm_playmenu.h
+	mainmenubase.h
+	cloud.h
+	extramap.h
+	["headers/almanac"]
+	mm_almanac.h
+	almanac_base.h
+	almanac_enemy.h
+	almanac_menu.h
+	["headers/ingame_windows"]
+	endingloose.h
+	mmig_menu.h
+	endingwin.h
+	mainmenuigbase.h
+	["headers/map_selection"]
+	mapselectbase.h
+	ms_mapselect.h
+	ms_store.h
+	["headers/ingame"]
+	mappointer.h
+	["headers/unitmenu"]
+	unitmenu.h
+	["headers/new"]
+	astarhelper.h
+	unitmanager.h
+	["headers/new"]
+	astarhelper.h
+	["headers/iso"]
+	isoobject.h
+	isoterrain.h
+	isopawn.h
+	isoselknam.h
+	isoenemy.h
+	isoprop.h
+	isoprojectile.h
+    ["resources"]
+    (data)
+	atlas_bkg_gameplay.group
+	atlas_bkg_menu_foreground.group
+	atlas_bkg_menu_others.group
+	atlas_bkg_menu_sky.group
+	atlas_bkg_worldmap.group
+	atlas_bkg_small_0.group
+	atlas_bkg_small_1.group
+	atlas_boss.group
+	atlas_common_trial_0.group
+	atlas_fx.group
+	atlas_props.group
+	atlas_terrain.group
+	fonts.group
+	game_sounds_fx.group
+	bar_loading.group
+	#shaders.group
+	ship.group
+	templates.itx
+	resource_template.itx
+	unit_atributes.sdm
+	anim_controller.sdm
+	app.config.txt
+	#(data/effects)
+	#shader_font_a.itx
+	["resources/atlas_others"]
+	(data/atlas_others)
+	atlas_others.group
+	["resources/atlas_common_textures"]
+	(data/atlas_common_textures)
+	atlas_common_textures_0.group
+	atlas_common_textures_1.group
+	atlas_common_textures_2.group
+	atlas_common_textures_3.group
+	atlas_common_textures_4.group
+	["resources/atlas_small_textures"]
+	(data/atlas_small_textures)
+	atlas_small_textures.group
+	#IMAGES NO HD
+	["resources/atlas_selknams"]
+	(data/game_selknams)
+	atlas_selknam_archer_0.group
+	atlas_selknam_archer_1.group
+	atlas_selknam_bowler_0.group
+	atlas_selknam_bowler_1.group
+	atlas_selknam_mage.group
+	atlas_selknam_melee_0.group
+	atlas_selknam_melee_1.group
+	["resources/atlas_enemies"]
+	(data/game_enemies)
+	atlas_enemy_0.group
+	atlas_enemy_1.group
+	atlas_enemy_2.group
+	#IMAGES HD
+	["resources/atlas_selknams_hd"]
+	(data/game_selknams_hd)
+	atlas_hd_selknam_archer_1.group
+	atlas_hd_selknam_archer_2.group
+	atlas_hd_selknam_archer_3.group
+	atlas_hd_selknam_bowler_1.group
+	atlas_hd_selknam_bowler_2.group
+	atlas_hd_selknam_bowler_3.group
+	atlas_hd_selknam_mage_1.group
+	atlas_hd_selknam_mage_2.group
+	atlas_hd_selknam_mage_3.group
+	atlas_hd_selknam_melee_1.group
+	atlas_hd_selknam_melee_2.group
+	atlas_hd_selknam_melee_3.group
+	["resources/atlas_enemies_hd"]
+	(data/game_enemies_hd)
+	atlas_hd_enemy_1.group
+	atlas_hd_enemy_2.group
+	atlas_hd_enemy_3.group
+	atlas_hd_enemy_4.group
+	atlas_hd_enemy_5.group
+	atlas_hd_enemy_6.group
+	atlas_hd_enemy_7.group
+}
+
+assets
+{
+    #Deploy .group.bin files from the 'data-ram/data-gles1' directory if they
+    #have been written there by running the application in resource building
+    #mode, otherwise deploy pre-built binaries from the 'data' directory.
+    #
+    #For your own application, you are likely to want only the
+    #'data-ram/data-gles1' directory specified here.
+    #
+    #See the IwResManager documentation for more information on resource building.
+
+    (data-ram/data-gles1, data)
+	localization/sd_loc_example.int
+	localization/sd_loc.int
+	localization/sd_loc.esn
+	atlas_bkg_gameplay.group.bin
+	atlas_bkg_menu_foreground.group.bin
+	atlas_bkg_menu_others.group.bin
+	atlas_bkg_menu_sky.group.bin
+	atlas_bkg_worldmap.group.bin
+	atlas_bkg_small_0.group.bin
+	atlas_bkg_small_1.group.bin
+	atlas_boss.group.bin
+	atlas_common_trial_0.group.bin
+	atlas_common_textures/atlas_common_textures_0.group.bin
+	atlas_common_textures/atlas_common_textures_1.group.bin
+	atlas_common_textures/atlas_common_textures_2.group.bin
+	atlas_common_textures/atlas_common_textures_3.group.bin
+	atlas_common_textures/atlas_common_textures_4.group.bin
+	atlas_small_textures/atlas_small_textures.group.bin
+	atlas_fx.group.bin
+	atlas_props.group.bin
+	atlas_terrain.group.bin
+	fonts.group.bin
+	atlas_others/atlas_others.group.bin
+	bar_loading.group.bin
+	game_sounds_fx.group.bin
+	#shaders.group.bin
+	ship.group.bin
+    (data)
+	bgm/sd_fanfare_lose_theme.mp3
+	bgm/sd_fanfare_win_theme.mp3
+	bgm/sd_ingame_forest_01_theme_loop.mp3
+	bgm/sd_ingame_forest_02_theme_loop.mp3
+	bgm/sd_ingame_iceland_01_theme_loop.mp3
+	bgm/sd_ingame_iceland_02_theme_loop.mp3
+	bgm/sd_ingame_mountain_01_theme_loop.mp3
+	bgm/sd_ingame_mountain_02_theme_loop.mp3
+	bgm/sd_ingame_fireland_01_theme_loop.mp3
+	bgm/sd_ingame_fireland_02_theme_loop.mp3
+	bgm/sd_mainmenu_theme_loop.mp3
+	bgm/sd_store_theme_loop.mp3
+	bgm/sd_blank.mp3
+	bgm/sd_boss_base.mp3
+	bgm/sd_boss_intro.mp3
+	bgm/sd_ending_theme.mp3
+	unit_atributes.sdm
+	anim_controller.sdm
+	extramaps/extra_map_001.sdm
+	survival_maps/survival.sdm
+	tbn/atlas_common_trial_0.tbn
+	tbn/atlas_common_textures_0.tbn
+	tbn/atlas_common_textures_1.tbn
+	tbn/atlas_common_textures_2.tbn
+	tbn/atlas_common_textures_3.tbn
+	tbn/atlas_common_textures_4.tbn
+	tbn/atlas_small_textures.tbn
+	tbn/atlas_enemy_boss_1.tbn
+	tbn/atlas_fx_0.tbn
+	tbn/atlas_fx_1.tbn
+	tbn/atlas_fx_2.tbn
+	tbn/atlas_props_0.tbn
+	tbn/atlas_props_1.tbn
+	tbn/atlas_props_2.tbn
+	tbn/bkg_gameplay.tbn
+	tbn/bkg_menu_foreground.tbn
+	tbn/bkg_menu_others.tbn
+	tbn/bkg_menu_sky.tbn
+	tbn/bkg_worldmap.tbn
+	tbn/bkg_small_0.tbn
+	tbn/bkg_small_1.tbn
+	tbn/terrain_combined_01_02.tbn
+	tbn/terrain_combined_03_04.tbn
+	tbn/atlas_others.tbn
+	#NORMAL_IMAGES
+	(data-ram/data-gles1)
+	game_enemies/atlas_enemy_0.group.bin
+	game_enemies/atlas_enemy_1.group.bin
+	game_enemies/atlas_enemy_2.group.bin
+	game_selknams/atlas_selknam_archer_0.group.bin
+	game_selknams/atlas_selknam_archer_1.group.bin
+	game_selknams/atlas_selknam_bowler_0.group.bin
+	game_selknams/atlas_selknam_bowler_1.group.bin
+	game_selknams/atlas_selknam_mage.group.bin
+	game_selknams/atlas_selknam_melee_0.group.bin
+	game_selknams/atlas_selknam_melee_1.group.bin
+	#HD_IMAGES
+	(data-ram/data-gles1)
+	game_enemies_hd/atlas_hd_enemy_1.group.bin
+	game_enemies_hd/atlas_hd_enemy_2.group.bin
+	game_enemies_hd/atlas_hd_enemy_3.group.bin
+	game_enemies_hd/atlas_hd_enemy_4.group.bin
+	game_enemies_hd/atlas_hd_enemy_5.group.bin
+	game_enemies_hd/atlas_hd_enemy_6.group.bin
+	game_enemies_hd/atlas_hd_enemy_7.group.bin
+	game_selknams_hd/atlas_hd_selknam_melee_3.group.bin
+	game_selknams_hd/atlas_hd_selknam_melee_2.group.bin
+	game_selknams_hd/atlas_hd_selknam_melee_1.group.bin
+	game_selknams_hd/atlas_hd_selknam_mage_3.group.bin 
+	game_selknams_hd/atlas_hd_selknam_mage_2.group.bin 
+	game_selknams_hd/atlas_hd_selknam_mage_1.group.bin 
+	game_selknams_hd/atlas_hd_selknam_bowler_3.group.bin
+	game_selknams_hd/atlas_hd_selknam_bowler_2.group.bin
+	game_selknams_hd/atlas_hd_selknam_bowler_1.group.bin
+	game_selknams_hd/atlas_hd_selknam_archer_3.group.bin
+	game_selknams_hd/atlas_hd_selknam_archer_2.group.bin
+	game_selknams_hd/atlas_hd_selknam_archer_1.group.bin
+	
+	["FULL"]
+	<include "Default">
+	(data)
+	maps/map_001.sdm
+	maps/map_002.sdm
+	maps/map_003.sdm
+	maps/map_004.sdm
+	maps/map_005.sdm
+	maps/map_006.sdm
+	maps/map_007.sdm
+	maps/map_008.sdm
+	maps/map_009.sdm
+	maps/map_010.sdm
+	maps/map_011.sdm
+	maps/map_012.sdm
+	maps/map_013.sdm
+	maps/map_014.sdm
+	maps/map_015.sdm
+	maps/map_016.sdm
+	maps/map_017.sdm
+	maps/map_018.sdm
+	maps/map_019.sdm
+	maps/map_020.sdm
+	maps/map_021.sdm
+	maps/map_022.sdm
+	maps/map_023.sdm
+	maps/map_024.sdm
+	maps/map_025.sdm
+	maps/map_026.sdm
+	
+	
+	["FULLSTEAMWIN"]
+	<include "FULL">
+	(data)
+	steam_appid.txt
+	(steamworks/lib)
+	steam_api.dll
+	
+	["FULLSTEAMMAC"]
+	<include "FULL">
+	(data)
+	steam_appid.txt
+	(steamworks/lib)
+	libsteam_api.dylib
+	
+	["FREE"]
+	<include "Default">
+    (data)
+	maps/map_001.sdm
+	maps/map_002.sdm
+	maps/map_003.sdm
+	maps/map_004.sdm
+	maps/map_005.sdm
+	maps/map_006.sdm
+	maps/map_007.sdm
+}
+
+#### AUTO GENERATED deployment settings from DeployTool.exe. Do not edit below this line ####
+deployments
+{
+	["Default"]
+	assets='FULL'
+	caption='Selknam Defense'
+	#icon='icon_1024.png'
+	#iphone-appid='com.aonegames.selknamdefense'
+	#iphone-enable-4inch-retina=1
+	#iphone-icon='iOS_art/icon_57x57_24bit.png'
+	#iphone-icon-high-res='iOS_art/icon_114x114_24bit.png'
+	#iphone-icon-high-res-ios7='iOS_art/icon_120x120_24bit.png'
+	#iphone-icon-ipad='iOS_art/icon_72x72_24bit.png'
+	#iphone-icon-ipad-high-res='iOS_art/icon_144x144_24bit.png'
+	#iphone-icon-ipad-high-res-ios7='iOS_art/icon_152x152_24bit.png'
+	#iphone-icon-ipad-ios7='iOS_art/icon_76x76_24bit.png'
+	#iphone-icon-settings='iOS_art/icon_29x29_24bit.png'
+	#iphone-icon-settings-high-res='iOS_art/icon_58x58_24bit.png'
+	#iphone-info-plist='Plists/full/Info.plist'
+	#iphone-ipad-only=0
+	#iphone-no-splash=1
+	#iphone-provisioning-profile='Selknam_Defense_Dev.mobileprovision'
+	#iphone-sign-for-distribution=1
+	#itunes-artwork='iOS_art/icon_512x512_24bit.png'
+	#name='SelknamDefense'
+	#provider='AOne Games'
+	#splashscreen-auto-onblack=0
+	#version-major=0
+	#version-minor=0
+	#version-revision=1
+	#version-string='release'
+	win32-icon='SelknamDefense.ico'
+	win32-pref-processtitle='selknamd'
+	osx-icon='SelknamDefense.icns'
+	
+	["Full_iOS"]
+	assets='FULL'
+	caption='Selknam Defense'
+	#iphone-appid='com.aonegames.selknamdefense'
+	#iphone-enable-4inch-retina=1
+	#iphone-icon='iOS_Icon/ios7/Icon.png'
+	#iphone-icon-high-res='iOS_Icon/ios7/Icon@2x.png'
+	#iphone-icon-high-res-ios7='iOS_Icon/ios7/Icon-60@2x.png'
+	#iphone-icon-ipad='iOS_Icon/ios7/Icon-72.png'
+	#iphone-icon-ipad-high-res='iOS_Icon/ios7/Icon-72@2x.png'
+	#iphone-icon-ipad-high-res-ios7='iOS_Icon/ios7/Icon-76@2x.png'
+	#iphone-icon-ipad-ios7='iOS_Icon/ios7/Icon-76.png'
+	#iphone-icon-ipad-search='iOS_Icon/ios7/Icon-Small-50.png'
+	#iphone-icon-ipad-search-high-res='iOS_Icon/ios7/Icon-Small-50@2x.png'
+	#iphone-icon-ipad-search-high-res-ios7='iOS_Icon/ios7/Icon-40@2x.png'
+	#iphone-icon-ipad-search-ios7='iOS_Icon/ios7/Icon-40.png'
+	#iphone-icon-settings='iOS_art/icon_29x29_24bit.png'
+	#iphone-icon-settings-high-res='iOS_art/icon_58x58_24bit.png'
+	#iphone-info-plist='Plists/full/Info.plist'
+	#iphone-ipad-only=0
+	#iphone-no-splash=1
+	#iphone-prerendered-icon='1'
+	#iphone-provisioning-profile='Selknam_Defense_Dev.mobileprovision'
+	#itunes-artwork='iOS_Icon/icon_ios7.png'
+	name='SelknamDefense'
+	osx-icon='SelknamDefense.icns'
+	provider='AOne Games'
+	#splashscreen-auto-onblack=0
+	#version-major=0
+	#version-minor=0
+	#version-revision=1
+	#version-string='release'
+	win32-icon='SelknamDefense.ico'
+	win32-pref-processtitle='selknamd'
+	
+	["FullSteam_Win"]
+	assets='FULLSTEAMWIN'
+	
+	["FullSteam_Mac"]
+	assets='FULLSTEAMMAC'
+		
+	["Free"]
+	assets='FREE'
+	caption='Selknam Defense Free'
+	#icon='iOS_art/icon_free_1024x1024_24bit.png'
+	iphone-appid='com.meridian4.selknamdefensefree'
+	iphone-enable-4inch-retina=1
+	#iphone-icon='iOS_art/icon_free_57x57_24bit.png'
+	#iphone-icon-high-res='iOS_art/icon_free_114x114_24bit.png'
+	#iphone-icon-high-res-ios7='iOS_art/icon_free_120x120_24bit.png'
+	#iphone-icon-ipad='iOS_art/icon_free_72x72_24bit.png'
+	#iphone-icon-ipad-high-res='iOS_art/icon_free_144x144_24bit.png'
+	#iphone-icon-ipad-high-res-ios7='iOS_art/icon_free_152x152_24bit.png'
+	#iphone-icon-ipad-ios7='iOS_art/icon_free_76x76_24bit.png'
+	#iphone-icon-settings='iOS_art/icon_free_29x29_24bit.png'
+	#iphone-icon-settings-high-res='iOS_art/icon_free_58x58_24bit.png'
+	#iphone-info-plist='Plists/free/Info.plist'
+	#iphone-ipad-only=0
+	#iphone-link-opts='-weak_framework UIKit -framework AdSupport'
+	#iphone-no-splash=1
+	#iphone-provisioning-profile='SelknamFreeDistribution.mobileprovision'
+	#iphone-sign-for-distribution=1
+	#itunes-artwork='iOS_art/icon_free_512x512_24bit.png'
+	name='SelknamDefenseFree'
+	provider='AOne Games'
+	splashscreen-auto-onblack=0
+	#version-major=0
+	#version-minor=0
+	#version-revision=1
+	version-string='release'
+}
+
+#Hub deployment options, please do not add anything below this line
+subproject
+{
+    (.)
+    DefenseX_deployment
+}

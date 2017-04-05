@@ -1,0 +1,64 @@
+CIwGxShaderTechnique
+{
+    name "shader_bicubic"
+		
+    shader "vertex"
+    {
+		attribute vec4 inVert;
+		attribute vec2 inUV0;
+
+		uniform highp mat4 inPMVMat;
+		uniform mediump vec2 inUVScale;
+		uniform mediump vec2 inTextureSize;
+
+		varying highp vec2 outUV0;
+		varying highp vec2 texInvSize;
+
+		void main()
+		{
+			gl_Position = inPMVMat * inVert;
+			outUV0 = inUV0*inUVScale * inTextureSize;
+			texInvSize = 1.0 / inTextureSize;
+		} 
+    }
+
+    shader "fragment"
+    {
+		precision highp vec2;
+
+		uniform sampler2D inSampler0;
+		varying highp vec2 outUV0;
+		varying highp vec2 texInvSize;
+	 
+		void main()
+		{
+			vec2 tc = floor( outUV0 - 0.5 ) + 0.5;
+			vec2 f = outUV0 - tc;
+			vec2 f2 = f * f;
+			vec2 f3 = f2 * f;
+
+			vec2 nf= 1.0 - f;
+			vec2 nf2 = nf * nf;
+			vec2 nf3 = nf2 * nf;
+
+			vec2 w0 = nf3 / 6.0;
+			vec2 w1 = 0.66666 + 0.5*f3 - f2;
+			vec2 w2 = 0.66666 + 3.0*w0 - nf2;
+			vec2 w3 = f3 * 0.16666;
+ 
+			vec2 s0 = w0 + w1;
+			vec2 s1 = w2 + w3;
+ 
+			vec2 f0 = w1 / (w0 + w1);
+			vec2 f1 = w3 / (w2 + w3);
+ 
+			vec2 t0 = (tc - 1.0 + f0) * texInvSize;
+			vec2 t1 = (tc + 1.0 + f1) * texInvSize;
+
+			gl_FragColor = (texture2D( inSampler0, vec2( t0.x, t0.y ) ) * s0.x
+				+ texture2D( inSampler0, vec2( t1.x, t0.y ) ) * s1.x) * s0.y
+				+ (texture2D( inSampler0, vec2( t0.x, t1.y ) ) * s0.x
+				+ texture2D( inSampler0, vec2( t1.x, t1.y ) ) * s1.x) * s1.y;
+		}
+    } 
+}

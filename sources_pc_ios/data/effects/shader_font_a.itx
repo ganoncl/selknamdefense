@@ -1,0 +1,28 @@
+CIwGxShaderTechnique 
+{ 
+	name "ShaderFont_A"
+
+	param "colour" vec4 1 { 1.0, 0.0, 0.0, 1.0 }
+ 
+	shader "vertex" 
+    { 
+		attribute highp vec4	inVert; //vertex stream
+		uniform highp mat4	 inPMVMat; //transform to projected space
+
+		void main(void)
+		{
+			//set vertex position in projected space
+			gl_Position = inPMVMat * inVert;
+		}
+    } 
+ 
+    shader "fragment"
+	{
+		uniform mediump vec4 colour;
+
+		void main(void)
+		{
+			gl_FragColor = colour;
+		}
+	}
+} 

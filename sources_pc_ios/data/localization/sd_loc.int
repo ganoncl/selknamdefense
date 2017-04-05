@@ -1,0 +1,320 @@
+﻿[UI]
+SplashLoading=   LOADING...
+SplashVersion=VERSION : 
+SplashFullVersion=FULL  VERSION : 
+SplashFreeVersion=FREE  VERSION : 
+UIBack=BACK
+UIClose=CLOSE
+UIOk=OK
+UIAccept=ACCEPT
+UICancel=CANCEL
+UINext=NEXT
+UISkip=SKIP
+UIFinish=FINISH
+UIPlayGame=PLAY GAME
+UIRemoveAds=REMOVE ADS
+UINewCampaign=NEW CAMPAIGN
+UIPlayCampaign=PLAY CAMPAIGN
+UIAlmanac=ALMANAC
+UIOptions=OPTIONS
+UIRestore=RESTORE PURCHASES
+UISettings=SETTINGS
+UICredits=CREDITS
+UISurvival=SURVIVAL
+UIQuitGame=QUIT GAME
+UIExitGame=EXIT GAME
+UIPause=PAUSE
+UIResume=RESUME
+UIHowToPlay=HOW TO PLAY
+UIRetry=RETRY
+UIWorldMap=WORLD MAP
+UIPlayAgain=PLAY AGAIN
+UIContinue=CONTINUE
+UIUpgrades=UPGRADES
+UISelknams=SELKNAMS
+UIEnemies=ENEMIES
+UITime=TIME: 
+UIWave=WAVE: 
+UICongratulations=CONGRATULATIONS!!
+UINewRecord=NEW RECORD:
+UIYourRecord=YOUR RECORD:
+UIBestRecord=BEST RECORD:
+UINoRecord=<<<MULTI
+NOT ENOUGH FOR THE BEST RECORD!
+TRY AGAIN NEXT TIME.
+MULTI
+UIVictory=VICTORY
+UIDefeat=DEFEAT
+UIScoreHeartBonus=HEART BONUS : 
+UIScoreCoinsBonus=COINS BONUS : 
+UIScoreWaveBonus=WAVE BONUS : 
+UIScoreTotal=TOTAL : 
+UIOnlyFullVersion=<<<MULTI
+ONLY FULL
+VERSION
+MULTI
+UILeaderboards=LEADERBOARDS
+UIGameCenter=GAME CENTER
+UIMusic=MUSIC
+UIFXSound=FX SOUND
+UIFullscreen=FULL SCREEN
+UIMuteAll=MUTE ALL
+
+[Popups]
+PopupSavedData=<<<MULTI
+SAVED DATA WILL BE DELETED.
+DO YOU WANT TO CONTINUE?
+MULTI
+PopupQuitGame=<<<MULTI
+THE GAME WILL BE CLOSED.
+ARE YOU SURE?
+MULTI
+PopupNoFeature=THIS FEATURE IS NOT IMPLEMENTED YET.
+PopupRetry=ARE YOU SURE YOU WANT TO START AGAIN?
+PopupReturnToMenu=ARE YOU SURE YOU WANT TO RETURN TO MAIN MENU?
+PopupReturnToWorldMap=ARE YOU SURE YOU WANT TO RETURN TO WORLD MAP?
+PopupUpgrades=<<<MULTI
+THE UPGRADES WILL BE DELETED BUT THE STARS WILL REMAIN.
+DO YOU WANT TO CONTINUE?
+MULTI
+PopupSurvival=TO PLAY THIS MODE YOU MUST COMPLETE THE THREE FIRST WORLDS IN THE CAMPAIGN MODE.
+PopupTrial=TO PLAY THIS MODE YOU MUST HAVE THE FULL VERSION.
+PopupThanksSharing=THANKS FOR SHARING.
+PopupErrorGeneric=ERROR.
+PopupErrorLeaderboard=LEADERBOARDS ERROR.
+PopupInternetConnection=PLEASE CONNECT TO INTERNET TO CONTINUE PLAYING.
+
+[SelknamUpgrade]
+UpgradeSelknamUpgrade=SELKNAM UPGRADE
+PortraitArcherBase=SNIPER
+PortraitArcherSlower=DELAYER
+PortraitArcherPoisoner=POISONER
+PortraitBowlerStunner=STUNNER
+PortraitBowlerConfuser=CONFUSER
+PortraitBowlerRooter=ROOTER
+PortraitWarriorBase=WARRIOR
+PortraitWarriorBerserk=BERSERK
+PortraitWarriorTank=TANK
+PortraitShamanHealer=HEALER
+PortraitShamanSpeeder=SPEEDER
+PortraitShamanMighter=MIGHTER
+UpgradeAttributes=ATTRIBUTES
+UpgradeHealth=HEALTH
+UpgradeDamage=DAMAGE
+UpgradeSpeed=SPEED
+UpgradeAttackSpeed=ATTACK SP
+UpgradeCastSpeed=CAST SP
+UpgradeRange=RANGE
+UpgradeCost=COST
+UpgradeSkill=SKILL
+UpgradeSkillSlow=SLOW
+UpgradeSkillPoison=POISON
+UpgradeSkillStun=STUN
+UpgradeSkillConfusion=CONFUSION
+UpgradeSkillRoot=ROOT
+UpgradeSkillHeal=HEAL
+UpgradeSkillHaste=HASTE
+UpgradeSkillMight=MIGHT
+
+[Leaderboards]
+LeaderboardsTitle=LEADERBOARDS
+LeaderboardsRank=RANK
+LeaderboardsPlayername=NAME
+LeaderboardsScore=TOTAL
+LeaderboardsTime=TIME
+LeaderboardsPrevPage=PREV PAGE
+LeaderboardsNextPage=NEXT PAGE
+LeaderboardsLoading=LOADING LEADERBOARDS...
+LeaderboardsOverall=OVERALL
+LeaderboardsFriends=FRIENDS
+LeaderboardsMyRank=MY RANK
+LeaderboardsStage=STAGE
+LeaderboardsSurvival=SURVIVAL MODE
+LeaderboardsCampaign=CAMPAIGN MODE
+LeaderboardsNotAvailable=NOT AVAILABLE
+
+[SelknamAlmanac]
+AlmanacBaseArcherTitle=SNIPER ARCHER
+AlmanacBaseArcherInformation=They were trained to hunt with camouflage and long range arrows, skills that would give them an advantage against their enemies.
+AlmanacPoisonArcherTitle=POISONER ARCHER
+AlmanacPoisonArcherInformation=Also trained to hunt, but they are quicker, and use a more effective arrow that has poison on the tip extracted from animals and plants, enabling them to hunt bigger prey. They are not killers, but under threat they will become hostile and defend their territory.
+AlmanacUnitDelayerTitle=DELAYER ARCHER
+AlmanacUnitDelayerInformation=High Ranked Archer. On a quest for more effective hunting methods, the Shamans from the tribe called upon the forces of nature to help their people, and obtained ice arrows that make prey slow and easy to kill. They will not hesitate to use their arrows against enemies to slow them down, letting the warriors enflict prolonged damage.
+AlmanacBolasThrowerBaseTitle=STUNNER BOWLER
+AlmanacBolasThrowerBaseInformation=The Stunner Bowler teams up with archers to trap their prey. They use their throwing skills and strength to kill their prey as fast and as painless as possible, out of respect for the animals that have been given to them by nature as their nourishment. Although they are not as assertive as archers, they will not be so merciful with the settlers invading their territory.
+AlmanacBolasThrowerFloorTitle=ROOTER BOWLER
+AlmanacBolasThrowerFloorInformation=Like the archers, they were trained to hunt, and were given Shaman-like powers. Rooter Bowlers use the force of Mother Nature to trap their prey by throwing bolas that entangle their legs and plant them to the ground, making it easier for archers to fire at will. They are passionate about keeping their home safe from the unwelcomed settlers.
+AlmanacBolasThrowerConfuseTitle=CONFUSER BOWLER
+AlmanacBolasThrowerConfuseInformation=Only the strongest members of the Selknam tribe are trained to become Confusers. They throw bolas at the head of their prey to knock them out or confuse them, giving the Confuser plenty of time to entrap them. They are more aggressive than your average Selknam.
+AlmanacBaseWarriorTitle=WARRIOR
+AlmanacBaseWarriorInformation=These are average Selknam that usually wrestle as entertainment and amusement for the rest of the tribe. Their skills are useful at times of conflict and contention with enemy forces.
+AlmanacResistantWarriorTitle=TANK
+AlmanacResistantWarriorInformation=Before the arrival of the attacking settlers, the warriors implemented artifacts as armor to improve their resistance against enemy attacks. They have a good chance to defeat their enemies with their tenacity.
+AlmanacAggressiveWarriorTitle=BERSERK
+AlmanacAggressiveWarriorInformation=These Selknam have lost their peaceful side at the sight of the settlers taking over their land. They will not wait to be attacked, and they will be offensive in their attacks. Armed with varied weaponry, they will inflict as much damage as possible.
+AlmanacBaseMageTitle=HEALER SHAMAN
+AlmanacBaseMageInformation=An important Shaman of the tribe who has the ability to heal his fellow tribesmen that bravely go into battle. He calls upon the ancestor spirits to bring health to his allies and continue the fight to save their people from annihilation.
+AlmanacSpeederMageTitle=SPEEDER SHAMAN
+AlmanacSpeederMageInformation=This Shaman maintains contact with the fastest animals in his environment, learning the skills of nature's spirit to improve the attack speed of his people, helping them to achieve victory in battle and to eradicate the settlers for good.
+AlmanacMighterMageTitle=MIGHTER SHAMAN
+AlmanacMighterMageInformation=The Shaman of the tribe that has chosen the skills of strengthening, learning from rocks, water and mighty animals. With his wisdom and magic, he casts spells on his people to give them extra force in their attacks, making them more powerful, and thus more difficult to defeat.
+
+[EnemiesAlmanac]
+AlmanacSoldierTitle=SOLDIER
+AlmanacSoldierInfo=An average untrained, but aggressive, European gold digger. He has engaged in bar fights, and is skilled with his knife, but he's not used to confronting organized battles. He is ruthless and will not hesitate to kill.
+AlmanacBaronTitle=BARON
+AlmanacBaronInfo=An Educated European nobleman who has come to these new unconquered lands in the pursuit of riches and wealth. He is more than willing to participate in battle to obtain his fortune, land and title. He is skilled in ranged combat,using a rifle to target his enemies, although he only inflicts an average amount of damage.
+AlmanacConvictTitle=CONVICT
+AlmanacConvictInfo=Not many people are willing to take the dangerous journey to these new lands. Convicts, however, had nothing to fear: rather than remaining in prison for the rest of their lives, they were given another shot at redemption. Carrying buckets of gun powder, they deal a great number of damage to enemies around them upon detonation, as well as fatally damaging themselves.
+AlmanacChemistTitle=THE CHEMIST
+AlmanacChemistInfo=Shunned by European society, an alcohol-driven chemist finds himself in the new world devoted to the cause, offering his skill and expertise in chemistry to gain an upper hand in battle. He attacks his foe with a dagger, and keeps vials of poison on him for whenever he receives a fatal wound, infecting the area surrounding him with a poisonous gas that slowly tortures his opponents.
+AlmanacTankTitle=TANK
+AlmanacTankInfo=This is a resistance soldier trained for taking damage in battle. He will not attack the Selknam people, but he can endure their attacks for a longer time than most soldiers, enabling him to arrive at their sacred area, making them vulnerable to attacks. While the Selknam tribe attempt to bring these soldiers down, the other enemies can take advantage of the distraction.
+AlmanacRabbitTitle=RABBIT
+AlmanacRabbitInfo=This mad scientist has acquired an abundance of technology in his research, and has developed the ability to move remarkably fast, and will evade attacks so that he can quickly arrive at the sacred Selknam area. Since they don't have any armor they are more vulnerable to attacks, but their incredible speed makes them a difficult target.
+AlmanacPirateTitle=PIRATE
+AlmanacPirateInfo=The Captain's right arm; this ruthless pirate has been to many battles and has won them all. He has no pity or remorse, and he will only try to benefit from the occasion. The captain has promised them all a sizable bounty once they eradicate the Selknam, or take them as slaves. He is stronger than the Soldier, and will fight to the end with his hook and sword.
+AlmanacCaptainTitle=THE CAPTAIN
+AlmanacCaptainInfo=He has more ambition than any of his troops, and he does not plan on being defeated by the, "so-called Selknam." If he has to, he will take matters into his own hands. As a true captain would, he will go down with his ship if it comes to that. He is strong and well-armed, and has plenty of minions at his disposal. He already considers the Selknam land as his own.
+
+[Credits]
+CreditsTitle00=Team Lead & Programmer
+CreditsTitle01=Game Design / Art
+CreditsTitle02=Senior Programmer
+CreditsTitle03=Game Design / Concept
+CreditsTitle04=Music Production / Composer
+CreditsTitle05=SPECIAL THANKS
+CreditsName00=Sebastián Gana
+CreditsName01=Rodrigo Alarcón
+CreditsName02=Javier González
+CreditsName03=Walter Berendsen
+CreditsName04=Matías Castro
+CreditsName05=Max Kubler, Luis Santander
+CreditsName06=Sebastián Suarez, Ignacio Correa
+CreditsName07=Patricio Vasquez
+CreditsContact=Contact us: contact@aonegames.cl
+CreditsMarmalade=www.madewithmarmalade.com
+
+[Tutorial]
+TutorialPart00=Welcome, I am the wise old man, and I'll teach you the basics of the game.
+TutorialPart01=The camps are our bases, you must protect them no matter what. 
+TutorialPart02=We have four lives to resist the attacks.
+TutorialPart03=This is the place through which the enemy has opened a path and will try to conquer our land.
+TutorialPart04=To defend ourselves, place a Selknam warrior on the field.
+TutorialPart05=Well done! Now we have a unit to defend ourselves.
+TutorialPart06=Oh! An enemy is coming, he'll be here in seven seconds!!!
+TutorialPart07=If you're feeling bold, you can use the fast forward button to make the action go faster.
+TutorialPart08=Great, you defeated him!!
+TutorialPart09=Your gold savings has increased, but the warrior has lost energy.
+TutorialPart10=Use your gold to place a Healer Shaman who can cure the units.
+TutorialPart11=Good job! Now make an archer so that we can attack from a distance.
+TutorialPart12=Get ready! More enemies are on their way.
+TutorialPart13=Remember, you can place more units to prepare an effective strategy.
+TutorialPart14=You have enough stars, you can now enter the upgrade menu.
+TutorialPart15=In this menu, you can improve your units, and also unlock new Selknam.
+TutorialPart16=Press a button two times to access an improve.
+TutorialPart17=Survival mode has been unlocked, you can now access it from the main menu.
+TutorialPart18=The Shaman can only heal the allies next to him. Move him close to the warrior.
+
+[Dialogs]
+DialogTapToContinue=Tap to continue
+DialogClickToContinue=Press to continue
+DialogEnemy=Enemy:
+DialogSelknam=Selknam:
+DialogWorld_1_0=The Selknam people lived peacefully in the lands far to the south of the Americas. That was until the Europeans, in their quest for glory, land and power arrived at Tierra del Fuego.
+DialogWorld_1_1=Where the Selknam had to protect their lives and territory from the foreigners.
+DialogWorld_1_2=<<<MULTI
+Enemy:
+At last, we've arrived! The Captain will give us a good reward after we kick these savages out!
+MULTI
+DialogWorld_1_3=<<<MULTI
+Selknam:
+You will never remove us from our motherland!
+MULTI
+DialogWorld_1_4=<<<MULTI
+Selknam:
+Our people have lived here long before you were even born...You will not defeat us!
+MULTI
+DialogWorld_2_0=<<<MULTI
+Enemy:
+These beasts are tougher than we thought, but it doesn't matter,
+MULTI
+DialogWorld_2_1=<<<MULTI
+Enemy:
+With the Captain and his allies on our side, their time has come to an end. It's now or never!
+MULTI
+DialogWorld_2_2=<<<MULTI
+Selknam:
+These Lands are our life source, we've lived here in peace for many centuries.
+MULTI
+DialogWorld_2_3=<<<MULTI
+Selknam:
+We will not allow you to take away our home, and we will certainly not give you the land peacefully! We will fight to defend our lives!
+MULTI
+DialogWorld_3_0=<<<MULTI
+Enemy:
+Brrr, this place is cold! BRING MORE RUM! We will need it.
+Annoying ONAS!
+MULTI
+DialogWorld_3_1=<<<MULTI
+Selknam:
+Nature is on our side, the cold is our ally. You fool Europeans don't even deserve a piece of ice.
+MULTI
+DialogWorld_3_2=<<<MULTI
+Selknam:
+GO BACK OR FREEZE TO DEATH!
+MULTI
+DialogWorld_4_0=<<<MULTI
+Enemy:
+Hahaha! Finally, they are trapped, with nowhere to go.
+MULTI
+DialogWorld_4_1=<<<MULTI
+Enemy:
+BRING THE SPICES! We will be seasoning some "Selknam" for dinner tonight!
+MULTI
+DialogWorld_4_2=<<<MULTI
+Enemy:
+Prepare yourselves for a victory feast! These fools are cooked... Hahahahaha!
+MULTI
+DialogWorld_4_3=<<<MULTI
+Selknam:
+We are the Children of these Lands of Fire and Ice!
+MULTI
+DialogWorld_4_4=<<<MULTI
+Selknam:
+WE ARE THE SPIRIT OF TIERRA DEL FUEGO!
+MULTI
+DialogWorld_4_5=<<<MULTI
+And this is how the Selknam were able to defeat the Settler forces, but only a small few managed to endure the waves of destruction from the old continent.
+Now they can live quietly and continue with... WHAT'S HAPPENING!!!
+MULTI
+DialogWorldEnd_0=HAHAHA!, useless indians! You can't win against progress!
+DialogWorldEnd_1=<<<MULTI
+You will be conquered! Do not underestimate the power of the dark side!!!
+(I think that phrase should be immortalized or something)...
+MULTI
+DialogWorldEnd_2=Fee-fi-fo-fum!!!! I smash ugly natives!
+DialogWorldEnd_3=Nooooo!!!! My Titan, you've destroyed it! Retreat! We've been... defeated....
+DialogWorldEnd_4=YAAAYY!
+DialogWorldEnd_5=And this is how the Selknam people obtained victory and outlived these horrible battles being able to take the environmental conditions to their advantage and fight for their land.
+DialogWorldEnd_6=Nowadays we may only know about them in history books, as there are no Selknam among us anymore. What we do know is that their bravery and their legacy will be kept alive through our World History.
+DialogWorldAltEnd_0=Even though the tribes fought bravely against the waves of Europeans, the Selknam were outnumbered, and fell to the enemy. The peaceful people were enslaved and forced out of their homeland...
+DialogWorldAltEnd_1=...where they died from starvation and sickness. We will never forget the great battles of the Selknam who gave their lives to defend the people from Tierra del Fuego!
+
+[Social]
+SocialMenu=Try the awesome #SelknamDefense, a unique Tower Defense/RTS iOS game from Bad Games! Download it at http://bit.ly/1sYdqb0
+SocialSurvivalPart0=I got 
+SocialSurvivalPart1= in Survival Mode in #SelknamDefense. Join the resistance downloading it from http://bit.ly/1sYdqb0
+SocialStagePart0=Try to beat my score in #SelknamDefense, I got 
+SocialStagePart1= points in stage 
+SocialStagePart2=!. You don't have it? Download it at http://bit.ly/1sYdqb0
+
+[Skills]
+Slow=SLOW: Decreases movement speed of the enemy for a certain period of time.
+Poison=POISON: Inflicts damage on the enemy at intervals for a certain period of time.
+Stun=STUN: Stun an enemy for a short period of time. Inflicts minor damage.
+Confusion=CONFUSION: Confuses the enemy and makes them take any path for a certain period of time.
+Root=ROOT: Throw a net that traps the enemy preventing their movement. The enemy can defend.
+Heal=HEAL: Magic healing that recovers energy of the nearby units.
+Haste=HASTE: Buff that increases the attack speed of nearby units.
+Might=MIGHT: Buff that increases the damage of nearby units.

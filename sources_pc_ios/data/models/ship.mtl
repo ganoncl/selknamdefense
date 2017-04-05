@@ -1,0 +1,13 @@
+// Source file: ship.max
+CIwMaterial
+{
+	name "ship/a"
+	#shadeMode "FLAT"
+	#modulateMode "NONE"
+	alphaMode "BLEND"
+	#colAmbient {0,0,0}
+	#colDiffuse {0,0,0}
+	#colEmissive {0,0,0}
+	texture0 "./textures/ship.png"
+	texture1 "./textures/ship2.png"
+}

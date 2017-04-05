@@ -1,0 +1,20 @@
+CIwResGroup
+{
+	name "fonts"
+	"fonts/komikadisplaybold25.gxfont"
+	"fonts/komikadisplay11.gxfont"
+	"fonts/komikadisplay28.gxfont"
+	"fonts/komikadisplay14.gxfont"
+	"fonts/komikadisplay18.gxfont"
+	"fonts/komikadisplay18bold.gxfont"
+	"fonts/komikadisplay22.gxfont"
+	"fonts/komikadisplay22bold.gxfont"
+	"fonts/komikadisplay48bold.gxfont"
+	"fonts/SmartKid12.gxfont"
+	"fonts/SmartKid16.gxfont"
+	"fonts/SmartKid18.gxfont"
+	"fonts/SmartKid20.gxfont"
+	"fonts/SmartKid22.gxfont"
+	"fonts/SmartKid24.gxfont"
+	"fonts/epson_jap18.gxfont"
+}

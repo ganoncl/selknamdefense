@@ -1,0 +1,7 @@
+CIwResGroup
+{
+	name "atlas_menu_1"
+
+	useTemplate "image" "template_rgba8888"
+	"atlas_fullscreen/atlas_menu_02_0.png"
+}

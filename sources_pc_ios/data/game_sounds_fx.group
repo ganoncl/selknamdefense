@@ -1,0 +1,644 @@
+CIwResGroup
+{
+	name "game_sounds_fx"
+
+	"game_sounds_fx/silence.wav"
+	CIwSoundSpec
+	{
+		name        "silence"        # The name we want to use to refer to this sound effect in our code
+		data        "silence"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/arrow_01.wav"
+	CIwSoundSpec
+	{
+		name        "arrow_01"        # The name we want to use to refer to this sound effect in our code
+		data        "arrow_01"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/arrow_02.wav"
+	CIwSoundSpec
+	{
+		name        "arrow_02"        # The name we want to use to refer to this sound effect in our code
+		data        "arrow_02"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/blast_wave_01.wav"
+	CIwSoundSpec
+	{
+		name        "blast_wave_01"        # The name we want to use to refer to this sound effect in our code
+		data        "blast_wave_01"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/click_01.wav"
+	CIwSoundSpec
+	{
+		name        "click_01"        # The name we want to use to refer to this sound effect in our code
+		data        "click_01"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/click_02.wav"
+	CIwSoundSpec
+	{
+		name        "click_02"        # The name we want to use to refer to this sound effect in our code
+		data        "click_02"        # The wav file name (without .wav)
+		vol         1.0                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/explosion_01.wav"
+	CIwSoundSpec
+	{
+		name        "explosion_01"        # The name we want to use to refer to this sound effect in our code
+		data        "explosion_01"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/knife_sword_01.wav"
+	CIwSoundSpec
+	{
+		name        "knife_sword_01"        # The name we want to use to refer to this sound effect in our code
+		data        "knife_sword_01"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/knife_sword_02.wav"
+	CIwSoundSpec
+	{
+		name        "knife_sword_02"        # The name we want to use to refer to this sound effect in our code
+		data        "knife_sword_02"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/knife_sword_03.wav"
+	CIwSoundSpec
+	{
+		name        "knife_sword_03"        # The name we want to use to refer to this sound effect in our code
+		data        "knife_sword_03"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/rollover_02.wav"
+	CIwSoundSpec
+	{
+		name        "rollover_02"        # The name we want to use to refer to this sound effect in our code
+		data        "rollover_02"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+	
+	
+	"game_sounds_fx/shot_01.wav"
+	CIwSoundSpec
+	{
+		name        "shot_01"        # The name we want to use to refer to this sound effect in our code
+		data        "shot_01"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+	
+	"game_sounds_fx/star_gained_02.wav"
+	CIwSoundSpec
+	{
+		name        "star_gained_02"        # The name we want to use to refer to this sound effect in our code
+		data        "star_gained_02"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/punch_01.wav"
+	CIwSoundSpec
+	{
+		name        "punch_01"        # The name we want to use to refer to this sound effect in our code
+		data        "punch_01"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/punch_02.wav"
+	CIwSoundSpec
+	{
+		name        "punch_02"        # The name we want to use to refer to this sound effect in our code
+		data        "punch_02"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/punch_03.wav"
+	CIwSoundSpec
+	{
+		name        "punch_03"        # The name we want to use to refer to this sound effect in our code
+		data        "punch_03"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/punch_04.wav"
+	CIwSoundSpec
+	{
+		name        "punch_04"        # The name we want to use to refer to this sound effect in our code
+		data        "punch_04"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/punch_05.wav"
+	CIwSoundSpec
+	{
+		name        "punch_05"        # The name we want to use to refer to this sound effect in our code
+		data        "punch_05"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/sell_unit.wav"
+	CIwSoundSpec
+	{
+		name        "sell_unit"        # The name we want to use to refer to this sound effect in our code
+		data        "sell_unit"        # The wav file name (without .wav)
+		vol         0.5                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+	
+	"game_sounds_fx/metal_impact.wav"
+	CIwSoundSpec
+	{
+		name        "metal_impact"        # The name we want to use to refer to this sound effect in our code
+		data        "metal_impact"        # The wav file name (without .wav)
+		vol         1.0                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/metal_impact2.wav"
+	CIwSoundSpec
+	{
+		name        "metal_impact2"        # The name we want to use to refer to this sound effect in our code
+		data        "metal_impact2"        # The wav file name (without .wav)
+		vol         1.0               # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/coins.wav"
+	CIwSoundSpec
+	{
+		name        "coins"        # The name we want to use to refer to this sound effect in our code
+		data        "coins"        # The wav file name (without .wav)
+		vol         0.7               # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/heal.wav"
+	CIwSoundSpec
+	{
+		name        "heal"        # The name we want to use to refer to this sound effect in our code
+		data        "heal"        # The wav file name (without .wav)
+		vol         1.0                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/buff_on.wav"
+	CIwSoundSpec
+	{
+		name        "buff_on"        # The name we want to use to refer to this sound effect in our code
+		data        "buff_on"        # The wav file name (without .wav)
+		vol         0.7                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/bubbles.wav"
+	CIwSoundSpec
+	{
+		name        "bubbles"        # The name we want to use to refer to this sound effect in our code
+		data        "bubbles"        # The wav file name (without .wav)
+		vol         1.0                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+	
+	"game_sounds_fx/lose_a_live.wav"
+	CIwSoundSpec
+	{
+		name        "lose_a_live"        # The name we want to use to refer to this sound effect in our code
+		data        "lose_a_live"        # The wav file name (without .wav)
+		vol         1.0                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/dying_baron.wav"
+	CIwSoundSpec
+	{
+		name        "dying_baron"        # The name we want to use to refer to this sound effect in our code
+		data        "dying_baron"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/dying_convict.wav"
+	CIwSoundSpec
+	{
+		name        "dying_convict"        # The name we want to use to refer to this sound effect in our code
+		data        "dying_convict"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/dying_pirate.wav"
+	CIwSoundSpec
+	{
+		name        "dying_pirate"        # The name we want to use to refer to this sound effect in our code
+		data        "dying_pirate"        # The wav file name (without .wav)
+		vol         0.85               # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/dying_rabbit.wav"
+	CIwSoundSpec
+	{
+		name        "dying_rabbit"        # The name we want to use to refer to this sound effect in our code
+		data        "dying_rabbit"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/dying_scientist.wav"
+	CIwSoundSpec
+	{
+		name        "dying_scientist"        # The name we want to use to refer to this sound effect in our code
+		data        "dying_scientist"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/dying_soldier.wav"
+	CIwSoundSpec
+	{
+		name        "dying_soldier"        # The name we want to use to refer to this sound effect in our code
+		data        "dying_soldier"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/dying_tank.wav"
+	CIwSoundSpec
+	{
+		name        "dying_tank"        # The name we want to use to refer to this sound effect in our code
+		data        "dying_tank"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/selknam_archer_deploy_01.wav"
+	CIwSoundSpec
+	{
+		name        "selknam_archer_deploy_01"        # The name we want to use to refer to this sound effect in our code
+		data        "selknam_archer_deploy_01"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/selknam_archer_deploy_02.wav"
+	CIwSoundSpec
+	{
+		name        "selknam_archer_deploy_02"        # The name we want to use to refer to this sound effect in our code
+		data        "selknam_archer_deploy_02"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/selknam_archer_select_01.wav"
+	CIwSoundSpec
+	{
+		name        "selknam_archer_select_01"        # The name we want to use to refer to this sound effect in our code
+		data        "selknam_archer_select_01"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/selknam_archer_select_02.wav"
+	CIwSoundSpec
+	{
+		name        "selknam_archer_select_02"        # The name we want to use to refer to this sound effect in our code
+		data        "selknam_archer_select_02"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/selknam_bowler_deploy_01.wav"
+	CIwSoundSpec
+	{
+		name        "selknam_bowler_deploy_01"        # The name we want to use to refer to this sound effect in our code
+		data        "selknam_bowler_deploy_01"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/selknam_bowler_deploy_02.wav"
+	CIwSoundSpec
+	{
+		name        "selknam_bowler_deploy_02"        # The name we want to use to refer to this sound effect in our code
+		data        "selknam_bowler_deploy_02"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/selknam_bowler_select_01.wav"
+	CIwSoundSpec
+	{
+		name        "selknam_bowler_select_01"        # The name we want to use to refer to this sound effect in our code
+		data        "selknam_bowler_select_01"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/selknam_bowler_select_02.wav"
+	CIwSoundSpec
+	{
+		name        "selknam_bowler_select_02"        # The name we want to use to refer to this sound effect in our code
+		data        "selknam_bowler_select_02"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/selknam_mage_deploy_01.wav"
+	CIwSoundSpec
+	{
+		name        "selknam_mage_deploy_01"        # The name we want to use to refer to this sound effect in our code
+		data        "selknam_mage_deploy_01"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/selknam_mage_deploy_02.wav"
+	CIwSoundSpec
+	{
+		name        "selknam_mage_deploy_02"        # The name we want to use to refer to this sound effect in our code
+		data        "selknam_mage_deploy_02"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/selknam_mage_select_01.wav"
+	CIwSoundSpec
+	{
+		name        "selknam_mage_select_01"        # The name we want to use to refer to this sound effect in our code
+		data        "selknam_mage_select_01"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/selknam_mage_select_02.wav"
+	CIwSoundSpec
+	{
+		name        "selknam_mage_select_02"        # The name we want to use to refer to this sound effect in our code
+		data        "selknam_mage_select_02"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/selknam_warrior_deploy_01.wav"
+	CIwSoundSpec
+	{
+		name        "selknam_warrior_deploy_01"        # The name we want to use to refer to this sound effect in our code
+		data        "selknam_warrior_deploy_01"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/selknam_warrior_deploy_02.wav"
+	CIwSoundSpec
+	{
+		name        "selknam_warrior_deploy_02"        # The name we want to use to refer to this sound effect in our code
+		data        "selknam_warrior_deploy_02"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/selknam_warrior_select_01.wav"
+	CIwSoundSpec
+	{
+		name        "selknam_warrior_select_01"        # The name we want to use to refer to this sound effect in our code
+		data        "selknam_warrior_select_01"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/selknam_warrior_select_02.wav"
+	CIwSoundSpec
+	{
+		name        "selknam_warrior_select_02"        # The name we want to use to refer to this sound effect in our code
+		data        "selknam_warrior_select_02"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/dying_selknam_archer.wav"
+	CIwSoundSpec
+	{
+		name        "dying_selknam_archer"        # The name we want to use to refer to this sound effect in our code
+		data        "dying_selknam_archer"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/dying_selknam_bowler.wav"
+	CIwSoundSpec
+	{
+		name        "dying_selknam_bowler"        # The name we want to use to refer to this sound effect in our code
+		data        "dying_selknam_bowler"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/dying_selknam_mage.wav"
+	CIwSoundSpec
+	{
+		name        "dying_selknam_mage"        # The name we want to use to refer to this sound effect in our code
+		data        "dying_selknam_mage"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/dying_selknam_warrior.wav"
+	CIwSoundSpec
+	{
+		name        "dying_selknam_warrior"        # The name we want to use to refer to this sound effect in our code
+		data        "dying_selknam_warrior"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/boss_angry_after_paincycle.wav"
+	CIwSoundSpec
+	{
+		name        "boss_angry_after_paincycle"        # The name we want to use to refer to this sound effect in our code
+		data        "boss_angry_after_paincycle"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/boss_comment_cycle01_backward_01.wav"
+	CIwSoundSpec
+	{
+		name        "boss_comment_cycle01_backward_01"        # The name we want to use to refer to this sound effect in our code
+		data        "boss_comment_cycle01_backward_01"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/boss_comment_cycle01_moving_forward_01.wav"
+	CIwSoundSpec
+	{
+		name        "boss_comment_cycle01_moving_forward_01"        # The name we want to use to refer to this sound effect in our code
+		data        "boss_comment_cycle01_moving_forward_01"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/boss_comment_cycle01_prefire.wav"
+	CIwSoundSpec
+	{
+		name        "boss_comment_cycle01_prefire"        # The name we want to use to refer to this sound effect in our code
+		data        "boss_comment_cycle01_prefire"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/boss_comment_cycle02_backward_01.wav"
+	CIwSoundSpec
+	{
+		name        "boss_comment_cycle02_backward_01"        # The name we want to use to refer to this sound effect in our code
+		data        "boss_comment_cycle02_backward_01"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/boss_comment_cycle02_moving_forward_01.wav"
+	CIwSoundSpec
+	{
+		name        "boss_comment_cycle02_moving_forward_01"        # The name we want to use to refer to this sound effect in our code
+		data        "boss_comment_cycle02_moving_forward_01"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/boss_comment_cycle02_prefire.wav"
+	CIwSoundSpec
+	{
+		name        "boss_comment_cycle02_prefire"        # The name we want to use to refer to this sound effect in our code
+		data        "boss_comment_cycle02_prefire"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/boss_comment_cycle03_backward_01.wav"
+	CIwSoundSpec
+	{
+		name        "boss_comment_cycle03_backward_01"        # The name we want to use to refer to this sound effect in our code
+		data        "boss_comment_cycle03_backward_01"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/boss_comment_cycle03_backward_02.wav"
+	CIwSoundSpec
+	{
+		name        "boss_comment_cycle03_backward_02"        # The name we want to use to refer to this sound effect in our code
+		data        "boss_comment_cycle03_backward_02"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/boss_comment_cycle03_moving_forward_01.wav"
+	CIwSoundSpec
+	{
+		name        "boss_comment_cycle03_moving_forward_01"        # The name we want to use to refer to this sound effect in our code
+		data        "boss_comment_cycle03_moving_forward_01"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/boss_comment_cycle03_prefire.wav"
+	CIwSoundSpec
+	{
+		name        "boss_comment_cycle03_prefire"        # The name we want to use to refer to this sound effect in our code
+		data        "boss_comment_cycle03_prefire"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/boss_dying.wav"
+	CIwSoundSpec
+	{
+		name        "boss_dying"        # The name we want to use to refer to this sound effect in our code
+		data        "boss_dying"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/boss_pain_01.wav"
+	CIwSoundSpec
+	{
+		name        "boss_pain_01"        # The name we want to use to refer to this sound effect in our code
+		data        "boss_pain_01"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/boss_pain_02.wav"
+	CIwSoundSpec
+	{
+		name        "boss_pain_02"        # The name we want to use to refer to this sound effect in our code
+		data        "boss_pain_02"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/boss_pain_03.wav"
+	CIwSoundSpec
+	{
+		name        "boss_pain_03"        # The name we want to use to refer to this sound effect in our code
+		data        "boss_pain_03"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+
+	"game_sounds_fx/cannon_ship.wav"
+	CIwSoundSpec
+	{
+		name        "cannon_ship"        # The name we want to use to refer to this sound effect in our code
+		data        "cannon_ship"        # The wav file name (without .wav)
+		vol         0.90                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+	
+	"game_sounds_fx/boss_laugh.wav"
+	CIwSoundSpec
+	{
+		name        "boss_laugh"        # The name we want to use to refer to this sound effect in our code
+		data        "boss_laugh"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+	
+	"game_sounds_fx/boss_appear_explosion.wav"
+	CIwSoundSpec
+	{
+		name        "boss_appear_explosion"        # The name we want to use to refer to this sound effect in our code
+		data        "boss_appear_explosion"        # The wav file name (without .wav)
+		vol         0.85                # Default volume to be played at
+		loop        false              # Do we want this sound effect to play forever?
+	}
+}

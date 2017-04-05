@@ -1,0 +1,13 @@
+CIwResGroup
+{
+	name "atlas_selknam_mage"
+	useTemplate "image" "template_rgba8888"
+
+	#units
+	"game_shamans/atlas_selknam_mage_01_1.png"
+	"game_shamans/atlas_selknam_mage_01_2.png"
+	"game_shamans/atlas_selknam_mage_02_1.png"
+	"game_shamans/atlas_selknam_mage_02_2.png"
+	"game_shamans/atlas_selknam_mage_03_1.png"
+	"game_shamans/atlas_selknam_mage_03_2.png"
+}

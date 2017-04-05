@@ -1,0 +1,7 @@
+CIwResGroup
+{
+	name "atlas_bkg_menu_sky"
+
+	useTemplate "image" "template_rgb888"
+	"atlas_fullscreen/bkg_menu_sky.png" 
+}

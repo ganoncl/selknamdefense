@@ -1,0 +1,19 @@
+// Source file: template_ship.max
+CIwAnimSkin
+{
+	skeleton "bone_ship"
+	model "broken_cannon_2"
+	CIwAnimSkinSet
+	{
+		useBones { bone_cannon }
+		numVerts 8
+		vertWeights {0,1}
+		vertWeights {1,1}
+		vertWeights {2,1}
+		vertWeights {3,1}
+		vertWeights {4,1}
+		vertWeights {5,1}
+		vertWeights {6,1}
+		vertWeights {7,1}
+	}
+}

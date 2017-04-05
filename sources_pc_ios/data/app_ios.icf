@@ -1,0 +1,160 @@
+# This file is for configuration settings for your
+# application.
+#
+# The syntax is similar to windows .ini files ie
+#
+# [GroupName]
+# Setting = Value
+#
+# Which can be read by your application using
+#  e.g s3eConfigGetString("GroupName", "Setting", string)
+#
+# All settings must be documented in .config.txt files.
+# New settings specific to this application should be
+# documented in app.config.txt
+#
+# Some conditional operations are also permitted, see the
+# S3E documentation for details.
+[S3E]
+SysGlesVersion=2
+MemSize=47185920
+MemSizeDebug=47185920
+SysStackSize=65536
+DispFixRot=Landscape
+AudioVolDefault=250
+SoundVolDefault=250
+
+[GX]
+Rasterisation=HW
+Transform=HW
+UnIndexedStreamMax=8192
+VertCacheSize=8192
+VertCacheSizeHW=8192
+DisableSurfaces=1
+DataCacheSize=65536
+DataCacheSizeHW=65536
+DisableCustomShaders=1
+DisplayFrameRate=0
+UploadStreams=1
+DrawCursor=0
+PrintStringNumChars=4096
+
+[GL]
+EGL_SAMPLE_BUFFERS=1 
+EGL_SAMPLES=2
+#AllowNoDepthBufferClear=1
+#PreCompileShaderBinaries=1
+
+[TRACE]
+#System
+PLATFORMDATA=0
+STEAMWORKS=0
+LOCALIZATION=0
+STEAMACHIEVEMENTS=0
+FREETYPE=0
+FILE=0
+UTIL=0
+RESMANAGER=0
+IW_GL=0
+GX_VERBOSE=0
+GX_FONT_VERBOSE=0
+#End System
+ANIMS=0
+APPLOG=0
+ASTAR=0
+AUDIO=0
+MAPPROPERTIES_PARSER=0
+MAPTILE_PARSER=0
+MAPROPS_PARSER=0
+MAPENEMIES_PARSER=0
+PAWNATRIBUTES=0
+SKILLATRIBUTES=0
+SOUND=0
+TEXTURE_PARSER=0
+DATATEX=0
+EXTRAMAP=0
+SUICIDA=0
+GAMEPAD_VERBOSE=0
+
+[ASSERT]
+APPASSERT=1
+
+[SOUND]
+MaxChannels=8
+
+#iPad
+#WinWidth=1024
+#WinHeight=768
+
+#iPhone
+#WinWidth=960
+#WinHeight=640
+
+#PC
+#WinWidth=1280
+#WinHeight=720
+
+{OS=WINDOWS}
+[S3E]
+WinWidth=1280
+WinHeight=720
+#WinFullScreen=1
+#WinFullScreenWidth=1280
+#WInFullScreenHeight=720
+#WinAllowAltEnter=1
+
+
+{OS=OSX}
+[S3E]
+WinWidth=1280
+WinHeight=720
+#WinFullScreen=1
+#WinFullScreenWidth=1280
+#WinFullScreenHeight=800
+#WinAllowAltEnter=1
+
+
+{OS=IPHONE}
+#iPads models: 2, mini 1
+{ID=IPHONE "iPad2,1", "iPad2,2", "iPad2,3", "iPad2,4", "iPad2,5", "iPad2,6", "iPad2,7"}
+[S3E]
+WinWidth=1024
+WinHeight=768
+
+#iPads models: 3, 4, Air, mini 2
+{ID=IPHONE "iPad3,1", "iPad3,2", "iPad3,3", "iPad3,4", "iPad3,5", "iPad3,6", "iPad4,1", "iPad4,2", "iPad4,4", "iPad4,5"}
+[S3E]
+WinWidth=1024
+WinHeight=768
+
+{OS=IPHONE}
+#iPhone models: 4, 4s
+{ID=IPHONE  "iPhone3,1", "iPhone3,2", "iPhone3,3", "iPhone4,1"}
+[S3E]
+WinWidth=960
+WinHeight=640
+IOSDispScaleFactor=200
+
+{OS=IPHONE}
+#iPhone models: 5, 5c, 5s
+{ID=IPHONE  "iPhone5,1", "iPhone5,2", "iPhone5,3", "iPhone5,4", "iPhone6,1", "iPhone6,2"}
+[S3E]
+WinWidth=1136
+WinHeight=640
+IOSDispScaleFactor=200
+
+{OS=IPHONE}
+#iPod Touch model: 4
+{ID=IPHONE  "iPod4,1"}
+[S3E]
+WinWidth=960
+WinHeight=640
+IOSDispScaleFactor=200
+
+{OS=IPHONE}
+#iPod Touch model: 5
+{ID=IPHONE  "iPod5,1"}
+[S3E]
+WinWidth=1136
+WinHeight=640
+IOSDispScaleFactor=200

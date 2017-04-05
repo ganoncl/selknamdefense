@@ -1,0 +1,8 @@
+// Source file: template_ship.max
+CIwMaterial
+{
+	name "mesh_1/a"
+	alphaMode "BLEND"
+	texture0 "./textures/ship.png"
+	texture1 "./textures/ship2.png"
+}

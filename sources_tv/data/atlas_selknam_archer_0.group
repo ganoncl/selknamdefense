@@ -1,0 +1,11 @@
+CIwResGroup
+{
+	name "atlas_selknam_archer_0"
+	useTemplate "image" "template_rgba8888"
+
+	#units
+	"game_archers/atlas_selknam_archer_01_1.png"
+	"game_archers/atlas_selknam_archer_01_2.png"
+	"game_archers/atlas_selknam_archer_02_1.png"
+	"game_archers/atlas_selknam_archer_02_2.png"
+}

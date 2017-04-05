@@ -1,0 +1,34 @@
+CIwResTemplateImage
+{
+    name "template_rgba8888"
+	mipMapping false
+	formatHW    "RGBA_8888"
+}
+
+CIwResTemplateImage
+{
+    name "template_rgb888"
+	formatHW    "RGB_888"
+	mipMapping false
+}
+
+CIwResTemplateImage
+{
+    name "template_pal_rgb888"
+	formatHW    "RGBA_8888"
+	mipMapping false
+}
+
+CIwResTemplateImage
+{
+    name "template_pal_rgba8888"
+	formatHW    "RGBA_8888"
+	mipMapping false
+}
+
+CIwResTemplateImage
+{
+    name "template_rgba4444"
+	formatHW    "RGBA_4444"
+	mipMapping false
+}

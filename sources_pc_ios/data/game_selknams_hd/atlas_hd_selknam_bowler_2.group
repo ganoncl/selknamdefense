@@ -1,0 +1,9 @@
+CIwResGroup
+{
+	name "atlas_hd_selknam_bowler_2"
+	useTemplate "image" "template_rgba8888"
+
+	#units
+	"./atlas_selknam_bowler_2_01.png"
+	"./atlas_selknam_bowler_2_02.png"
+}

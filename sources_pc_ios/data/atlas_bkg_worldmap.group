@@ -1,0 +1,7 @@
+CIwResGroup
+{
+	name "atlas_bkg_worldmap"
+
+	useTemplate "image" "template_rgb888"
+	"atlas_fullscreen/bkg_worldmap.png" 
+}

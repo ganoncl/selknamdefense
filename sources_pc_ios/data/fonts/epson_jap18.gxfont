@@ -1,0 +1,12 @@
+//Temp file created by AS Font Builder (User:  At: 06/04/14 23:59:03)
+//Command Line:
+//:  -fontdesc "0;-24;0;0;0;400;0;0;0;128;3;2;1;65;EPSON 行書体Ｍ" 4 4 0  -pad 0 0 
+//:  -col #FFFFFF -shadow 0 -spacing 4 -force16 0
+
+CIwGxFont
+{
+	utf8 1
+	image epson_jap18.tga
+	charmap ".ADGILNOadgino荷重"
+
+}

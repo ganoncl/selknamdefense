@@ -1,0 +1,321 @@
+﻿[UI]
+SplashLoading=  CARGANDO...
+SplashVersion=VERSION : 
+SplashFullVersion=FULL  VERSION : 
+SplashFreeVersion=FREE  VERSION : 
+UIBack=ATRÁS
+UIClose=CERRAR
+UIOk=OK
+UIAccept=ACEPTAR
+UICancel=CANCELAR
+UINext=SIGUIENTE
+UISkip=OMITIR
+UIFinish=TERMINAR
+UIPlayGame=JUGAR
+UIRemoveAds=REMOVE ADS
+UINewCampaign=NUEVA CAMPAÑA
+UIPlayCampaign=JUGAR CAMPAÑA
+UIAlmanac=ALMANAQUE
+UIOptions=OPCIONES
+UIRestore=RESTAURAR COMPRAS
+UISettings=CONFIGURACIÓN
+UICredits=CRÉDITOS
+UISurvival=SUPERVIVENCIA
+UIQuitGame=SALIR
+UIExitGame=SALIR
+UIPause=PAUSA
+UIResume=REANUDAR
+UIHowToPlay=CÓMO JUGAR
+UIRetry=REINTENTAR
+UIWorldMap=MAPA
+UIPlayAgain=JUGAR DE NUEVO
+UIContinue=CONTINUAR
+UIUpgrades=MEJORAS
+UISelknams=SELKNAMS
+UIEnemies=ENEMIGOS
+UITime=TIEMPO: 
+UIWave=OLA: 
+UICongratulations=¡¡FELICITACIONES!!
+UINewRecord=NUEVO RÉCORD:
+UIYourRecord=TU RÉCORD ES:
+UIBestRecord=MEJOR RÉCORD:
+UINoRecord=<<<MULTI
+¡NO ALCANZASTE TU MEJOR RÉCORD!
+PRUEBA DE NUEVO LA PRÓXIMA VEZ.
+MULTI
+UIVictory=VICTORIA
+UIDefeat=DERROTA
+UIScoreHeartBonus=BONO CORAZONES : 
+UIScoreCoinsBonus=BONO MONEDAS : 
+UIScoreWaveBonus=BONO OLEADAS : 
+UIScoreTotal=TOTAL : 
+UIOnlyFullVersion=<<<MULTI
+SOLO VERSIÓN
+COMPLETA
+MULTI
+UILeaderboards=MARCADORES
+UIGameCenter=GAME CENTER
+UIMusic=MUSICA
+UIFXSound=SONIDO FX
+UIFullscreen=PANTALLA COMPLETA
+UIMuteAll=SILENCIAR TODO
+
+[Popups]
+PopupSavedData=<<<MULTI
+TODO TU PROGRESO SE BORRARÁ.
+¿DESEAS CONTINUAR?
+MULTI
+PopupQuitGame=<<<MULTI
+EL JUEGO SE CERRARÁ.
+¿DESEAS CONTINUAR?
+MULTI
+PopupNoFeature=ESTA FUNCIÓN NO ESTÁ DISPONIBLE TODAVÍA.
+PopupRetry=¿ESTÁS SEGURO QUE DESEAS COMENZAR DE NUEVO?
+PopupReturnToMenu=¿ESTÁS SEGURO QUE QUIERES VOLVER AL MENÚ PRINCIPAL?
+PopupReturnToWorldMap=¿ESTÁS SEGURO QUE QUIERES VOLVER AL MAPA PRINCIPAL?
+PopupUpgrades=<<<MULTI
+LAS MEJORAS SE RESETEARÁN Y LAS ESTRELLAS SE PODRÁN REASIGNAR DE NUEVO.
+¿DESEAS CONTINUAR?
+MULTI
+PopupSurvival=PARA PODER JUGAR SUPERVIVENCIA DEBES COMPLETAR LOS TRES PRIMEROS MUNDOS DEL MODO CAMPAÑA.
+PopupTrial=PARA PODER JUGAR ESTE MODO DEBES TENER LA VERSIÓN COMPLETA.
+PopupThanksSharing=GRACIAS POR COMPARTIR.
+PopupErrorGeneric=ERROR.
+PopupErrorLeaderboard=ERROR EN LOS MARCADORES.
+PopupInternetConnection=NECESITAS ESTAR CONECTADO A INTERNET PARA JUGAR.
+
+[SelknamUpgrade]
+UpgradeSelknamUpgrade=MEJORAS SELKNAM
+PortraitArcherBase=FRANCOTIRADOR
+PortraitArcherSlower=RELANTIZADOR
+PortraitArcherPoisoner=ENVENENADOR
+PortraitBowlerStunner=ATURDIDOR
+PortraitBowlerConfuser=CONFUNDIDOR
+PortraitBowlerRooter=ATRAPADOR
+PortraitWarriorBase=GUERRERO
+PortraitWarriorBerserk=BERSERKER
+PortraitWarriorTank=TANQUE
+PortraitShamanHealer=SANADOR
+PortraitShamanSpeeder=ACELERADOR
+PortraitShamanMighter=FORTIFICADOR
+UpgradeAttributes=ATRIBUTOS
+UpgradeHealth=ENERGÍA
+UpgradeDamage=DAÑO
+UpgradeSpeed=VELOCIDAD
+UpgradeAttackSpeed=VEL ATAQUE
+UpgradeCastSpeed=VEL CONJURO
+UpgradeRange=RANGO
+UpgradeCost=COSTO
+UpgradeSkill=HABILIDAD
+UpgradeSkillSlow=RALENTIZAR
+UpgradeSkillPoison=VENENO
+UpgradeSkillStun=ATURDIR
+UpgradeSkillConfusion=CONFUNDIR
+UpgradeSkillRoot=RED
+UpgradeSkillHeal=SANAR
+UpgradeSkillHaste=ACELERAR
+UpgradeSkillMight=FORTIFICAR
+
+[Leaderboards]
+LeaderboardsTitle=MARCADORES
+LeaderboardsRank=POSICIÓN
+LeaderboardsPlayername=NOMBRE
+LeaderboardsScore=TOTAL
+LeaderboardsTime=TIEMPO
+LeaderboardsPrevPage=ANTERIOR
+LeaderboardsNextPage=PRÓXIMA
+LeaderboardsLoading=CARGANDO MARCADORES...
+LeaderboardsOverall=GENERAL
+LeaderboardsFriends=AMIGOS
+LeaderboardsMyRank=MI PUNTAJE
+LeaderboardsStage=NIVEL
+LeaderboardsSurvival=MODO SUPERVIVENCIA
+LeaderboardsCampaign=MODO CAMPAÑA
+LeaderboardsNotAvailable=NO DISPONIBLE
+
+[SelknamAlmanac]
+AlmanacBaseArcherTitle=ARQUERO FRANCOTIRADOR
+AlmanacBaseArcherInformation=Ellos fueron entrenados para cazar usando su excelente camuflaje y ocupando arcos con flechas de largo alcance. Estas importantes habilidades les darán ventaja frente a los enemigos.
+AlmanacPoisonArcherTitle=ARQUERO ENVENENADOR
+AlmanacPoisonArcherInformation=Entrenados para cazar, son rápidos y efectivos usando flechas especiales. Estas flechas están untadas con un líquido mortífero extraído de animales y plantas venenosas. Suelen cazar grandes presas para surtir de alimentos a sus familias. No son asesinos, pero, si se sienten amenazados, ellos defenderán su territorio.
+AlmanacUnitDelayerTitle=ARQUERO RELANTIZADOR
+AlmanacUnitDelayerInformation=En la búsqueda de mejores y más efectivos métodos de caza, los chamanes de la tribu llamaron a las fuerzas de la naturaleza para mejorar la técnica de sus arqueros más capacitados. De ese llamado nacieron las flechas de hielo, que ralentizan a sus presas y las hacen fáciles de matar. Si es necesario los arqueros de hielo no dudarán en usar esta arma contra los enemigos de la tribu.
+AlmanacBolasThrowerBaseTitle=BOLEADOR ATURDIDOR
+AlmanacBolasThrowerBaseInformation=Están asociados con los arqueros, porque ambos son especialistas en atrapar presas. Usan sus habilidades de lanzamiento y fuerza para atontar y matar rápido con el menor dolor posible. Esto lo hacen por respeto a la naturaleza y a los mismos animales que sirven de alimento. Los boleadores no serán misericordiosos con los colonos invasores. Pero no son tan asertivos como los arqueros.
+AlmanacBolasThrowerFloorTitle=BOLEADOR ATRAPADOR
+AlmanacBolasThrowerFloorInformation=Tal como ocurrió con los arqueros ralentizadores, a los boleadores atrapadores también se les dio poderes chamánicos. Por eso pueden crear redes con elementos de la naturaleza para atrapar a sus presas por algún tiempo, permitiendo así que los arqueros puedan matar a estos enemigos. Combatirán mano a mano con su gente para defenderse de los colonos.
+AlmanacBolasThrowerConfuseTitle=BOLEADOR CONFUNDIDOR
+AlmanacBolasThrowerConfuseInformation=Solo los miembros más fuertes de la tribu Selknam fueron entrenados para convertirse en esta clase de boleadores. Ellos lanzan proyectiles directo a la cabeza de su presa, ya sea para eliminarlos o confundirlos. Generalmente, los boleadores confundidores tienen una actitud más agresiva que los demás Selknams.
+AlmanacBaseWarriorTitle=GUERRERO
+AlmanacBaseWarriorInformation=El Selknam guerrero es un miembro promedio de la tribu que suele luchar por entretención y diversión. Sus habilidades siempre serán útiles en tiempos de guerra y no dudarán en canalizar su verdadera fuerza contra el enemigo.
+AlmanacResistantWarriorTitle=TANQUE
+AlmanacResistantWarriorInformation=Antes de que llegase la amenaza de los colonos, los guerreros habían implementado armaduras especializadas para mejorar su resistencia y contener así a antiguos enemigos. Los grandes guerreros portadores de estas armaduras son una importante defensa de la tribu.
+AlmanacAggressiveWarriorTitle=BERSERKER
+AlmanacAggressiveWarriorInformation=Estos Selknams caóticos perdieron su lado pacífico al ver cómo los colonos asumían el control de sus tierras. No esperarán ser atacados, sino que serán ofensivos en sus embestidas. Ellos están armados con letales armas que causarán el mayor daño posible.
+AlmanacBaseMageTitle=CHAMÁN SANADOR
+AlmanacBaseMageInformation=Este es un chamán Selknam con la habilidad de sanar a los miembros de la tribu que valientemente van a la batalla. Él llama a los espíritus de los ancestros para emanar salud en sus aliados al momento de la batalla y así continuar la lucha para liberar a su pueblo de la extinción.
+AlmanacSpeederMageTitle=CHAMÁN ACELERADOR
+AlmanacSpeederMageInformation=Este chamán ha permanecido en contacto con los animales más veloces de su entorno, aprendiendo de los espíritus de la naturaleza el secreto para mejorar la velocidad de ataque de su pueblo. Si el chamán emana esta magia a los Selknams, para ellos será más fácil lograr la victoria en las batallas más difíciles.
+AlmanacMighterMageTitle=CHAMÁN FORTIFICADOR
+AlmanacMighterMageInformation=Este es un chamán de la tribu que eligió aprender las habilidades de fortalecimiento. Ha estado en contacto cercano con animales poderosos para instruirse de ellos. Con su sabiduría y magia, lanza conjuros para dar una fortaleza extra a sus aliados. Un chamán de esta categoría hace mucho más poderosa a la tribu Selknam.
+
+[EnemiesAlmanac]
+AlmanacSoldierTitle=SOLDADO
+AlmanacSoldierInfo=Inexperto pero agresivo cazarrecompensas europeo. Usualmente está involucrado en peleas de bar y por eso es hábil con los cuchillos. No está acostumbrado a enfrentar las batallas organizadas, lo que lo hace más vulnerable a los ataques. Este tipo de soldado no dudará en matar.
+AlmanacBaronTitle=BARÓN
+AlmanacBaronInfo=Educado y noble europeo que ha llegado para encontrar nuevas riquezas en las tierras por conquistar. Está absolutamente dispuesto a participar en contiendas a cambio de obtener tierras y convertirse en propietario. No tiene miedo de luchar debido a su gran ambición. Es hábil con las armas de fuego, pero el daño que hace a los Selknams no es crítico.
+AlmanacConvictTitle=CONVICTO
+AlmanacConvictInfo=No muchas personas estaban dispuestas a viajar a nuevas tierras por temor a los salvajes y lo desconocido. Pero los convictos no tenían nada que perder ni tampoco tenían miedo. Para ellos es mejor sacrificarse por la conquista antes que permanecer en la cárcel. A ellos les toca llevar grandes cantidades de pólvora para intentar generar explosiones cerca de los Selknams y su alrededor.
+AlmanacChemistTitle=QUÍMICO
+AlmanacChemistInfo=Este químico, con tendencia al alcoholismo, tuvo muchos problemas en la sociedad europea. Por ese motivo se ofreció para la misión. De este modo, entregó sus conocimientos de química a las tropas europeas para así crear armas químicas. Él mismo estará dispuesto a luchar, ya que lleva consigo un producto químico venenoso. Sin embargo, si el químico es vencido, el producto caerá al piso.
+AlmanacTankTitle=TANQUE
+AlmanacTankInfo=Este es un soldado extremadamente resistente. Su propósito no es atacar directamente a los Selknams, sino mantenerse vivo el tiempo suficiente como para llegar al lugar sagrado que hace vulnerable a la tribu. Mientras los Selknams intenten derribar a este enemigo, los demás pueden aprovechar la distracción.
+AlmanacRabbitTitle=CONEJO
+AlmanacRabbitInfo=Este científico loco, gracias a muchos años de investigación, ha desarrollado una supervelocidad que le permite esquivar los ataques y rápidamente llegar a la zona de los Selknams. Debido a que no posee ninguna armadura, es extremadamente vulnerable a los ataques, pero su supervelocidad lo convierte en un objetivo difícil.
+AlmanacPirateTitle=PIRATA
+AlmanacPirateInfo=Brazo derecho del Capitán. Este despiadado pirata ha ganado en todas las batallas que ha participado. No tiene lealtad ni remordimiento, él solo busca beneficiarse de la ocasión, como la  jugosa recompensa que el capitán le ha prometido una vez que erradiquen a los Selknams. Es más fuerte que el cazarrecompensas.
+AlmanacCaptainTitle=EL CAPITÁN
+AlmanacCaptainInfo=Su ambición es más grande que cualquier individuo de sus tropas, y no pretende ser derrotado por los salvajes. Si es necesario, como buen capitán, se hundirá junto a todo su barco. Él está muy preparado, tiene una gran cantidad de armas, es fuerte y tiene muchos subordinados a disposición. Considera que las tierras ya son suyas.
+
+[Credits]
+CreditsTitle00=Líder de equipo & Programador
+CreditsTitle01=Diseño de juego / Arte
+CreditsTitle02=Programador Senior
+CreditsTitle03=Diseño de juego / Conceptos
+CreditsTitle04=Producción Musical / Compositor
+CreditsTitle05=AGRADECIMIENTOS ESPECIALES
+CreditsName00=Sebastián Gana
+CreditsName01=Rodrigo Alarcón
+CreditsName02=Javier González
+CreditsName03=Walter Berendsen
+CreditsName04=Matías Castro
+CreditsName05=Max Kubler, Luis Santander
+CreditsName06=Sebastián Suarez, Ignacio Correa
+CreditsName07=Patricio Vasquez
+CreditsContact=Contact us: contact@aonegames.cl
+CreditsMarmalade=www.madewithmarmalade.com
+
+[Tutorial]
+TutorialPart00=Bienvenido, yo soy el viejo sabio y te enseñare aspectos básicos del juego.
+TutorialPart01=Los campamentos son nuestras bases, debes protegerlos a como dé lugar.
+TutorialPart02=Disponemos de cuatro vidas para poder resistir los ataques.
+TutorialPart03=Por este lugar los enemigos han abierto camino y pretenden conquistar nuestra tierra.
+TutorialPart04=Para defendernos, ahora coloquemos un guerrero Selknam.
+TutorialPart05=¡Muy bien! Ahora tenemos una unidad para defendernos.
+TutorialPart06=¡OH! ¡¡¡Se aproxima un enemigo, llegara en 7 segundos!!!
+TutorialPart07=Si eres atrevido, puedes usar el botón de adelantar para que llegue más pronto.
+TutorialPart08=¡¡Excelente, pudiste vencerle!!
+TutorialPart09=Tu reserva de oro a aumentado pero el guerrero ha perdido energía.
+TutorialPart10=Usaremos ese oro para colocar un Chaman que sane a tus unidades.
+TutorialPart11=¡Muy bien! Ahora crea un arquero que ataque a distancia.
+TutorialPart12=¡Prepárate! Más enemigos vienen en camino.
+TutorialPart13=Y recuerda, puedes colocar más unidades para preparar una buena estrategia.
+TutorialPart14=Tienes suficientes estrellas, puedes ingresar a la sección de mejoras.
+TutorialPart15=En esta sección puedes mejorar y desbloquear nuevas unidades Selknam.
+TutorialPart16=Presiona 2 veces sobre un botón para poder acceder a una mejora.
+TutorialPart17=El modo supervivencia ha sido desbloqueado, puedes acceder a él desde el menú principal.
+TutorialPart18=El Chamán solo puede sanar a los aliados inmediatamente al lado suyo, muevelo cerca del guerrero.
+
+[Dialogs]
+DialogTapToContinue=Toca para continuar
+DialogClickToContinue=Presiona para continuar
+DialogEnemy=Enemigo:
+DialogSelknam=Selknam:
+DialogWorld_1_0=Los hombres y mujeres selknam vivían pacíficamente en las lejanas tierras de Sudamérica. Pero cuando llegaron los europeos a Tierra del Fuego en su misión de reconocimiento, todo esto se acabó: se iniciaba la guerra.
+DialogWorld_1_1=Desde entonces, los selknams tuvieron que proteger sus vidas y su territorio de la conquista extranjera.
+DialogWorld_1_2=<<<MULTI
+Enemigo:
+¡Por fin hemos llegado a estas tierras! ¡El Capitán nos dará una muy buena recompensa después de lanzar fuera a estos indios!
+MULTI
+DialogWorld_1_3=<<<MULTI
+Selknam:
+¡Ustedes nunca nos moverán de aquí!
+MULTI
+DialogWorld_1_4=<<<MULTI
+Selknam:
+¡Hemos vivido en estas tierras incluso antes de que existieran! ¡No nos van a derrotar!
+MULTI
+DialogWorld_2_0=<<<MULTI
+Enemigo:
+Estos indios son más difíciles de lo que pensábamos, pero no importa, seguiremos combatiendo.
+MULTI
+DialogWorld_2_1=<<<MULTI
+Enemigo:
+Con el capitán y sus aliados de nuestro lado, su era llegará a su fin. ¡Es ahora o nunca!
+MULTI
+DialogWorld_2_2=<<<MULTI
+Selknam:
+Estas tierras y montañas son nuestra Madre, hemos vivido aquí en paz por centurias.
+MULTI
+DialogWorld_2_3=<<<MULTI
+Selknam:
+No permitiremos que nos saquen de nuestro hogar. No les daremos esta tierra pacíficamente. ¡Lucharemos!
+MULTI
+DialogWorld_3_0=<<<MULTI
+Enemigo:
+Brrr. ¡Este lugar es muy frío! ¡TRAIGAN MÁS RON! Lo necesitaremos. 
+¡ONAS desagradables!
+MULTI
+DialogWorld_3_1=<<<MULTI
+Selknam:
+La naturaleza está de nuestro lado, el frío es nuestro aliado. ¡Necio, los europeos ni siquiera se merecen un pedazo de hielo!
+MULTI
+DialogWorld_3_2=<<<MULTI
+Selknam:
+¡VUELVAN O MUERAN DE FRÍO!
+MULTI
+DialogWorld_4_0=<<<MULTI
+Enemy:
+Jajaja! Finalmente los atrapamos.
+Ya no tienen dónde ir.
+MULTI
+DialogWorld_4_1=<<<MULTI
+Enemigo:
+¡TRAIGAN LA PIMIENTA! Vamos a condimentar algunos a indios.
+MULTI
+DialogWorld_4_2=<<<MULTI
+Enemigo:
+¡Preparen sus estómagos para el banquete final! ¡Estos tontos ya están cocinados... Jajajajaja!
+MULTI
+DialogWorld_4_3=<<<MULTI
+Selknam:
+¡Somos los hijos de estas tierras de fuego y hielo!
+MULTI
+DialogWorld_4_4=<<<MULTI
+Selknam:
+¡SOMOS LOS ESPÍRITUS DE TIERRA DEL FUEGO!
+MULTI
+DialogWorld_4_5=<<<MULTI
+Y así fue como los Selknams lograron derrotar a los colonos. Solo algunos resistieron las olas de destrucción del viejo continente.
+Ahora pueden vivir tranquilamente y continuar con... ¡¿QUÉ ESTÁ PASANDO?!
+MULTI
+DialogWorldEnd_0=¡JAJAJAJÁ! ¡Indios inútiles! ¡No se puede luchar contra el progreso!
+DialogWorldEnd_1=<<<MULTI
+¡Serán conquistados! ¡¡¡Nunca subestimen el poder del lado oscuro!!!
+(Creo que esa frase debería ser inmortalizada o algo así...)
+MULTI
+DialogWorldEnd_2=¡¡¡Fi fai fou fuu!!! Aplastando nativos feos.
+DialogWorldEnd_3=¡Noooo! ¡Mi Titán! ¡Ellos lo destruyeron! Emprendan retirada... hemos sido... derrotados...
+DialogWorldEnd_4=¡¡YAAAYY!!
+DialogWorldEnd_5=Y así fue como los Selknams obtuvieron la victoria y sobrevivieron a horribles batallas, luchando por su tierra. Su magnífico plan fue ser capaces de tomar ventaja de las condiciones ambientales.
+DialogWorldEnd_6=Hoy en día solo podemos saber de ellos en los libros de historia, ya que en la actualidad no hay selknams entre nosotros. Pero lo que sí sabemos es que siempre vamos a conservar su leyenda y su valiente estilo de vida en la Historia del Mundo...
+DialogWorldAltEnd_0=A pesar de que los selknams pelearon valientemente contra los europeos, fueron finalmente superados en número y cayeron ante el enemigo. Los pacíficos habitantes fueron esclavizados y alejados de su patria...
+DialogWorldAltEnd_1=...muriendo de hambre y enfermedades. Nunca olvidaremos las grandes batallas que dieron los Selknams. ¡Dieron sus vidas para defender a la gente de Tierra del Fuego!
+
+[Social]
+SocialMenu=Prueba #SelknamDefense, un divertido juego Tower Defense/RTS para iOS creado por Bad Games! Descargalo de http://bit.ly/1sYdqb0
+SocialSurvivalPart0=Logré 
+SocialSurvivalPart1= en el modo de supervivencia de #SelknamDefense. Únete a la resistencia y descárgalo de http://bit.ly/1sYdqb0
+SocialStagePart0=Intenta superarme en #SelknamDefense, logré 
+SocialStagePart1= puntos en la etapa 
+SocialStagePart2=¿Aún no lo tienes? Descárgalo en http://bit.ly/1sYdqb0
+
+[Skills]
+Slow=RALENTIZAR: Disminuye la velocidad de movimiento del enemigo durante un determinado periodo de tiempo.
+Poison=VENENO: Inflige daño al enemigo por intervalos durante un periodo de tiempo.
+Stun=ATURDIR: Atonta al enemigo durante un corto periodo de tiempo. Inflige daño menor.
+Confusion=CONFUNDIR: El enemigo se confunde y toma cualquier camino durante un periodo de tiempo.
+Root=RED: Una red que atrapa al enemigo impidiendo su desplazamiento. El enemigo puede defenderse.
+Heal=SANAR: Magia de sanación, recupera energía a las unidades aliadas inmediatamente cercanas.
+Haste=ACELERAR: Buff que incrementa la velocidad de ataque de las unidades inmediatamente cercanas.
+Might=FORTIFICAR: Buff que incrementa el daño de ataque de las unidades inmediatamente cercanas.

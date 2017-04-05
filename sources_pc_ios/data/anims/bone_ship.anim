@@ -1,0 +1,53 @@
+// Source file: ship.max
+CIwAnim
+{
+	skeleton "bone_ship"
+	// Keyframe# 0
+	CIwAnimKeyFrame
+	{
+		time 0
+		bone "bone_ship"
+		pos {184.89606,85.47931,0.00000}
+		rot {0.50564,0.50564,0.49430,0.49430}
+		
+		bone "bone_cannon"
+		pos {-73.38912,0.00000,133.62163}
+		rot {1,0.00000,-0.00000,0.00000}
+		
+	}
+	// Keyframe# 20
+	CIwAnimKeyFrame
+	{
+		time 0.66667
+		bone "bone_ship"
+		pos {184.89606,85.47931,0.00000}
+		rot {-0.49934,-0.49934,-0.50066,-0.50066}
+		
+		bone "bone_cannon"
+		pos {-73.38912,0.00000,133.62163}
+		rot {1,0.00000,-0.00000,0}
+		
+	}
+	// Keyframe# 23
+	CIwAnimKeyFrame
+	{
+		time 0.76667
+		bone "bone_cannon"
+		pos {-66.34144,-0.00003,119.46366}
+		rot {1,0.00000,-0.00000,0}
+		
+	}
+	// Keyframe# 26
+	CIwAnimKeyFrame
+	{
+		time 0.86667
+		bone "bone_ship"
+		pos {184.89606,85.47931,0.00000}
+		rot {-0.49934,-0.49934,-0.50066,-0.50066}
+		
+		bone "bone_cannon"
+		pos {-73.38912,0.00000,133.62163}
+		rot {1,0.00000,-0.00000,0}
+		
+	}
+}

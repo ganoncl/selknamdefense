@@ -1,0 +1,18 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the Gamepad extension on osx
+platform OSX
+
+options
+{
+    dll
+    x86
+}
+
+options
+{
+    output-name="lib/osx/libGamepad.dylib"
+    output-name-debug="lib/osx/libGamepad_d.dylib"
+}
+define S3E_BUILD_EXT
+
+subproject Gamepad_build

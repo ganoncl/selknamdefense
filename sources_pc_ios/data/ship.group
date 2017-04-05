@@ -1,0 +1,23 @@
+// Source file: template_ship.max
+// Exported By: <Unknown> on 02/11/14 03:48:19
+
+CIwResGroup
+{
+	name "ship"
+	"./models/ship_1.geo"
+	"./models/bone_ship.skel"
+	"./models/ship_1.skin"
+	"./models/cannon_2.geo"
+	"./models/cannon_2.skin"
+	"./models/cannon_1.geo"
+	"./models/cannon_1.skin"
+	"./models/ship_2.geo"
+	"./models/ship_2.skin"
+	"./models/broken_cannon_2.geo"
+	"./models/broken_cannon_2.skin"
+	"./models/broken_cannon_1.geo"
+	"./models/broken_cannon_1.skin"
+
+	"./anims/bone_ship_idle.anim"
+	"./anims/bone_ship_fire.anim"
+}

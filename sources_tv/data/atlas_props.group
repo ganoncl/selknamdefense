@@ -1,0 +1,9 @@
+CIwResGroup
+{
+	name "atlas_props"
+	useTemplate "image" "template_rgba8888"
+	#prop
+	"game_props/atlas_props_0.png"
+	"game_props/atlas_props_1.png"
+	"game_props/atlas_props_2.png"
+}

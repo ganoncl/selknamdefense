@@ -1,0 +1,7 @@
+CIwResGroup
+{
+	name "atlas_common_1"
+	useTemplate "image" "template_rgba8888"
+	
+	"atlas_common/atlas_common_1.png"
+}

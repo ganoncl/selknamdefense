@@ -1,0 +1,8 @@
+CIwResGroup
+{
+	name "atlas_hd_selknam_mage_2"
+	useTemplate "image" "template_rgba8888"
+
+	#units
+	"./atlas_selknam_mage_2.png"
+}

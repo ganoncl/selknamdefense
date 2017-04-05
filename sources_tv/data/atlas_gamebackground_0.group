@@ -1,0 +1,7 @@
+CIwResGroup
+{
+	name "atlas_gamebackground_0"
+
+	useTemplate "image" "template_rgba8888"
+	"atlas_fullscreen/atlas_gamebackground_0.png" 
+}

@@ -1,0 +1,303 @@
+#!/usr/bin/env mkb
+
+defines
+{
+	#FULLVERSION
+}
+#undefine FULLVERSION
+
+subprojects
+{
+	iwgx
+	iwgxfont
+	iwresmanager
+	SoundEngine
+}
+# files specifies all files to build
+files
+{
+	# SOURCES
+    ["source"]
+    (src)
+	tutorial.cpp
+    main.cpp
+    game.cpp
+	splashscreen.cpp
+	common.cpp
+	fadescreen.cpp
+	["source/global"]
+	cursor.cpp
+	utils.cpp
+	musicbutton.cpp
+	musichandler.cpp
+	["source/helpers"]
+	animhelper.cpp
+	astarhelper.cpp
+	animation.cpp
+	timer.cpp
+	parserhelper.cpp
+	texturehelper.cpp
+	["source/objects_2d"]
+	button.cpp
+	background.cpp
+	sprite2d.cpp
+	dynamiccounter.cpp
+	["source/menu"]
+	mm_final.cpp
+	mm_trialversion.cpp
+	mm_menu.cpp
+	mm_credits.cpp
+	mm_popup.cpp
+	extramap.cpp
+	mainmenubase.cpp
+	cloud.cpp
+	["source/ingame_windows"]
+	endingloose.cpp
+	mmig_menu.cpp
+	endingwin.cpp
+	mainmenuigbase.cpp
+	["source/map_selection"]
+	mapselectbase.cpp
+	ms_mapselect.cpp
+	ms_store.cpp
+	storebutton.cpp
+	["source/ingame"]
+	mappointer.cpp
+	["source/unitmenu"]
+	unitmenu.cpp
+	["source/new"]
+	astarhelper.cpp
+	unitmanager.cpp
+	["source/new"]
+	astarhelper.cpp
+	["source/iso"]
+	isoobject.cpp
+	isoterrain.cpp
+	isopawn.cpp
+	isoselknam.cpp
+	isoenemy.cpp
+	isoprop.cpp
+	isoprojectile.cpp
+	# HEADERS
+	["headers"]
+    (h)
+	tutorial.h
+	main.h
+    game.h
+	splashscreen.h
+	drawutils.h
+	common.h
+	fadescreen.h
+	["headers/global"]
+	cursor.h
+	utils.h
+	musicbutton.h
+	musichandler.h
+	["headers/helpers"]
+	animhelper.h
+	astarhelper.h
+	animation.h
+	timer.h
+	parserhelper.h
+	texturehelper.h
+	["headers/objects_2d"]
+	button.h
+	background.h
+	sprite2d.h
+	dynamiccounter.h
+	["headers/menu"]
+	mm_final.h
+	mm_trialversion.h
+	mm_menu.h
+	mm_credits.h
+	mm_popup.h
+	mainmenubase.h
+	cloud.h
+	extramap.h
+	["headers/ingame_windows"]
+	endingloose.h
+	mmig_menu.h
+	endingwin.h
+	mainmenuigbase.h
+	["headers/map_selection"]
+	mapselectbase.h
+	ms_mapselect.h
+	ms_store.h
+	storebutton.h
+	["headers/ingame"]
+	mappointer.h
+	["headers/unitmenu"]
+	unitmenu.h
+	["headers/new"]
+	astarhelper.h
+	unitmanager.h
+	["headers/new"]
+	astarhelper.h
+	["headers/iso"]
+	isoobject.h
+	isoterrain.h
+	isopawn.h
+	isoselknam.h
+	isoenemy.h
+	isoprop.h
+	isoprojectile.h
+    ["resources"]
+    (data)
+	templates.itx
+	atlas_common_0.group
+	atlas_common_1.group
+	atlas_common_2.group
+	atlas_common_trial.group
+	fonts.group
+	atlas_menu_0.group
+	atlas_menu_1.group
+	atlas_worldmap.group
+	atlas_terrain.group
+	atlas_selknam_archer_0.group
+	atlas_selknam_archer_1.group
+	atlas_selknam_bowler_0.group
+	atlas_selknam_bowler_1.group
+	atlas_selknam_mage.group
+	atlas_selknam_melee_0.group
+	atlas_selknam_melee_1.group
+	atlas_enemy_0.group
+	atlas_enemy_1.group
+	atlas_enemy_2.group
+	game_sounds_fx.group
+	atlas_props.group 
+	atlas_fx.group 
+	atlas_gamebackground_0.group
+}
+includepaths
+{
+    h
+}
+
+assets
+{
+    #Deploy .group.bin files from the 'data-ram/data-gles1' directory if they
+    #have been written there by running the application in resource building
+    #mode, otherwise deploy pre-built binaries from the 'data' directory.
+    #
+    #For your own application, you are likely to want only the
+    #'data-ram/data-gles1' directory specified here.
+    #
+    #See the IwResManager documentation for more information on resource building.
+
+    (data-ram/data-gles1, data)
+	atlas_common_0.group.bin
+	atlas_common_1.group.bin
+	atlas_common_2.group.bin
+	atlas_common_trial.group.bin
+	fonts.group.bin
+	atlas_menu_0.group.bin
+	atlas_menu_1.group.bin
+	atlas_worldmap.group.bin
+	atlas_terrain.group.bin
+	atlas_selknam_archer_0.group.bin
+	atlas_selknam_archer_1.group.bin
+	atlas_selknam_bowler_0.group.bin
+	atlas_selknam_bowler_1.group.bin
+	atlas_selknam_mage.group.bin
+	atlas_selknam_melee_0.group.bin
+	atlas_selknam_melee_1.group.bin
+	atlas_enemy_0.group.bin
+	atlas_enemy_1.group.bin
+	atlas_enemy_2.group.bin
+	game_sounds_fx.group.bin
+	atlas_props.group.bin
+	atlas_fx.group.bin
+	atlas_gamebackground_0.group.bin
+    (data)
+	bgm/sd_fanfare_lose_theme.mp3
+	bgm/sd_fanfare_win_theme.mp3
+	bgm/sd_ingame_01_theme_loop.mp3
+	bgm/sd_ingame_02_theme_loop.mp3
+	bgm/sd_mainmenu_theme_loop.mp3
+	bgm/sd_store_theme_loop.mp3
+	bgm/sd_blank.mp3
+	unit_atributes.sdm
+	anim_controller.sdm
+	tbn/atlas_common_0.tbn
+	tbn/atlas_common_1.tbn
+	tbn/atlas_common_2.tbn
+	tbn/atlas_common_trial_0.tbn
+	tbn/atlas_fx_0.tbn
+	tbn/atlas_fx_1.tbn
+	tbn/atlas_fx_2.tbn
+	tbn/atlas_gamebackground_0.tbn
+	tbn/atlas_menu_01_0.tbn
+	tbn/atlas_menu_01_1.tbn
+	tbn/atlas_menu_02_0.tbn
+	tbn/atlas_props_0.tbn
+	tbn/atlas_props_1.tbn
+	tbn/atlas_props_2.tbn
+	tbn/atlas_terrain_0.tbn
+	tbn/atlas_worldmap_0.tbn
+
+	[FULL]
+	<include "Default">
+	(data)
+	maps/map_001.sdm
+	maps/map_002.sdm
+	maps/map_003.sdm
+	maps/map_004.sdm
+	maps/map_005.sdm
+	maps/map_006.sdm
+	maps/map_007.sdm
+	maps/map_008.sdm
+	maps/map_009.sdm
+	maps/map_010.sdm
+	maps/map_011.sdm
+	maps/map_012.sdm
+	maps/map_013.sdm
+	maps/map_014.sdm
+	maps/map_015.sdm
+	maps/map_016.sdm
+	maps/map_017.sdm
+	maps/map_018.sdm
+	maps/map_019.sdm
+	maps/map_020.sdm
+	maps/map_021.sdm
+	maps/map_022.sdm
+	maps/map_023.sdm
+	maps/map_024.sdm
+	extramaps/extra_map_001.sdm
+
+	[FREE]
+	<include "Default">
+    (data)
+	maps/map_001.sdm
+	maps/map_002.sdm
+	maps/map_003.sdm
+	maps/map_004.sdm
+	maps/map_005.sdm
+	maps/map_006.sdm
+	maps/map_007.sdm
+	extramaps/extra_map_001.sdm
+}
+#### AUTO GENERATED deployment settings from DeployTool.exe. Do not edit below this line ####
+deployments
+{
+	name='Selknam Defense'
+	["Default"]
+	assets='Default'
+	caption='Selknam Defense'
+	icon='DefenseX_icon.png'
+	lgtv-use-drm=1
+	name='SelknamDefense'
+	provider='Bad Games'
+	splashscreen='splashscreen/bad_games.tga'
+	splashscreen-auto-onblack=1
+	version-major=0
+	version-minor=0
+	version-revision=1
+	version-string='release'
+
+	["Full_LGTV"]
+	assets='FULL'
+	
+	["Free_LGTV"]
+	assets='FREE'
+	caption='Selknam Defense (free)'
+}

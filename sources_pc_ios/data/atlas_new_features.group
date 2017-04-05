@@ -1,0 +1,8 @@
+CIwResGroup
+{
+	name "atlas_new_features"
+	useTemplate "image" "template_rgba8888"
+	
+	"atlas_new_features/atlas_new_features_0.png"
+	"atlas_new_features/atlas_new_features_1.png"
+}

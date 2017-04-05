@@ -1,0 +1,7 @@
+CIwResGroup
+{
+	name "bar_loading"
+	useTemplate "image" "template_rgba8888"
+	
+	"others/bar_loading.png"
+}

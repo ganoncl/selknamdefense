@@ -1,0 +1,9 @@
+CIwResGroup
+{
+    name "shaders"
+    shared true
+
+    "effects/shader_font_a.itx"
+	"effects/shader_blur.itx"
+	"effects/shader_bicubic.itx"
+}
